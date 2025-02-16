@@ -1,7 +1,7 @@
 // priority: -1
 
 const itemRightClickEvents = {
-  "kubejs:miles_ticket": (event) => milesTicketRightClicked(event)
+  "kubejs:miles_ticket": (event) => milesTicketEventHandlers.rightClicked.milesTicket(event)
 }
 
 ItemEvents.rightClicked(event => {
