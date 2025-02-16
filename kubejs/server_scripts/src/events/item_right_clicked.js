@@ -3,7 +3,10 @@
 const getItemRightClickEvents = () => {
   let eventsObj = {}
   eventsObj[ServerConsts.ticketId] = (event) => {
-    MilesTicketEventHandlers.rightClicked.milesTicket(event)
+    MilesTicketEventMethods.bundleMilesTickets(event)
+  }
+  eventsObj[ServerConsts.bookletId] = (event) => {
+    MilesTicketEventMethods.unBundleMilesBooklet(event)
   }
   return eventsObj
 }
