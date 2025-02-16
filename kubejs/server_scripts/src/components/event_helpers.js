@@ -27,5 +27,23 @@ const EventMethods = {
     let itemObj = Item.of(itemId)
     itemObj.count = count
     EventGetters.player(event).give(itemObj)
+  },
+  removeItemsInPlayer: (event, itemId, numToRemove) => {
+    let player = EventGetters.player(event)
+    let numLeftToRemove = numToRemove
+    for (let itemStack of player.inventory.allItems) {
+      if (itemStack.id === itemId) {
+        if (itemStack.count <= numLeftToRemove) {
+          numLeftToRemove -= itemStack.count
+          itemStack.count = 0
+        } else {
+          itemStack.count -= numLeftToRemove
+          numLeftToRemove = 0
+        }
+        if (numLeftToRemove <= 0) {
+          break
+        }
+      }
+    }
   }
 }
