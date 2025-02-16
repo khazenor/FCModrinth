@@ -1,7 +1,7 @@
 const milesTicketEventHandlers = {
   rightClicked: {
     milesTicket: (event) => {
-      EventMethods.tellPlayer(event, 'hello')
+      EventMethods.givePlayerItemStack(event, ServerConsts.ticketId, 1)
     } 
   }
 }
