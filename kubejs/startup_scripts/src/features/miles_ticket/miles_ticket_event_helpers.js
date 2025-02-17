@@ -2,15 +2,15 @@ const MilesTicketEventMethods = {
   bundleMilesTickets: (event) => {
     if (EventGetters.isPlayerShifting(event)) {
       let numToBundle = MilesTicketConsts.numTicketsToBundle
-      while (EventGetters.numItemsInPlayer(event, ServerConsts.ticketId) >= numToBundle) {
+      while (EventGetters.numItemsInPlayer(event, Const.ticketId) >= numToBundle) {
         EventMethods.removeItemsInPlayer(
           event,
-          ServerConsts.ticketId,
+          Const.ticketId,
           numToBundle
         )
         EventMethods.givePlayerItemStack(
           event,
-          ServerConsts.bookletId,
+          Const.bookletId,
           1
         )
       }
@@ -21,7 +21,7 @@ const MilesTicketEventMethods = {
       EventGetters.mainHandItem(event).count --
       EventMethods.givePlayerItemStack(
         event,
-        ServerConsts.ticketId,
+        Const.ticketId,
         MilesTicketConsts.numTicketsToBundle
       )
     }

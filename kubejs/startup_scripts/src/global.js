@@ -1,2 +1,2 @@
 global.MilesTicketEventMethods = MilesTicketEventMethods
-global.ServerConsts = ServerConsts
+global.Const = Const
