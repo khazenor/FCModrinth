@@ -1,4 +1,7 @@
 {
   "item.kubejs.miles_ticket": "Miles Ticket",
-  "item.kubejs.miles_booklet": "Miles Booklet"
+  "item.kubejs.miles_ticket.tooltip1": "Sneak right-click to bundle",
+  "item.kubejs.miles_booklet": "Miles Booklet",
+  "item.kubejs.miles_booklet.tooltip1": "Worth %s tickets",
+  "item.kubejs.miles_booklet.tooltip2": "Sneak right-click to un-bundle"
 }

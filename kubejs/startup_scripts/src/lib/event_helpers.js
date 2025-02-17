@@ -45,5 +45,8 @@ const EventMethods = {
         }
       }
     }
+  },
+  add: (event, target, data) => {
+    event.add(target, data)
   }
 }
