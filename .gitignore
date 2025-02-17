@@ -22,3 +22,4 @@ config/jei/recipe-category-sort-order.ini
 kubejs/client_scripts/jsconfig.json
 kubejs/config/probe-settings.json
 $devFiles/todo.md
+crash-reports/*
