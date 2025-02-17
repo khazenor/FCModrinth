@@ -1,6 +1,7 @@
 // priority: -1
 StartupEvents.registry('item', event => {
-  for (let customItem of MilesTicketCustomItems) {
-    event.create(`kubejs:${customItem}`)
+  let itemIds = [].concat(MilesTicketCustomItems)
+  for (let itemId of itemIds) {
+    event.create(itemId)
   }
 })
