@@ -23,3 +23,5 @@ kubejs/client_scripts/jsconfig.json
 kubejs/config/probe-settings.json
 $devFiles/todo.md
 crash-reports/*
+servers.dat_old
+servers.dat
