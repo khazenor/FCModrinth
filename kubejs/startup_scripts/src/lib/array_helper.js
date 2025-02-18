@@ -1,8 +1,8 @@
 const ArrayHelper = {
-  toJsArray (objArray) {
+  toStrArray (objArray) {
     let list = []
     for (let val of objArray) {
-      list.push(val)
+      list.push(StrHelper.replaceAll(`${val}`, '"', ''))
     }
     return list
   } 

@@ -1,11 +1,9 @@
 const inventoryChangedHandler = (event) => {
   let itemId = InventoryChangedHelper.item(event).id
-  let testKey = 'testKey'
   if (itemId === 'minecraft:stick') {
-    PlayerDataHelper.clearKey(event, testKey)
-    EventMethods.tellPlayer(event, `testList: ${PlayerDataHelper.getPlayerList(event, testKey)}`)
+    CollectLogger.clearCollectibles(event)
   } else {
-    PlayerDataHelper.addToPlayerList(event, testKey, itemId)
-    EventMethods.tellPlayer(event, `testList: ${PlayerDataHelper.getPlayerList(event, testKey)}`)
+    CollectMethods.checkAndLogCollectible(event)
   }
+  EventMethods.tellPlayer(event, `collection: ${CollectLogger.playerCollection(event)}`)
 }

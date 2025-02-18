@@ -7,5 +7,12 @@ const StrHelper = {
     } else {
       return stringVal
     }
+  },
+  replaceAll (parentStr, findStr, replaceStr) {
+    let workingStr = parentStr
+    while (workingStr.includes(findStr)) {
+      workingStr = workingStr.replace(findStr,replaceStr)
+    }
+    return workingStr
   }
 }
