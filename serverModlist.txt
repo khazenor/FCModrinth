@@ -3,6 +3,4 @@ global_packs-forge-1.19.4-1.16.2_forge.jar
 Jade-1.20.1-Forge-11.12.3.jar
 jei-1.20.1-forge-15.20.0.106.jar
 kubejs-forge-2001.6.5-build.16.jar
-MouseTweaks-forge-mc1.20.1-2.25.1.jar
-probejs-7.0.0-forge.jar
 rhino-forge-2001.2.3-build.10.jar
