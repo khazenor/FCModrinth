@@ -1,4 +1,4 @@
 const MilesTicketCustomItems = [
-  Const.ticketId,
-  Const.bookletId
+  MilesTicketConsts.ticketId,
+  MilesTicketConsts.bookletId
 ]
