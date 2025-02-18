@@ -16,6 +16,9 @@ const EventGetters = {
       }
     }
     return count
+  },
+  playerData: (event) => {
+    return event.player.persistentData
   }
 }
 
