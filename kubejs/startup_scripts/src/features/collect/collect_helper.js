@@ -1,8 +1,8 @@
 const CollectHelper = {
-  isIdNewCollectible (event, id) {
-    if (CollectListHelper.allCollectibleIds.includes(id)) {
+  isIdNewCollectible (event, objectId) {
+    if (CollectListHelper.isACollectible(objectId)) {
       let playerCollection = CollectLogger.playerCollection(event)
-      if (!playerCollection.includes(id)) {
+      if (!playerCollection.includes(objectId)) {
         return true
       }
     }
