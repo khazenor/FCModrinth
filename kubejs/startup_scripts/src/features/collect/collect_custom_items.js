@@ -1,0 +1,3 @@
+const CollectCustomItems = [
+  CollectConst.clearCollectionId
+]
