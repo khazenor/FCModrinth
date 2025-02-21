@@ -1,3 +1,5 @@
 const serverLoadedHandler = (_event) => {
-  CollectListHelper.cacheCollectionLengths()
+  CollectListHelper.cacheCollectionInfo()
+  FcLogger.log('ServerLoadedCollectionCache')
+  console.log(CollectCache)
 }

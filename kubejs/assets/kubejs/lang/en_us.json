@@ -5,5 +5,13 @@
   "item.kubejs.miles_booklet.tooltip1": "Worth %s tickets",
   "item.kubejs.miles_booklet.tooltip2": "Sneak right-click to un-bundle",
   "item.kubejs.debug_clear_player_collection": "(Debug) Clear Collection Progress",
-  "item.kubejs.debug_clear_player_collection.message": "Collection progress cleared!"
+  "item.kubejs.debug_clear_player_collection.message": "Collection progress cleared!",
+  "collect.generic.collectedMessage": "%s: (%s/%s)",
+  "collect.blocks.collectedMessage": "New block collected!",
+  "collect.items.collectedMessage": "New item collected!",
+  "collect.blocks.collectionName": "Block Collection",
+  "collect.logs.collectionName": "Log Collection",
+  "collect.leaves.collectionName": "Leaves Collection",
+  "collect.items.collectionName": "Item Collection",
+  "collect.dyes.collectionName": "Dye Collection"
 }
