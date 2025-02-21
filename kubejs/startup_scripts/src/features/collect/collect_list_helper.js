@@ -49,5 +49,44 @@ const CollectListHelper = {
       }
     }
     return []
+  },
+  cacheCollectionLengths () {
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+      let collectionLength = 0
+      
+      for (let subCollectionId in subCollections) {
+        let subCollection = subCollections[subCollectionId]
+        let subCollectionLength = subCollection.list.length
+        CollectCache.lengths[subCollectionId] = subCollectionLength
+        collectionLength += subCollectionLength
+      }
+      CollectCache.lengths[collectionId] = collectionLength
+    }
+  },
+  cachePlayerCollectionProgress (event) {
+    let playerCollection = CollectLogger.playerCollection(event)
+    let playerCache = {}
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+      let collectionProgress = 0
+      
+      for (let subCollectionId in subCollections) {
+        let subCollectionIds = subCollections[subCollectionId].list
+        let subCollectionProgress = 0
+
+        for (let playerCollectId of playerCollection) {
+          if (subCollectionIds.includes(playerCollectId)) {
+            subCollectionProgress ++
+            collectionProgress ++
+          }
+        }
+        playerCache[subCollectionId] = subCollectionProgress
+      }
+      playerCache[collectionId] = collectionProgress
+    }
+    CollectCache.playerProgress[EventGetters.playerUuid(event)] = playerCache
   }
 }

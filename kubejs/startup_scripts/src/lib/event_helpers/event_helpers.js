@@ -2,6 +2,9 @@ const EventGetters = {
   player: (event) => {
     return event.player
   },
+  playerUuid: (event) => {
+    return event.player.uuid
+  },
   isPlayerShifting: (event) => {
     return event.player.shiftKeyDown
   },
