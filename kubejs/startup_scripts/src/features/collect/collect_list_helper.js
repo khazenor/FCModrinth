@@ -26,17 +26,17 @@ const CollectListHelper = {
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)
   },
-  collectionIdsOfCollectible (collectableId) {
+  collectionIdOfCollectible (collectableId) {
     let byCollection = this.byCollection
     for (let collectionId in byCollection) {
       let collectionIds = byCollection[collectionId]
       if (collectionIds.includes(collectableId)) {
-        return collectionIds
+        return collectionId
       }
     }
     return []
   },
-  subCollectionIdsOfCollectible (collectableId) {
+  subCollectionIdOfCollectible (collectableId) {
     for (let collectionId in CollectLists) {
       let collection = CollectLists[collectionId]
       let subCollections = collection.subCollections
@@ -44,7 +44,7 @@ const CollectListHelper = {
       for (let subCollectionId in subCollections) {
         let subCollection = subCollections[subCollectionId]
         if (subCollection.list.includes(collectableId)) {
-          return subCollection.list
+          return subCollectionId
         }
       }
     }
