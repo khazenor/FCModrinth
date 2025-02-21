@@ -91,5 +91,17 @@ const CollectListHelper = {
       playerCache[collectionId] = collectionProgress
     }
     CollectCache.playerProgress[EventGetters.playerUuid(event)] = playerCache
+  },
+  tellPlayerCollectionProgress(event, collectionId) {
+    EventMethods.tellPlayer(event, Text.translate(
+      'collect.generic.collectedMessage',
+      CollectCache.categoryNames[collectionId],
+      StrHelper.cleanFloor(
+        CollectCache.playerProgress[EventGetters.playerUuid(event)][collectionId]
+      ),
+      StrHelper.cleanFloor(
+        CollectCache.lengths[collectionId]
+      )
+    ))
   }
 }

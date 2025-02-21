@@ -3,6 +3,14 @@ const CollectMethods = {
     let collectibleId = InventoryChangedHelper.item(event).id
     if (CollectHelper.isIdNewCollectible(event, collectibleId)) {
       CollectLogger.logCollectible(event, collectibleId)
+
+      let collectionId = CollectListHelper.collectionIdOfCollectible(collectibleId)
+      let subCollectionId = CollectListHelper.subCollectionIdOfCollectible(collectibleId)
+
+      EventMethods.tellPlayer(event,'')
+      EventMethods.tellPlayer(event, CollectCache.collectedMessages[collectionId])
+      CollectListHelper.tellPlayerCollectionProgress(event, collectionId)
+      CollectListHelper.tellPlayerCollectionProgress(event, subCollectionId)
     }
   },
   debugClearPlayerCollection: (event) => {
