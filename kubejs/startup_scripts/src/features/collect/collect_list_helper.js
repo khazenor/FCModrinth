@@ -103,5 +103,20 @@ const CollectListHelper = {
         CollectCache.lengths[collectionId]
       )
     ))
+  },
+  updatePlayerCache(event, categoryId) {
+    let playerUuid = EventGetters.playerUuid(event)
+    let playerCache = CollectCache[playerUuid]
+    if (playerCache) {
+      if (playerCache[categoryId]) {
+        playerCache[categoryId] ++
+      } else {
+        playerCache[categoryId] = 1
+      }
+    } else {
+      let playerCache = {}
+      playerCache[categoryId] = 1
+      CollectCache[playerUuid] = playerCache
+    }
   }
 }
