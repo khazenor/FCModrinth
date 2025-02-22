@@ -55,6 +55,20 @@ const CollectListHelper = {
     }
     return categoryNames
   },
+  get categoryIds () {
+    let categoryIds = []
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+
+      categoryIds.push(collectionId)
+
+      for (let subCollectionId in subCollections) {
+        categoryIds.push(subCollectionId)
+      }
+    }
+    return categoryIds
+  },
   collectedMessage (collectionId) {
     return CollectLists[collectionId].collectedMessage
   },

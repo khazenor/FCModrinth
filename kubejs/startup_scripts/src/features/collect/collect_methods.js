@@ -19,5 +19,17 @@ const CollectMethods = {
         CollectLogger.clearCollectibles(event)
         EventMethods.tellPlayer(event, Text.translate('item.kubejs.debug_clear_player_collection.message'))
     }
-  }
+  },
+  get isCollectListCategoriesValid () {
+    let categories = CollectListHelper.categoryIds
+    let length = categories.length
+    for (let i = 0; i < length; i++) {
+      for (let j = i + 1; j < length; j++) {
+        if (categories[i] === categories[j]) {
+          return false
+        }
+      }
+    }
+    return true
+  } 
 }
