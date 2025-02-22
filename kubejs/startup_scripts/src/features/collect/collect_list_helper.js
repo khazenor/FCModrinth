@@ -34,7 +34,7 @@ const CollectListHelper = {
         return collectionId
       }
     }
-    return null
+    return []
   },
   subCollectionIdOfCollectible (collectableId) {
     for (let collectionId in CollectLists) {
@@ -48,9 +48,9 @@ const CollectListHelper = {
         }
       }
     }
-    return null
+    return []
   },
-  cacheCollectionInfo () {
+  cacheCollectionLengths () {
     for (let collectionId in CollectLists) {
       let collection = CollectLists[collectionId]
       let subCollections = collection.subCollections
@@ -61,11 +61,8 @@ const CollectListHelper = {
         let subCollectionLength = subCollection.list.length
         CollectCache.lengths[subCollectionId] = subCollectionLength
         collectionLength += subCollectionLength
-        CollectCache.categoryNames[subCollectionId] = subCollection.name
       }
       CollectCache.lengths[collectionId] = collectionLength
-      CollectCache.categoryNames[collectionId] = collection.name
-      CollectCache.collectedMessages[collectionId] = collection.collectedMessage
     }
   },
   cachePlayerCollectionProgress (event) {

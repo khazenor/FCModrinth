@@ -1,10 +1,9 @@
 const CollectLists = {
   blocks: {
-    name: Text.translate('collect.blocks.collectionName'),
-    collectedMessage: Text.translate('collect.blocks.collectedMessage'),
+    name: "Block Collection",
     subCollections: {
       logs: {
-        name: Text.translate('collect.logs.collectionName'),
+        name: "Log Collection",
         list: [
           "minecraft:acacia_log",
           "minecraft:birch_log",
@@ -25,7 +24,7 @@ const CollectLists = {
         ]
       },
       leaves: {
-        name:  Text.translate('collect.leaves.collectionName'),
+        name: "Leaves Collection",
         list: [
           'minecraft:acacia_leaves',
           'minecraft:azalea_leaves',
@@ -42,11 +41,10 @@ const CollectLists = {
     }
   },
   items: {
-    name:  Text.translate('collect.items.collectionName'),
-    collectedMessage: Text.translate('collect.items.collectedMessage'),
+    name: "Item Collection",
     subCollections: {
       dyes: {
-        name:  Text.translate('collect.dyes.collectionName'),
+        name: "Dye Collection",
         list: [
           'minecraft:black_dye',
           'minecraft:blue_dye',
