@@ -23,6 +23,23 @@ const CollectListHelper = {
     }
     return byCollection
   },
+  get byCategory () {
+    let byCategory = {}
+    for (let collectionId in CollectLists) {
+      let collectibleIds = []
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+      
+      for (let subCollectionId in subCollections) {
+        let subCollection = subCollections[subCollectionId]
+        collectibleIds = collectibleIds.concat(subCollection.list)
+        byCategory[subCollectionId] = subCollection.list
+      }
+
+      byCategory[collectionId] = collectibleIds
+    }
+    return byCategory
+  },
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)
   },
