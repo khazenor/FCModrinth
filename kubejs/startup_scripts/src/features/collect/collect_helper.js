@@ -9,15 +9,15 @@ const CollectHelper = {
     return false
   },
   tellPlayerCollectionProgress(event, categoryId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
+    let collectionSize = CollectCaches.categoryLists[categoryId].length
+    let percent = collectedNum * 100 / collectionSize
     EventMethods.tellPlayer(event, Text.translate(
       'collect.generic.collectedMessage',
       CollectCaches.categoryNames[categoryId],
-      StrHelper.cleanFloor(
-        CollectLogger.playerCollectionByCategory(event, categoryId).length
-      ),
-      StrHelper.cleanFloor(
-        CollectCaches.categoryLists[categoryId].length
-      )
+      StrHelper.cleanFloor(collectedNum),
+      StrHelper.cleanFloor(collectionSize),
+      StrHelper.cleanFloor(percent)
     ))
   }
 }
