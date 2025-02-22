@@ -34,7 +34,7 @@ const CollectListHelper = {
         return collectionId
       }
     }
-    return []
+    return null
   },
   subCollectionIdOfCollectible (collectableId) {
     for (let collectionId in CollectLists) {
@@ -48,6 +48,18 @@ const CollectListHelper = {
         }
       }
     }
-    return []
+    return null
+  },
+  get allCategoryIds () {
+    let categoryIds = []
+    for (let collectionId in CollectLists) {
+      categoryIds.push(collectionId)
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+      for (let subCollectionId in subCollections) {
+        categoryIds.push(subCollectionId)
+      }
+    }
+    return categoryIds
   }
 }

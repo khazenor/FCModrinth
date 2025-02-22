@@ -19,6 +19,8 @@ const PlayerDataHelper = {
     }
   },
   clearKey (event, key) {
-    delete EventGetters.playerData(event)[key]
+    if (EventGetters.playerData(event)[key]) {
+      delete EventGetters.playerData(event)[key]
+    }
   }
 }
