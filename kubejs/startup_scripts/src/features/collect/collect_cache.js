@@ -1,4 +1,0 @@
-const CollectCache = {
-  lengths: {},
-  playerProgress: {}
-}
