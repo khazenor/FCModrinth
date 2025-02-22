@@ -55,6 +55,9 @@ const CollectListHelper = {
     }
     return categoryNames
   },
+  collectedMessage (collectionId) {
+    return CollectLists[collectionId].collectedMessage
+  },
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)
   },

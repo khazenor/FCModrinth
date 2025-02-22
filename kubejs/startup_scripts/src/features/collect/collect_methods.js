@@ -8,6 +8,8 @@ const CollectMethods = {
       CollectLogger.logCollectibleByCategory(event, objectId, subCollectionId)
       CollectLogger.logCollectible(event, objectId)
 
+      EventMethods.tellPlayer(event, '')
+      EventMethods.tellPlayer(event, CollectListHelper.collectedMessage(collectionId))
       CollectHelper.tellPlayerCollectionProgress(event, collectionId)
       CollectHelper.tellPlayerCollectionProgress(event, subCollectionId)
     }
