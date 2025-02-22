@@ -7,5 +7,17 @@ const CollectHelper = {
       }
     }
     return false
+  },
+  tellPlayerCollectionProgress(event, categoryId) {
+    EventMethods.tellPlayer(event, Text.translate(
+      'collect.generic.collectedMessage',
+      CollectCaches.categoryNames[categoryId],
+      StrHelper.cleanFloor(
+        CollectLogger.playerCollectionByCategory(event, categoryId).length
+      ),
+      StrHelper.cleanFloor(
+        CollectCaches.categoryLists[categoryId].length
+      )
+    ))
   }
 }

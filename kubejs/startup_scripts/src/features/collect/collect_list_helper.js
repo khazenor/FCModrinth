@@ -40,6 +40,21 @@ const CollectListHelper = {
     }
     return byCategory
   },
+  get categoryNames () {
+    let categoryNames = {}
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+
+      categoryNames[collectionId] = collection.name
+
+      for (let subCollectionId in subCollections) {
+        let subCollection = subCollections[subCollectionId]
+        categoryNames[subCollectionId] = subCollection.name
+      }
+    }
+    return categoryNames
+  },
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)
   },

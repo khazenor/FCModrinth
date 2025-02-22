@@ -1,6 +1,8 @@
 const CollectCaches = {
-  cacheCategoryLists () {
+  serverLoadedCaching () {
     this.categoryLists = CollectListHelper.byCategory
+    this.categoryNames = CollectListHelper.categoryNames
   },
-  categoryLists: null
+  categoryLists: null,
+  categoryNames: null
 }

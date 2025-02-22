@@ -7,6 +7,9 @@ const CollectMethods = {
       CollectLogger.logCollectibleByCategory(event, objectId, collectionId)
       CollectLogger.logCollectibleByCategory(event, objectId, subCollectionId)
       CollectLogger.logCollectible(event, objectId)
+
+      CollectHelper.tellPlayerCollectionProgress(event, collectionId)
+      CollectHelper.tellPlayerCollectionProgress(event, subCollectionId)
     }
   },
   debugClearPlayerCollection: (event) => {

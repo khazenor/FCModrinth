@@ -1,3 +1,3 @@
 const serverLoadedHandler = (_event) => {
-  CollectCaches.cacheCategoryLists()
+  CollectCaches.serverLoadedCaching()
 }
