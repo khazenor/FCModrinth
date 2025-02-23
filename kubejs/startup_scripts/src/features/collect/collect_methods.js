@@ -10,22 +10,13 @@ const CollectMethods = {
 
       EventMethods.tellPlayer(event, '')
       EventMethods.tellPlayer(event, CollectListHelper.collectedMessage(collectionId))
-      let rewardOwed = CollectHelper.collectionRewardOwed(event, collectionId)
-      if (rewardOwed) {
-        EventMethods.tellPlayer(
-          event,
-          Text.translate(
-            'collect.message.milestoneReached',
-            StrHelper.cleanFloor(
-              CollectHelper.numPlayerCollectedInCategory(event, collectionId)
-            )
-          )
-        )
-        // todo actually reward the tickets
+      let milestoneRewardOwed = CollectHelper.collectionRewardOwed(event, collectionId)
+      if (milestoneRewardOwed) {
+        CollectHelper.handleMilestoneReached(event, collectionId)
       } else {
         EventMethods.tellPlayer(event, CollectHelper.nextMilestoneRewardMessage(event, collectionId))
+        CollectHelper.tellPlayerCollectionProgress(event, collectionId)
       }
-      CollectHelper.tellPlayerCollectionProgress(event, collectionId)
       CollectHelper.tellPlayerCollectionProgress(event, subCollectionId)
     }
   },

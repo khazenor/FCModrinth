@@ -58,7 +58,17 @@ const CollectHelper = {
       CollectLists[categoryId].rewardIncreasePerObject
     )
   },
-  numPlayerCollectedInCategory (event, categoryId) {
-    return CollectLogger.playerCollectionByCategory(event, categoryId).length
+  handleMilestoneReached (event, categoryId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
+    let collectionName = CollectCaches.categoryNames[categoryId]
+    EventMethods.tellPlayer(
+      event,
+      Text.translate(
+        'collect.message.milestoneReached',
+        StrHelper.cleanFloor(collectedNum),
+        collectionName
+      )
+    )
+    // todo actually reward the tickets
   }
 }
