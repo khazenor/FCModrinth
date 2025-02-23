@@ -33,7 +33,7 @@ const CollectHelper = {
       subCategoryRewardText
     ))
   },
-  milestoneRewardMessage(event, categoryId) {
+  nextMilestoneRewardMessage(event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
     let nextRewardText = ''
     let nextMilestone = CollectRewards.nextOrCurRewardMilestone(collectedNum)
