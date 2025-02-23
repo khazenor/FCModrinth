@@ -65,5 +65,10 @@ const CollectRewards = {
     )
     let reward = (prevPricePerObj + curPricePerObj) * rewardBasis / 2
     return Math.floor(reward)
+  },
+  simpleRewards (number, startingRewardPerObject, rewardIncreasePerObject) {
+    let endRewardPerObject = startingRewardPerObject + rewardIncreasePerObject * number
+    let reward = (startingRewardPerObject + endRewardPerObject) * number / 2
+    return Math.floor(reward)
   }
 }
