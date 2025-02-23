@@ -12,12 +12,25 @@ const CollectHelper = {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
     let collectionSize = CollectCaches.categoryLists[categoryId].length
     let percent = collectedNum * 100 / collectionSize
+    let subCategoryRewardText = ''
+    if (CollectListHelper.isSubCollectionId(categoryId)) {
+      subCategoryRewardText = Text.translate(
+        'collect.message.subCatReward',
+        StrHelper.cleanFloor(CollectRewards.simpleRewards(
+          collectionSize,
+          CollectListHelper.startingRewardForSubCollection(categoryId),
+          CollectListHelper.rewardIncreaseForSubCollection(categoryId)
+        ))
+      )
+    }
+
     EventMethods.tellPlayer(event, Text.translate(
       'collect.generic.collectedMessage',
       CollectCaches.categoryNames[categoryId],
       StrHelper.cleanFloor(collectedNum),
       StrHelper.cleanFloor(collectionSize),
-      StrHelper.cleanFloor(percent)
+      StrHelper.cleanFloor(percent),
+      subCategoryRewardText
     ))
   },
   milestoneRewardMessage(event, categoryId) {

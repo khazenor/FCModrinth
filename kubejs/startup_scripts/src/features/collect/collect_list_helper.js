@@ -113,5 +113,31 @@ const CollectListHelper = {
   },
   isCollectionId (categoryId) {
     return categoryId in CollectLists
+  },
+  isSubCollectionId (categoryId) {
+    return !this.isCollectionId(categoryId)
+  },
+  collectionIdFromSubCollectionId (subCollectionId) {
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+      for (let subCollectionIdIter in subCollections) {
+        if (subCollectionIdIter === subCollectionId) {
+          return collectionId
+        }
+      }
+    }
+    return null
+  },
+  collectionFromSubCollectionId (subCollectionId) {
+    return CollectLists[
+      this.collectionIdFromSubCollectionId(subCollectionId)
+    ]
+  },
+  startingRewardForSubCollection (subCollectionId) {
+    return this.collectionFromSubCollectionId(subCollectionId).startingRewardPerObject
+  },
+  rewardIncreaseForSubCollection (subCollectionId) {
+    return this.collectionFromSubCollectionId(subCollectionId).rewardIncreasePerObject
   }
 }
