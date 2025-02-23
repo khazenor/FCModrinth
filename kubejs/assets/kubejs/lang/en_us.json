@@ -7,6 +7,8 @@
   "item.kubejs.debug_clear_player_collection": "(Debug) Clear Collection Progress",
   "item.kubejs.debug_clear_player_collection.message": "Collection progress cleared!",
   "collect.generic.collectedMessage": "%s: %s/%s (%s%%)",
+  "collect.message.milestone": "Next Milestone: %s (%s to go, %s Tickets Prize)",
+  "collect.message.simpleReward": "%s Tickets Prize",
   "collect.blocks.collectedMessage": "New block collected!",
   "collect.items.collectedMessage": "New item collected!",
   "collect.blocks.collectionName": "Block Collection",

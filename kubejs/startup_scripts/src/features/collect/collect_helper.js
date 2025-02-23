@@ -19,5 +19,22 @@ const CollectHelper = {
       StrHelper.cleanFloor(collectionSize),
       StrHelper.cleanFloor(percent)
     ))
+  },
+  milestoneRewardMessage(event, categoryId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
+    let nextRewardText = ''
+    let nextMilestone = CollectRewards.nextOrCurRewardMilestone(collectedNum)
+    let nextReward = CollectRewards.rewardForNumber(
+      nextMilestone,
+      CollectLists[categoryId].startingRewardPerObject,
+      CollectLists[categoryId].rewardIncreasePerObject
+    )
+    nextRewardText = Text.translate(
+      'collect.message.milestone',
+      StrHelper.cleanFloor(nextMilestone),
+      StrHelper.cleanFloor(nextMilestone - collectedNum),
+      StrHelper.cleanFloor(nextReward)
+    )
+    return nextRewardText
   }
 }

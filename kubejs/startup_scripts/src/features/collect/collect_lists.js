@@ -2,6 +2,8 @@ const CollectLists = {
   blocks: {
     name: Text.translate('collect.blocks.collectionName'),
     collectedMessage: Text.translate('collect.blocks.collectedMessage'),
+    startingRewardPerObject: 1,
+    rewardIncreasePerObject: 0.01,
     subCollections: {
       logs: {
         name: Text.translate('collect.logs.collectionName'),
@@ -44,6 +46,8 @@ const CollectLists = {
   items: {
     name:  Text.translate('collect.items.collectionName'),
     collectedMessage: Text.translate('collect.items.collectedMessage'),
+    startingRewardPerObject: 1,
+    rewardIncreasePerObject: 0.01,
     subCollections: {
       dyes: {
         name:  Text.translate('collect.dyes.collectionName'),

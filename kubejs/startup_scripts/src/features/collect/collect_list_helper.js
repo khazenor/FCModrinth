@@ -110,5 +110,8 @@ const CollectListHelper = {
       }
     }
     return categoryIds
+  },
+  isCollectionId (categoryId) {
+    return categoryId in CollectLists
   }
 }

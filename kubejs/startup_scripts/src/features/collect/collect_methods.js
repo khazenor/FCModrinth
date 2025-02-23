@@ -10,6 +10,7 @@ const CollectMethods = {
 
       EventMethods.tellPlayer(event, '')
       EventMethods.tellPlayer(event, CollectListHelper.collectedMessage(collectionId))
+      EventMethods.tellPlayer(event, CollectHelper.milestoneRewardMessage(event, collectionId))
       CollectHelper.tellPlayerCollectionProgress(event, collectionId)
       CollectHelper.tellPlayerCollectionProgress(event, subCollectionId)
     }
