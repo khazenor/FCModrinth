@@ -97,5 +97,17 @@ const CollectRewards = {
       number
     )
     return Math.floor(reward)
+  },
+  collectionCompletionReward (collectionId) {
+    let collectionLength = CollectCaches.categoryLists[collectionId].length
+    let prevMilestone = this.prevRewardMilestone(collectionLength)
+    let baseReward = this.rewardForRange(
+      CollectLists[collectionId].startingRewardPerObject,
+      CollectLists[collectionId].rewardIncreasePerObject,
+      prevMilestone,
+      collectionLength
+    )
+    let updatedReward = Math.floor(baseReward * CollectConst.collectionCompletedRewardMultiplier)
+    return updatedReward
   }
 }

@@ -58,6 +58,16 @@ const CollectHelper = {
       CollectLists[categoryId].rewardIncreasePerObject
     )
   },
+  handleCategoryCompleted (event, categoryId) {
+    EventMethods.tellPlayer(
+      event,
+      Text.translate(
+        'collect.message.categoryCompleted',
+        CollectCaches.categoryNames[categoryId]
+      )
+    )
+    // todo actually reward the tickets
+  },
   handleMilestoneReached (event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
     let collectionName = CollectCaches.categoryNames[categoryId]
@@ -71,16 +81,16 @@ const CollectHelper = {
     )
     // todo actually reward the tickets
   },
-  subCollectionCompleted (event, subCollectionId) {
-    let collectedNum = CollectLogger.playerCollectionByCategory(event, subCollectionId).length
-    let collectionSize = CollectCaches.categoryLists[subCollectionId].length
+  categoryCompleted (event, categoryId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
+    let collectionSize = CollectCaches.categoryLists[categoryId].length
     return collectedNum === collectionSize
   },
   handleSubCollectionCompleted (event, subCollectionId) {
     EventMethods.tellPlayer(
       event,
       Text.translate(
-        'collect.message.subCatCompleted',
+        'collect.message.categoryCompleted',
         CollectCaches.categoryNames[subCollectionId]
       )
     )
