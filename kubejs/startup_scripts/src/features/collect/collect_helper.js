@@ -70,5 +70,20 @@ const CollectHelper = {
       )
     )
     // todo actually reward the tickets
+  },
+  subCollectionCompleted (event, subCollectionId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, subCollectionId).length
+    let collectionSize = CollectCaches.categoryLists[subCollectionId].length
+    return collectedNum === collectionSize
+  },
+  handleSubCollectionCompleted (event, subCollectionId) {
+    EventMethods.tellPlayer(
+      event,
+      Text.translate(
+        'collect.message.subCatCompleted',
+        CollectCaches.categoryNames[subCollectionId]
+      )
+    )
+    // todo actually reward the tickets
   }
 }
