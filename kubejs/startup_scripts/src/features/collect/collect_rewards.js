@@ -49,5 +49,21 @@ const CollectRewards = {
     } else {
       return 0
     }
+  },
+  rewardForNumber (number, startingRewardPerObject, rewardIncreasePerObject) {
+    let rewardBasis = this.rewardBasisForNumber(number)
+    if (rewardBasis === 0) {
+      return 0
+    }
+    let prevMilestone = this.prevRewardMilestone(number)
+    let curMilestone = this.nextOrCurRewardMilestone(number)
+    let prevPricePerObj = startingRewardPerObject + (
+      rewardIncreasePerObject * prevMilestone
+    )
+    let curPricePerObj = startingRewardPerObject + (
+      rewardIncreasePerObject * curMilestone
+    )
+    let reward = (prevPricePerObj + curPricePerObj) * rewardBasis / 2
+    return Math.floor(reward)
   }
 }
