@@ -49,5 +49,16 @@ const CollectHelper = {
       StrHelper.cleanFloor(nextReward)
     )
     return nextRewardText
+  },
+  collectionRewardOwed(event, categoryId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
+    return CollectRewards.rewardForNumber(
+      collectedNum,
+      CollectLists[categoryId].startingRewardPerObject,
+      CollectLists[categoryId].rewardIncreasePerObject
+    )
+  },
+  numPlayerCollectedInCategory (event, categoryId) {
+    return CollectLogger.playerCollectionByCategory(event, categoryId).length
   }
 }

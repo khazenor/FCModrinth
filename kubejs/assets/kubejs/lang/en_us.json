@@ -10,6 +10,7 @@
   "collect.message.subCatReward": "(%s Tickets Completion Prize)",
   "collect.message.milestone": "Next Milestone: %s (%s to go, %s Tickets Prize)",
   "collect.message.simpleReward": "%s Tickets Prize",
+  "collect.message.milestoneReached": "%s Milestone reached!",
   "collect.blocks.collectedMessage": "New block collected!",
   "collect.items.collectedMessage": "New item collected!",
   "collect.blocks.collectionName": "Block Collection",
