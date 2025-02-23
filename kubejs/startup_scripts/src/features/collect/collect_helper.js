@@ -16,11 +16,9 @@ const CollectHelper = {
     if (CollectListHelper.isSubCollectionId(categoryId)) {
       subCategoryRewardText = Text.translate(
         'collect.message.subCatReward',
-        StrHelper.cleanFloor(CollectRewards.simpleRewards(
-          collectionSize,
-          CollectListHelper.startingRewardForSubCollection(categoryId),
-          CollectListHelper.rewardIncreaseForSubCollection(categoryId)
-        ))
+        StrHelper.cleanFloor(
+          CollectRewards.subCollectionCompletionReward(categoryId)
+        )
       )
     }
 

@@ -98,6 +98,18 @@ const CollectRewards = {
     )
     return Math.floor(reward)
   },
+  subCollectionCompletionReward (subCollectionId) {
+    let startingReward = CollectListHelper.startingRewardForSubCollection(subCollectionId)
+    let rewardIncrease = CollectListHelper.rewardIncreaseForSubCollection(subCollectionId)
+    let subCollLength = CollectCaches.categoryLists[subCollectionId].length
+    let endReward = this.priceForObject(startingReward, rewardIncrease, subCollLength)
+    let reward = this.rewardAmount(
+      startingReward,
+      endReward,
+      subCollLength
+    )
+    return Math.floor(reward)
+  },
   collectionCompletionReward (collectionId) {
     let collectionLength = CollectCaches.categoryLists[collectionId].length
     let prevMilestone = this.prevRewardMilestone(collectionLength)
