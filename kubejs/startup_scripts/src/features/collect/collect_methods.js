@@ -9,19 +9,26 @@ const CollectMethods = {
       CollectLogger.logCollectible(event, objectId)
 
       EventMethods.tellPlayer(event, '')
-      EventMethods.tellPlayer(event, CollectListHelper.collectedMessage(collectionId))
-
+      
+      // init reward/collected line
       let milestoneRewardOwed = CollectHelper.collectionRewardOwed(event, collectionId)
+      let subCatCompleted = CollectHelper.subCollectionCompleted(event, subCollectionId)
       if (milestoneRewardOwed) {
         CollectHelper.handleMilestoneReached(event, collectionId)
-      } else {
+      }
+      if (subCatCompleted) {
+        CollectHelper.handleSubCollectionCompleted(event, subCollectionId)
+      }
+      if (!milestoneRewardOwed && !subCatCompleted) {
+        EventMethods.tellPlayer(event, CollectListHelper.collectedMessage(collectionId))
+      }
+      
+      if (!milestoneRewardOwed) {
         EventMethods.tellPlayer(event, CollectHelper.nextMilestoneRewardMessage(event, collectionId))
         CollectHelper.tellPlayerCollectionProgress(event, collectionId)
       }
 
-      if (CollectHelper.subCollectionCompleted(event, subCollectionId)) {
-        CollectHelper.handleSubCollectionCompleted(event, subCollectionId)
-      } else {
+      if (!subCatCompleted) {
         CollectHelper.tellPlayerCollectionProgress(event, subCollectionId)
       }
     }
