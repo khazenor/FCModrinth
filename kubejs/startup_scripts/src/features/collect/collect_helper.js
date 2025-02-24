@@ -64,7 +64,10 @@ const CollectHelper = {
         CollectCaches.categoryNames[categoryId]
       )
     )
-    // todo actually reward the tickets
+    MilesTicketEventMethods.givePlayerMilesTickets(
+      event,
+      CollectRewards.categoryCompletionReward(categoryId)
+    )
   },
   handleMilestoneReached (event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
@@ -77,7 +80,13 @@ const CollectHelper = {
         collectionName
       )
     )
-    // todo actually reward the tickets
+    MilesTicketEventMethods.givePlayerMilesTickets(
+      event,
+      CollectRewards.rewardForMilestone(
+        collectedNum,
+        categoryId
+      )
+    )
   },
   categoryCompleted (event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
@@ -92,6 +101,9 @@ const CollectHelper = {
         CollectCaches.categoryNames[subCollectionId]
       )
     )
-    // todo actually reward the tickets
+    MilesTicketEventMethods.givePlayerMilesTickets(
+      event,
+      CollectRewards.categoryCompletionReward(subCollectionId)
+    )
   }
 }

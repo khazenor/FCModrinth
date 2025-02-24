@@ -3,5 +3,5 @@ const CollectConst = {
   clearCollectionId: 'kubejs:debug_clear_player_collection',
   rewardMilestoneStart: 5,
   rewardMilestoneCap: 2000,
-  collectionCompletedRewardMultiplier: 1.5
+  collectionCompletedRewardMultiplier: 2
 }

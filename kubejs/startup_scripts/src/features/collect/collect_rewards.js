@@ -89,6 +89,13 @@ const CollectRewards = {
       curMilestone
     )
   },
+  rewardForMilestone (number, collectionId) {
+    return this.rewardForNumber(
+      number,
+      CollectLists[collectionId].startingRewardPerObject,
+      CollectLists[collectionId].rewardIncreasePerObject
+    )
+  },
   simpleRewards (number, startingRewardPerObject, rewardIncreasePerObject) {
     let endRewardPerObject = startingRewardPerObject + rewardIncreasePerObject * number
     let reward = this.rewardAmount(
@@ -121,5 +128,12 @@ const CollectRewards = {
     )
     let updatedReward = Math.floor(baseReward * CollectConst.collectionCompletedRewardMultiplier)
     return updatedReward
+  },
+  categoryCompletionReward (categoryId) {
+    if (CollectListHelper.isCollectionId(categoryId)) {
+      return this.collectionCompletionReward(categoryId)
+    } else {
+      return this.subCollectionCompletionReward(categoryId)
+    }
   }
 }

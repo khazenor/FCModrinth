@@ -18,5 +18,7 @@
   "collect.logs.collectionName": "Log Collection",
   "collect.leaves.collectionName": "Leaves Collection",
   "collect.items.collectionName": "Item Collection",
-  "collect.dyes.collectionName": "Dye Collection"
+  "collect.dyes.collectionName": "Dye Collection",
+  "milesTicket.message.tixObtained": "Obtained %s Miles Tickets!%s",
+  "milesTicket.message.bundledDesc": " (%s Booklets, %s Tickets)"
 }
