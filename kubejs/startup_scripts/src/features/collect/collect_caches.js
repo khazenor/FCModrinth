@@ -1,8 +1,4 @@
 const CollectCaches = {
-  serverLoadedCaching () {
-    this.categoryLists = CollectListHelper.byCategory
-    this.categoryNames = CollectListHelper.categoryNames
-  },
   get categoryLists () {
     return this.getAndReturnCache(
       'categoryLists',
