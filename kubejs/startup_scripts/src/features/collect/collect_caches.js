@@ -1,22 +1,22 @@
 const CollectCaches = {
   get categoryLists () {
-    return this.getAndReturnCache(
+    return this._getAndReturnCache(
       'categoryLists',
       () => CollectListHelper.byCategory
     )
   },
   get categoryNames () {
-    return this.getAndReturnCache(
+    return this._getAndReturnCache(
       'categoryNames',
       () => CollectListHelper.categoryNames
     )
   },
-  getAndReturnCache(key, callBackFunc) {
+  _getAndReturnCache(key, callBackFunc) {
     if (!this.caches[key]) {
       this.caches[key] = callBackFunc()
       
     }
     return this.caches[key]
   },
-  caches: {}
+  _caches: {}
 }
