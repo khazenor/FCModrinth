@@ -22,15 +22,14 @@ const CollectCaches = {
   _rewardsByMilestonesForCategory(categoryId) {
     return this._getAndReturnCache(
       `_rewardsByMilestonesForCategory_${categoryId}`,
-      () => CollectMilestones._rewardsByMilestonesForCategory(categoryId)
+      () => CollectMilestones.rewardsByMilestonesForCategory(categoryId)
     )
   },
   _getAndReturnCache(key, callBackFunc) {
-    if (!this.caches[key]) {
-      this.caches[key] = callBackFunc()
-      
+    if (!this._caches[key]) {
+      this._caches[key] = callBackFunc()
     }
-    return this.caches[key]
+    return this._caches[key]
   },
   _caches: {}
 }

@@ -14,10 +14,10 @@ const CollectTestCodes = {
     }
   },
   testMilestoneRewards () {
-    FcLogger('Collection Milestones:')
+    FcLogger.log('Collection Milestones:')
     for (let categoryId in CollectLists) {
       console.log(categoryId)
-      console.log(CollectMilestones.rewardsByMilestonesForCategory(categoryId))
+      console.log(CollectCaches._rewardsByMilestonesForCategory(categoryId))
     }
   }
 }
