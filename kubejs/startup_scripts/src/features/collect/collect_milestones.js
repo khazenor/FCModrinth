@@ -13,6 +13,9 @@ const CollectMilestones = {
         prev,
         cur
       )
+      if (i === milestones.length - 1) {
+        reward = reward * CollectConst.collectionCompletedRewardMultiplier
+      }
       rewardsByMilestones[cur] = reward
     }
     return rewardsByMilestones
