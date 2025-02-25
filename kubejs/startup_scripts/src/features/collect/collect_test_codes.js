@@ -12,5 +12,11 @@ const CollectTestCodes = {
     for (let milestone of CollectRewards.rewardMilestones) {
       console.log(CollectRewards.rewardForNumber(milestone, 1, 0.1))
     }
+  },
+  testMilestoneRewards () {
+    for (let categoryId in CollectLists) {
+      console.log(categoryId)
+      console.log(CollectMilestones.rewardsByMilestonesForCategory(categoryId))
+    }
   }
 }
