@@ -14,6 +14,7 @@ const CollectTestCodes = {
     }
   },
   testMilestoneRewards () {
+    FcLogger('Collection Milestones:')
     for (let categoryId in CollectLists) {
       console.log(categoryId)
       console.log(CollectMilestones.rewardsByMilestonesForCategory(categoryId))

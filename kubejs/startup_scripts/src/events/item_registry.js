@@ -9,3 +9,6 @@ StartupEvents.registry('item', event => {
     event.create(itemId)
   }
 })
+
+// test codes
+CollectTestCodes.testMilestoneRewards()
