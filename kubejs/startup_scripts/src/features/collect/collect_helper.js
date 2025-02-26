@@ -31,15 +31,11 @@ const CollectHelper = {
       subCategoryRewardText
     ))
   },
-  nextMilestoneRewardMessage(event, categoryId) {
-    let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
+  nextMilestoneRewardMessage(event, collectionId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
     let nextRewardText = ''
-    let nextMilestone = CollectRewards.nextOrCurRewardMilestone(collectedNum)
-    let nextReward = CollectRewards.rewardForNumber(
-      nextMilestone,
-      CollectLists[categoryId].startingRewardPerObject,
-      CollectLists[categoryId].rewardIncreasePerObject
-    )
+    let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(collectionId, collectedNum)
+    let nextReward = CollectMilestoneMethods.rewardForCategoryMilestone(nextMilestone, collectionId)
     nextRewardText = Text.translate(
       'collect.message.milestone',
       StrHelper.cleanFloor(nextMilestone),
@@ -48,25 +44,27 @@ const CollectHelper = {
     )
     return nextRewardText
   },
-  collectionRewardOwed(event, categoryId) {
+  categoryCompleted (event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
-    return CollectRewards.rewardForNumber(
-      collectedNum,
-      CollectLists[categoryId].startingRewardPerObject,
-      CollectLists[categoryId].rewardIncreasePerObject
-    )
+    let collectionSize = CollectCaches.categoryLists[categoryId].length
+    return collectedNum === collectionSize
   },
-  handleCategoryCompleted (event, categoryId) {
+  milestoneReached (event, collectionId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
+    let milestones = CollectCaches.milestonesForCollection(collectionId)
+    return milestones.includes(collectedNum)
+  },
+  handleCollectionCompleted (event, categoryId) {
     EventMethods.tellPlayer(
       event,
       Text.translate(
         'collect.message.categoryCompleted',
-        CollectCaches.categoryNames[categoryId]
+        CollectCaches.categoryNames[categoryId].toUpperCase()
       )
     )
     MilesTicketEventMethods.givePlayerMilesTickets(
       event,
-      CollectRewards.categoryCompletionReward(categoryId)
+      CollectMilestoneMethods.rewardForCollectionCompleted(categoryId)
     )
   },
   handleMilestoneReached (event, categoryId) {
@@ -76,22 +74,14 @@ const CollectHelper = {
       event,
       Text.translate(
         'collect.message.milestoneReached',
-        StrHelper.cleanFloor(collectedNum),
-        collectionName
+        collectionName,
+        StrHelper.cleanFloor(collectedNum)
       )
     )
     MilesTicketEventMethods.givePlayerMilesTickets(
       event,
-      CollectRewards.rewardForMilestone(
-        collectedNum,
-        categoryId
-      )
+      CollectMilestoneMethods.rewardForCategoryMilestone(collectedNum, categoryId)
     )
-  },
-  categoryCompleted (event, categoryId) {
-    let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
-    let collectionSize = CollectCaches.categoryLists[categoryId].length
-    return collectedNum === collectionSize
   },
   handleSubCollectionCompleted (event, subCollectionId) {
     EventMethods.tellPlayer(
@@ -103,7 +93,7 @@ const CollectHelper = {
     )
     MilesTicketEventMethods.givePlayerMilesTickets(
       event,
-      CollectRewards.categoryCompletionReward(subCollectionId)
+      CollectRewards.subCollectionCompletionReward(subCollectionId)
     )
   }
 }

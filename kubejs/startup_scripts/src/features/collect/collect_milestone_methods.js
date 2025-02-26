@@ -7,6 +7,11 @@ const CollectMilestoneMethods = {
   rewardForCategoryMilestone (milestoneNumber, categoryId) {
     return CollectCaches.rewardsByMilestonesForCategory(categoryId)[milestoneNumber]
   },
+  rewardForCollectionCompleted (collectionId) {
+    let milestones = CollectCaches.milestonesForCollection(collectionId)
+    let lastMilestone = milestones[milestones.length - 1]
+    return CollectCaches.rewardsByMilestonesForCategory(collectionId)[lastMilestone]
+  },
   nextMilestoneForCollection (collectionId, number) {
     for (let milestone of CollectCaches.milestonesForCollection(collectionId)) {
       if (milestone > number) {

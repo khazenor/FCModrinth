@@ -10,12 +10,12 @@ const CollectMethods = {
 
       EventMethods.tellPlayer(event, '')
       
-      let milestoneRewardOwed = CollectHelper.collectionRewardOwed(event, collectionId)
       let collectionCompleted = CollectHelper.categoryCompleted(event, collectionId)
+      let milestoneReached = CollectHelper.milestoneReached(event, collectionId)
       let subCatCompleted = CollectHelper.categoryCompleted(event, subCollectionId)
       if (collectionCompleted) {
-        CollectHelper.handleCategoryCompleted(event, collectionId)
-      } else if (milestoneRewardOwed) {
+        CollectHelper.handleCollectionCompleted(event, collectionId)
+      } else if (milestoneReached) {
         CollectHelper.handleMilestoneReached(event, collectionId)
       }
 
@@ -23,11 +23,11 @@ const CollectMethods = {
         CollectHelper.handleSubCollectionCompleted(event, subCollectionId)
       }
 
-      if (!collectionCompleted && !milestoneRewardOwed && !subCatCompleted) {
+      if (!collectionCompleted && !milestoneReached && !subCatCompleted) {
         EventMethods.tellPlayer(event, CollectListHelper.collectedMessage(collectionId))
       }
       
-      if (!collectionCompleted && !milestoneRewardOwed) {
+      if (!collectionCompleted && !milestoneReached) {
         EventMethods.tellPlayer(event, CollectHelper.nextMilestoneRewardMessage(event, collectionId))
         CollectHelper.tellPlayerCollectionProgress(event, collectionId)
       }

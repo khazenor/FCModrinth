@@ -22,8 +22,8 @@ const CollectRewards = {
     let startingReward = CollectListHelper.startingRewardForSubCollection(subCollectionId)
     let rewardIncrease = CollectListHelper.rewardIncreaseForSubCollection(subCollectionId)
     let subCollLength = CollectCaches.categoryLists[subCollectionId].length
-    let endReward = this.adjustedPrice(startingReward, rewardIncrease, subCollLength)
-    let reward = this.rewardAmount(
+    let endReward = this._adjustedPrice(startingReward, rewardIncrease, subCollLength)
+    let reward = this._rewardAmount(
       startingReward,
       endReward,
       subCollLength

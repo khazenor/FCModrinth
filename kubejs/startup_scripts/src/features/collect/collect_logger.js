@@ -13,10 +13,17 @@ const CollectLogger = {
     )
   },
   playerCollectionByCategory (event, categoryId) {
-    return PlayerDataHelper.getPlayerList(
+    let collectedObjsInCategory = []
+    let collectedObjs = PlayerDataHelper.getPlayerList(
       event,
       categoryId
     )
+    for (let collectedObj of collectedObjs) {
+      if (CollectCaches.categoryLists[categoryId].includes(collectedObj)) {
+        collectedObjsInCategory.push(collectedObj)
+      }
+    }
+    return collectedObjsInCategory
   },
   logCollectibleByCategory (event, collectibleId, categoryId) {
     PlayerDataHelper.addToPlayerList(
