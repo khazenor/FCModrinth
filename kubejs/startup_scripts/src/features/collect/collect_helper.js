@@ -15,7 +15,7 @@ const CollectHelper = {
     let subCategoryRewardText = ''
     if (CollectListHelper.isSubCollectionId(categoryId)) {
       subCategoryRewardText = Text.translate(
-        'collect.message.subCatReward',
+        CollectTransHelper.messageKey('subCatReward'),
         StrHelper.cleanFloor(
           CollectRewards.subCollectionCompletionReward(categoryId)
         )
@@ -23,8 +23,8 @@ const CollectHelper = {
     }
 
     EventMethods.tellPlayer(event, Text.translate(
-      'collect.generic.collectedMessage',
-      CollectCaches.categoryNames[categoryId],
+      CollectTransHelper.messageKey('genericCollected'),
+      CollectTransHelper.categoryName(categoryId),
       StrHelper.cleanFloor(collectedNum),
       StrHelper.cleanFloor(collectionSize),
       StrHelper.cleanFloor(percent),
@@ -37,7 +37,7 @@ const CollectHelper = {
     let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(collectionId, collectedNum)
     let nextReward = CollectMilestoneMethods.rewardForCategoryMilestone(nextMilestone, collectionId)
     nextRewardText = Text.translate(
-      'collect.message.milestone',
+      CollectTransHelper.messageKey('milestone'),
       StrHelper.cleanFloor(nextMilestone),
       StrHelper.cleanFloor(nextMilestone - collectedNum),
       StrHelper.cleanFloor(nextReward)
@@ -58,8 +58,8 @@ const CollectHelper = {
     EventMethods.tellPlayer(
       event,
       Text.translate(
-        'collect.message.categoryCompleted',
-        CollectCaches.categoryNames[categoryId].toUpperCase()
+        CollectTransHelper.messageKey('categoryCompleted'),
+        CollectTransHelper.categoryNameCaps(categoryId)
       )
     )
     MilesTicketEventMethods.givePlayerMilesTickets(
@@ -69,12 +69,11 @@ const CollectHelper = {
   },
   handleMilestoneReached (event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
-    let collectionName = CollectCaches.categoryNames[categoryId]
     EventMethods.tellPlayer(
       event,
       Text.translate(
-        'collect.message.milestoneReached',
-        collectionName,
+        CollectTransHelper.messageKey('milestoneReached'),
+        CollectTransHelper.categoryName(categoryId),
         StrHelper.cleanFloor(collectedNum)
       )
     )
@@ -87,8 +86,8 @@ const CollectHelper = {
     EventMethods.tellPlayer(
       event,
       Text.translate(
-        'collect.message.categoryCompleted',
-        CollectCaches.categoryNames[subCollectionId]
+        CollectTransHelper.messageKey('categoryCompleted'),
+        CollectTransHelper.categoryName(subCollectionId)
       )
     )
     MilesTicketEventMethods.givePlayerMilesTickets(

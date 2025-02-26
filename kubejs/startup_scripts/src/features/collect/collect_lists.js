@@ -1,12 +1,9 @@
 const CollectLists = {
   blocks: {
-    name: Text.translate('collect.blocks.collectionName'),
-    collectedMessage: Text.translate('collect.blocks.collectedMessage'),
     startingRewardPerObject: 1,
     rewardIncreasePerObject: 0.05,
     subCollections: {
       logs: {
-        name: Text.translate('collect.logs.collectionName'),
         list: [
           "minecraft:acacia_log",
           "minecraft:birch_log",
@@ -27,7 +24,6 @@ const CollectLists = {
         ]
       },
       leaves: {
-        name:  Text.translate('collect.leaves.collectionName'),
         list: [
           'minecraft:acacia_leaves',
           'minecraft:azalea_leaves',
@@ -44,13 +40,10 @@ const CollectLists = {
     }
   },
   items: {
-    name:  Text.translate('collect.items.collectionName'),
-    collectedMessage: Text.translate('collect.items.collectedMessage'),
     startingRewardPerObject: 1,
     rewardIncreasePerObject: 0.05,
     subCollections: {
       dyes: {
-        name:  Text.translate('collect.dyes.collectionName'),
         list: [
           'minecraft:black_dye',
           'minecraft:blue_dye',

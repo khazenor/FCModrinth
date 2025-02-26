@@ -5,12 +5,6 @@ const CollectCaches = {
       () => CollectListHelper.byCategory
     )
   },
-  get categoryNames () {
-    return this._getAndReturnCache(
-      'categoryNames',
-      () => CollectListHelper.categoryNames
-    )
-  },
   rewardsByMilestonesForCategory(categoryId) {
     return this._getAndReturnCache(
       `_rewardsByMilestonesForCategory_${categoryId}`,

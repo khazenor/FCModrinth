@@ -24,7 +24,7 @@ const CollectMethods = {
       }
 
       if (!collectionCompleted && !milestoneReached && !subCatCompleted) {
-        EventMethods.tellPlayer(event, CollectListHelper.collectedMessage(collectionId))
+        EventMethods.tellPlayer(event, CollectTransHelper.collectedMessage(collectionId))
       }
       
       if (!collectionCompleted && !milestoneReached) {
