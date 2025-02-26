@@ -18,12 +18,6 @@ const CollectRewards = {
     )
     return Math.floor(preRoundReward)
   },
-  _rewardAmount (startingPrice, endingPrice, length) {
-    return (startingPrice + endingPrice) * length / 2
-  },
-  _adjustedPrice (startingPrice, increasePerObject, number) {
-    return startingPrice + (increasePerObject * number)
-  },
   subCollectionCompletionReward (subCollectionId) {
     let startingReward = CollectListHelper.startingRewardForSubCollection(subCollectionId)
     let rewardIncrease = CollectListHelper.rewardIncreaseForSubCollection(subCollectionId)
@@ -35,5 +29,11 @@ const CollectRewards = {
       subCollLength
     )
     return Math.floor(reward)
+  },
+  _rewardAmount (startingPrice, endingPrice, length) {
+    return (startingPrice + endingPrice) * length / 2
+  },
+  _adjustedPrice (startingPrice, increasePerObject, number) {
+    return startingPrice + (increasePerObject * number)
   }
 }

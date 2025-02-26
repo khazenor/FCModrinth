@@ -1,7 +1,6 @@
 const CollectMilestones = {
   rewardsByMilestonesForCategory (categoryId) {
-    let categoryLength = CollectCaches.categoryLists[categoryId].length
-    let milestones = this._milestonesForCollectionLength(categoryLength)
+    let milestones = this.milestonesForCollection(categoryId)
     let rewardsByMilestones = {}
 
     for (let i = 0; i < milestones.length; i++) {
@@ -19,6 +18,11 @@ const CollectMilestones = {
       rewardsByMilestones[cur] = reward
     }
     return rewardsByMilestones
+  },
+  milestonesForCollection (collectionId) {
+    let categoryLength = CollectCaches.categoryLists[collectionId].length
+    let milestones = this._milestonesForCollectionLength(categoryLength)
+    return milestones
   },
   _milestonesForCollectionLength (length) {
     let genericMilestones = this._genericMilestones
