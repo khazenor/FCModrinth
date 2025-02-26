@@ -17,7 +17,7 @@ const CollectTestCodes = {
     FcLogger.log('Collection Milestones:')
     for (let categoryId in CollectLists) {
       console.log(categoryId)
-      console.log(CollectCaches._rewardsByMilestonesForCategory(categoryId))
+      console.log(CollectCaches.rewardsByMilestonesForCategory(categoryId))
     }
   }
 }
