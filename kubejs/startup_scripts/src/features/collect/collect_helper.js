@@ -44,6 +44,13 @@ const CollectHelper = {
     )
     return nextRewardText
   },
+  isNextMilestoneCollectionCompletion (event, collectionId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
+    let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(collectionId, collectedNum)
+    let collectionLength = CollectCaches.categoryLists[collectionId].length
+    return nextMilestone === collectionLength
+
+  },
   categoryCompleted (event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
     let collectionSize = CollectCaches.categoryLists[categoryId].length
