@@ -40,6 +40,18 @@ const CollectListHelper = {
     }
     return byCategory
   },
+  get allCategoryIds () {
+    let categoryIds = []
+    for (let collectionId in CollectLists) {
+      categoryIds.push(collectionId)
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+      for (let subCollectionId in subCollections) {
+        categoryIds.push(subCollectionId)
+      }
+    }
+    return categoryIds
+  },
   get categoryIds () {
     let categoryIds = []
     for (let collectionId in CollectLists) {
@@ -53,6 +65,18 @@ const CollectListHelper = {
       }
     }
     return categoryIds
+  },
+  get subCategoryIds () {
+    let subCategoryIds = []
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+
+      for (let subCollectionId in subCollections) {
+        subCategoryIds.push(subCollectionId)
+      }
+    }
+    return subCategoryIds
   },
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)
@@ -80,18 +104,6 @@ const CollectListHelper = {
       }
     }
     return null
-  },
-  get allCategoryIds () {
-    let categoryIds = []
-    for (let collectionId in CollectLists) {
-      categoryIds.push(collectionId)
-      let collection = CollectLists[collectionId]
-      let subCollections = collection.subCollections
-      for (let subCollectionId in subCollections) {
-        categoryIds.push(subCollectionId)
-      }
-    }
-    return categoryIds
   },
   isCollectionId (categoryId) {
     return categoryId in CollectLists
