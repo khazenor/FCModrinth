@@ -94,7 +94,7 @@ const CollectHelper = {
       event,
       Text.translate(
         CollectTransHelper.messageKey('categoryCompleted'),
-        CollectTransHelper.categoryName(subCollectionId)
+        CollectTransHelper.categoryNameCaps(subCollectionId)
       )
     )
     MilesTicketEventMethods.givePlayerMilesTickets(
