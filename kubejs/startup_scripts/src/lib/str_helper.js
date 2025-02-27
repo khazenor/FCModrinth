@@ -14,5 +14,8 @@ const StrHelper = {
       workingStr = workingStr.replace(findStr,replaceStr)
     }
     return workingStr
+  },
+  cleanStr (str) {
+    return this.replaceAll(`${str}`, '"', '')
   }
 }
