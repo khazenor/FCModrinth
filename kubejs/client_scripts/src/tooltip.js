@@ -1,3 +1,3 @@
 ItemEvents.tooltip(event => {
-  global.addTooltips(event)
+  global.tooltipHandler(event)
 })

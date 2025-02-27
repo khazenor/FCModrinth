@@ -1,5 +1,5 @@
 const MilesTicketTooltips = {
-  addTooltips: (event) => {
+  tooltipHandler: (event) => {
     EventMethods.add(
       event,
       MilesTicketConsts.bookletId,
