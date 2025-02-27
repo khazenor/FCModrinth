@@ -11,6 +11,12 @@ const CollectCaches = {
       () => CollectListHelper.subCategoryIds
     )
   },
+  get collectionIdBySubCollectionId () {
+    return this._getAndReturnCache(
+      'collectionIdBySubCollectionId',
+      () => CollectListHelper.collectionIdBySubCollectionId
+    )
+  },
   rewardsByMilestonesForCategory(categoryId) {
     return this._getAndReturnCache(
       `_rewardsByMilestonesForCategory_${categoryId}`,

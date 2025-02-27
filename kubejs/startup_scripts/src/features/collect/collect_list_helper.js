@@ -78,6 +78,19 @@ const CollectListHelper = {
     }
     return subCategoryIds
   },
+  get collectionIdBySubCollectionId () {
+    let subCategoryIdByCollection = {}
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
+
+      for (let subCollectionId in subCollections) {
+        subCategoryIdByCollection[subCollectionId] = collectionId
+      }
+    }
+    return subCategoryIdByCollection
+
+  },
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)
   },
@@ -112,16 +125,9 @@ const CollectListHelper = {
     return !this.isCollectionId(categoryId)
   },
   collectionIdFromSubCollectionId (subCollectionId) {
-    for (let collectionId in CollectLists) {
-      let collection = CollectLists[collectionId]
-      let subCollections = collection.subCollections
-      for (let subCollectionIdIter in subCollections) {
-        if (subCollectionIdIter === subCollectionId) {
-          return collectionId
-        }
-      }
-    }
-    return null
+    return CollectCaches.collectionIdBySubCollectionId[
+      subCollectionId
+    ]
   },
   collectionFromSubCollectionId (subCollectionId) {
     return CollectLists[
