@@ -1,3 +1,4 @@
 const inventoryChangedHandler = (event) => {
-  CollectMethods.checkAndLogCollectible(event)
+  let collectibleId = InventoryChangedHelper.item(event).id
+  CollectMethods.checkAndLogCollectible(event, collectibleId)
 }

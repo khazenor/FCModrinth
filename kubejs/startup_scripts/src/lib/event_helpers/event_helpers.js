@@ -51,5 +51,8 @@ const EventMethods = {
   },
   add: (event, target, data) => {
     event.add(target, data)
+  },
+  targetType: (event) => {
+    return StrHelper.cleanStr(event.target.type)
   }
 }

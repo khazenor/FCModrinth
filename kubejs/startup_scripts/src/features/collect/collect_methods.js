@@ -1,12 +1,11 @@
 const CollectMethods = {
-  checkAndLogCollectible: (event) => {
-    let objectId = InventoryChangedHelper.item(event).id
-    if (CollectHelper.isIdNewCollectible(event, objectId)) {
-      let collectionId = CollectListHelper.collectionIdOfCollectible(objectId)
-      let subCollectionId = CollectListHelper.subCollectionIdOfCollectible(objectId)
-      CollectLogger.logCollectibleByCategory(event, objectId, collectionId)
-      CollectLogger.logCollectibleByCategory(event, objectId, subCollectionId)
-      CollectLogger.logCollectible(event, objectId)
+  checkAndLogCollectible: (event, collectibleId) => {
+    if (CollectHelper.isIdNewCollectible(event, collectibleId)) {
+      let collectionId = CollectListHelper.collectionIdOfCollectible(collectibleId)
+      let subCollectionId = CollectListHelper.subCollectionIdOfCollectible(collectibleId)
+      CollectLogger.logCollectibleByCategory(event, collectibleId, collectionId)
+      CollectLogger.logCollectibleByCategory(event, collectibleId, subCollectionId)
+      CollectLogger.logCollectible(event, collectibleId)
 
       EventMethods.tellPlayer(event, '')
       
