@@ -7,5 +7,13 @@ const ChestGui = {
   },
   simpleSlotCallback(itemId) {
     return slot => { slot.item = itemId }
+  },
+  namedClickableSlotCallback(nameText, itemId, eventCallback) {
+    return slot => {
+      slot.item = Item.of(itemId).withName(nameText)
+      slot.leftClicked = e => {
+        eventCallback()
+      }
+    }
   }
 }
