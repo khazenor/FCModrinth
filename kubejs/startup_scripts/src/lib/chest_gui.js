@@ -15,5 +15,10 @@ const ChestGui = {
         eventCallback()
       }
     }
+  },
+  namedSlotCallback(nameText, itemId) {
+    return slot => {
+      slot.item = Item.of(itemId).withName(nameText)
+    }
   }
 }
