@@ -78,6 +78,9 @@ const CollectListHelper = {
     }
     return subCategoryIds
   },
+  get collectionIds () {
+    return Object.keys(CollectLists)
+  },
   get collectionIdBySubCollectionId () {
     let subCategoryIdByCollection = {}
     for (let collectionId in CollectLists) {

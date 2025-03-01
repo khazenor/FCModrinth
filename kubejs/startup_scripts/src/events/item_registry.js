@@ -2,7 +2,7 @@
 StartupEvents.registry('item', event => {
   let itemIds = [].concat(
     MilesTicketCustomItems,
-    CollectCustomItems
+    CollectCustomItems.itemIds
   )
   for (let itemId of itemIds) {
     FcLogger.log(`Registering ${itemId}`)

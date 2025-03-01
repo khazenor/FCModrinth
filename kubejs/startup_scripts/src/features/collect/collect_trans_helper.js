@@ -13,6 +13,9 @@ const CollectTransHelper = {
       `message.${messageName}`
     )
   },
+  certificateId(categoryId) {
+    return `kubejs:${categoryId}_certificate`
+  },
   _transForCategory (categoryId, subTransKey) {
     return Text.translate(
       this._collectTransKey(
