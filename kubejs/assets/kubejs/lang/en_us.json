@@ -12,6 +12,7 @@
   "collect.message.simpleReward": "%s Tickets Prize",
   "collect.message.milestoneReached": "== MILESTONE REACHED! == (%s: %s)",
   "collect.message.categoryCompleted": "=== %s COMPLETED! ===",
+  "collect.message.categoryCompletedCongrats": "Congratulations! %s obtained!",
   "collect.blocks.categoryName": "Block Collection",
   "collect.blocks.categoryNameCap": "BLOCK COLLECTION",
   "collect.blocks.collectedMessage": "New block collected!",

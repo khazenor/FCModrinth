@@ -1,11 +1,14 @@
 const CollectCustomItems = {
-  get itemIds () {
+  get simpleItemIds () {
     let ids = []
     ids = ids.concat(
       this._hardCodedIds,
       this._certificates
     )
     return ids
+  },
+  get nonStackableIds () {
+    return this._certificates
   },
   get _hardCodedIds () {
     return [

@@ -2,11 +2,15 @@
 StartupEvents.registry('item', event => {
   let itemIds = [].concat(
     MilesTicketCustomItems,
-    CollectCustomItems.itemIds
+    CollectCustomItems.simpleItemIds
   )
   for (let itemId of itemIds) {
-    FcLogger.log(`Registering ${itemId}`)
     event.create(itemId)
+  }
+
+  let nonStackableIds = CollectCustomItems.nonStackableIds
+  for (let itemId of nonStackableIds) {
+    event.create(itemId).maxStackSize(1)
   }
 })
 

@@ -69,6 +69,17 @@ const CollectHelper = {
         CollectTransHelper.categoryNameCaps(categoryId)
       )
     )
+    let certificateId = CollectTransHelper.certificateId(categoryId)
+    EventMethods.tellPlayer(
+      event,
+      Text.translate(
+        CollectTransHelper.messageKey('categoryCompletedCongrats'),
+        Text.translate(TransHelper.itemName(certificateId))
+      )
+    )
+    EventMethods.givePlayerItemStack(
+      event, certificateId, 1
+    )
     MilesTicketEventMethods.givePlayerMilesTickets(
       event,
       CollectMilestoneMethods.rewardForCollectionCompleted(categoryId)
