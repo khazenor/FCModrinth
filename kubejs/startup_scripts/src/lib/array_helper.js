@@ -12,5 +12,14 @@ const ArrayHelper = {
     } else {
       objArray[key] = [value]
     }
+  },
+  arrayDiff (parentArray, subtractArray) {
+    let arrayDiff = []
+    for (let parentVal of parentArray) {
+      if (!subtractArray.includes(parentVal)) {
+        arrayDiff.push(parentVal)
+      }
+    }
+    return arrayDiff
   }
 }

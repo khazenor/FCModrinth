@@ -1,14 +1,16 @@
 const testGui = (event) => {
+  _testCodes.showMenu2(event)
 }
 
 const _testCodes = {
-  showMenu () {
+  showMenu (event) {
     ///////////////
     // Menu Data //
     ///////////////
+    let player = event.player
     
     let ironMenu = new MenuType(Text.blue("Iron Menu"));
-    ironMenu.addSlot({page: 0, x: 0, y: 0, label: "Unused", item: "minecraft:stone"});
+    ironMenu.addSlot({page: 0, x: 0, y: 0, item: "minecraft:stone"});
     ironMenu.addSlot({page: 0, x: 4, y: 3, label: "Unused", item: "minecraft:stone"});
     ironMenu.addSlot({page: 0, x: 8, y: 0, label: "Unused", item: "minecraft:stone"});
     ironMenu.addSlot({page: 0, x: 4, y: 1, label: "The Eye", item: "minecraft:ender_eye",
@@ -29,7 +31,51 @@ const _testCodes = {
     goldMenu.addSlot({page: 3, x: 4, y: 2, label: "Random Stuff", item: "minecraft:coal"});
     goldMenu.addSlot({page: 3, x: 6, y: 2, label: "Random Stuff", item: "minecraft:coal"});
     
-    ironMenu.show(event.player)
+    ironMenu.show(player)
+  },
+  showMenu2 (event) {
+    let testMenu = new MenuType('testing')
+    let subCollectionIdsByCollectionId = CollectCaches.subCollectionIdsByCollectionId
+    let subCollectionIds = subCollectionIdsByCollectionId['blocks']
+    let subCollectionId = subCollectionIds[0]
+    let collectedIds = CollectLogger.playerCollectionByCategory(event, subCollectionId)
+    let subCollectionItemIds = CollectCaches.categoryLists[subCollectionId]
+    let itemIds = ArrayHelper.arrayDiff(subCollectionItemIds, collectedIds)
+
+    let curPage = 0
+    let curRow = 1
+    let rowLength = 5
+    let colLength = 9
+    let colStart = 1
+    let rowStart = 1
+    testMenu.addSlot({
+      page: curPage,
+      x:0, y: curRow,
+      label: CollectTransHelper.categoryName(subCollectionId),
+      item: "minecraft:slime_ball"
+    })
+    let curCol = colStart
+    for (let itemId of itemIds) {
+      testMenu.addSlot({
+        page: curPage,
+        x: curCol, y:curRow,
+        label: TransHelper.itemName(itemId),
+        item: itemId
+      })
+      if (curCol < colLength - 1) {
+        curCol += 1
+      } else {
+        curCol = colStart
+        if (curRow < rowLength - 1) {
+          curRow += 1
+        } else {
+          curPage += 1
+          curRow = rowStart
+        }
+      }
+    }
+
+    testMenu.show(event.player)
   },
   testCertificateMessage () {
     let certificateId = CollectTransHelper.certificateId('items')
