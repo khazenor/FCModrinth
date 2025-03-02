@@ -92,7 +92,22 @@ const CollectListHelper = {
       }
     }
     return subCategoryIdByCollection
+  },
+  get subCollectionIdsByCollectionId () {
+    let subCollectionIdsByCollectionId = {}
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let subCollections = collection.subCollections
 
+      for (let subCollectionId in subCollections) {
+        ArrayHelper.addToObjectArray(
+          subCollectionIdsByCollectionId,
+          collectionId,
+          subCollectionId
+        )
+      }
+    }
+    return subCollectionIdsByCollectionId
   },
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)

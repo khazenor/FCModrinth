@@ -5,5 +5,12 @@ const ArrayHelper = {
       list.push(StrHelper.cleanStr(val))
     }
     return list
-  } 
+  },
+  addToObjectArray (objArray, key, value) {
+    if (objArray[key]) {
+      objArray[key].push(value)
+    } else {
+      objArray[key] = [value]
+    }
+  }
 }
