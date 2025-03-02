@@ -2,8 +2,7 @@ const CollectCustomItems = {
   get simpleItemIds () {
     let ids = []
     ids = ids.concat(
-      this._hardCodedIds,
-      this._certificates
+      this._hardCodedIds
     )
     return ids
   },
