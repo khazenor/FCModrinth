@@ -37,10 +37,6 @@ const _testCodes = {
     let testMenu = new MenuType('testing')
     let subCollectionIdsByCollectionId = CollectCaches.subCollectionIdsByCollectionId
     let subCollectionIds = subCollectionIdsByCollectionId['blocks']
-    let subCollectionId = subCollectionIds[0]
-    let collectedIds = CollectLogger.playerCollectionByCategory(event, subCollectionId)
-    let subCollectionItemIds = CollectCaches.categoryLists[subCollectionId]
-    let itemIds = ArrayHelper.arrayDiff(subCollectionItemIds, collectedIds)
 
     let curPage = 0
     let curRow = 1
@@ -48,30 +44,42 @@ const _testCodes = {
     let colLength = 9
     let colStart = 1
     let rowStart = 1
-    testMenu.addSlot({
-      page: curPage,
-      x:0, y: curRow,
-      label: CollectTransHelper.categoryName(subCollectionId),
-      item: "minecraft:slime_ball"
-    })
-    let curCol = colStart
-    for (let itemId of itemIds) {
+    
+    for (let subCollectionId of subCollectionIds) {
+      let collectedIds = CollectLogger.playerCollectionByCategory(event, subCollectionId)
+      let subCollectionItemIds = CollectCaches.categoryLists[subCollectionId]
+      let itemIds = ArrayHelper.arrayDiff(subCollectionItemIds, collectedIds)
       testMenu.addSlot({
         page: curPage,
-        x: curCol, y:curRow,
-        label: TransHelper.itemName(itemId),
-        item: itemId
+        x:0, y: curRow,
+        label: CollectTransHelper.categoryName(subCollectionId),
+        item: "minecraft:slime_ball"
       })
-      if (curCol < colLength - 1) {
-        curCol += 1
-      } else {
-        curCol = colStart
-        if (curRow < rowLength - 1) {
-          curRow += 1
+      let curCol = colStart
+      for (let itemId of itemIds) {
+        testMenu.addSlot({
+          page: curPage,
+          x: curCol, y:curRow,
+          label: TransHelper.itemName(itemId),
+          item: itemId
+        })
+        if (curCol < colLength - 1) {
+          curCol += 1
         } else {
-          curPage += 1
-          curRow = rowStart
+          curCol = colStart
+          if (curRow < rowLength - 1) {
+            curRow += 1
+          } else {
+            curPage += 1
+            curRow = rowStart
+          }
         }
+      }
+      if (curRow < rowLength - 1) {
+        curRow += 1
+      } else {
+        curPage += 1
+        curRow = rowStart
       }
     }
 
