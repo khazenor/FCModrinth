@@ -5,8 +5,12 @@ const GiveItem = {
     if (emptySlotsAvailable >= numSlotsNeeded) {
       EventHelpers.givePlayerItemStack(event, itemId, count)
     } else {
-      // todo log items not received
-      EventHelpers.tellPlayer(event, 'item not received')
+      GiveItemLogger.putItemStack(event, itemId, count)
+      EventHelpers.tellPlayer(event, Text.translate('giveItem.message.itemStored', 
+        TransHelper.itemName(itemId),
+        StrHelper.cleanFloor(count)
+      ))
+      console.log(GiveItemLogger.getAllItemStacks(event))
     }
   }
 }

@@ -42,6 +42,9 @@ const PlayerDataHelper = {
       return {}
     }
   },
+  setPlayerData (event, key, val) {
+    EventHelpers.playerData(event)[key] = val
+  },
   clearKey (event, key) {
     if (EventHelpers.playerData(event)[key]) {
       delete EventHelpers.playerData(event)[key]

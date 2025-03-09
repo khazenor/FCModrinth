@@ -18,14 +18,7 @@ const itemRightClickedHandler = (event) => {
       CollectGuiMainMenu.openMainMenu(event)
       break
     case 'minecraft:stick':
-      //GiveItem.giveItemsSmart(event, MilesTicketConsts.ticketId, 64 + 32)
-      PlayerDataHelper.addToPlayerCountObj(event, 'testing', 'tickets', 5)
-      console.log(PlayerDataHelper.getPlayerCountObj(event, 'testing'))
-      break
-    case 'minecraft:diamond':
-      console.log('clearing')
-      PlayerDataHelper.clearKey(event, 'testing')
-      console.log(PlayerDataHelper.getPlayerCountObj(event, 'testing'))
+      GiveItem.giveItemsSmart(event, MilesTicketConsts.ticketId, 64 + 32)
       break
   }
 }

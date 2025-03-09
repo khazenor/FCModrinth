@@ -58,5 +58,6 @@
   "collect.mushroom.categoryNameCap": "MUSHROOM COMPLETION",
   "collect.gui.name.mainMenu": "Collectibles Menu",
   "milesTicket.message.tixObtained": "Obtained %s Miles Tickets!%s",
-  "milesTicket.message.bundledDesc": " (%s Booklets, %s Tickets)"
+  "milesTicket.message.bundledDesc": " (%s Booklets, %s Tickets)",
+  "giveItem.message.itemStored": "Not enough inventory! stashed away %s x %s. (Clear your inventory to receive)"
 }
