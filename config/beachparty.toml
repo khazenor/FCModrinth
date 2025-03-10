@@ -1,0 +1,7 @@
+#Generate Palm Trees
+spawnPalms = true
+#Generate Seashells
+spawnSeashells = true
+#Generate Sandwaves
+spawnSandwaves = true
+
