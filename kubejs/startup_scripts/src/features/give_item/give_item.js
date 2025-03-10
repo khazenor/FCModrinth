@@ -3,13 +3,12 @@ const GiveItem = {
     let numItemsPlayerCanReceive = GiveItemHelper.numItemsPlayerCanReceive(
       event, itemId, count
     )
-    let numLeftOver
+    
     if (numItemsPlayerCanReceive > 0) {
-      EventHelpers.givePlayerItemStack(event, itemId, numItemsPlayerCanReceive)
-      numLeftOver = count - numItemsPlayerCanReceive
-    } else {
-      numLeftOver = count
+      let numToGive = GiveItemHelper.numToGive(numItemsPlayerCanReceive, count)
+      EventHelpers.givePlayerItemStack(event, itemId, numToGive)
     }
+    let numLeftOver = GiveItemHelper.numLeftOver(numItemsPlayerCanReceive, count)
     if (numLeftOver > 0) {
       GiveItemLogger.putItemStack(event, itemId, numLeftOver)
       EventHelpers.tellPlayer(event, Text.translate('giveItem.message.itemStored', 
@@ -18,6 +17,39 @@ const GiveItem = {
       ))
       console.log(GiveItemLogger.getAllItemStacks(event))
     }
+  },
+  giveAvailableItems(event) {
+    let allItemStacks = GiveItemLogger.getAllItemStacks(event)
+    let itemIds = Object.keys(allItemStacks)
+    console.log('allItemStacks', allItemStacks)
+    if (itemIds.length > 0) {
+      let lockKey = `giveAvailableItems${EventHelpers.playerUuid(event)}`
+      if (!Lock.isLocked(lockKey)) {
+        Lock.setLock(lockKey)
+
+        let leftOverItems = {}
+        for (let itemId of itemIds) {
+          let count = allItemStacks[itemId]
+          let numItemsPlayerCanReceive = GiveItemHelper.numItemsPlayerCanReceive(
+            event, itemId, count
+          )
+          if (numItemsPlayerCanReceive > 0) {
+            let numToGive = GiveItemHelper.numToGive(numItemsPlayerCanReceive, count)
+            EventHelpers.tellPlayer(event, Text.translate('giveItem.message.itemReceivedFromStash', 
+              itemId,
+              StrHelper.cleanFloor(numToGive)
+            ))
+            EventHelpers.givePlayerItemStack(event, itemId, numToGive)
+          }
+          let numLeftOver = GiveItemHelper.numLeftOver(numItemsPlayerCanReceive, count)
+          if (numLeftOver > 0) {
+            leftOverItems[itemId] = numLeftOver
+          }
+        }
+        GiveItemLogger.setAllItemStacks(event, leftOverItems)
+
+        Lock.unLock(lockKey)
+      }
+    }
   }
-  // giveItemsIfThereIsSpace()
 }

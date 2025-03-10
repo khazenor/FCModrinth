@@ -15,5 +15,19 @@ const GiveItemHelper = {
       numItems += incompleteStackAmt
     }
     return numItems
+  },
+  numToGive(numItemsPlayerCanReceive, count) {
+    if (numItemsPlayerCanReceive > count) {
+      return count
+    } else {
+      return numItemsPlayerCanReceive
+    }
+  },
+  numLeftOver(numItemsPlayerCanReceive, count) {
+    if (numItemsPlayerCanReceive >= count) {
+      return 0
+    } else {
+      return count - numItemsPlayerCanReceive
+    }
   }
 }

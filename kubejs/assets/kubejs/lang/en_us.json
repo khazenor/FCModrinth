@@ -59,5 +59,6 @@
   "collect.gui.name.mainMenu": "Collectibles Menu",
   "milesTicket.message.tixObtained": "Obtained %s Miles Tickets!%s",
   "milesTicket.message.bundledDesc": " (%s Booklets, %s Tickets)",
-  "giveItem.message.itemStored": "Not enough inventory! stashed away %s x %s. (Clear your inventory to receive)"
+  "giveItem.message.itemStored": "Not enough inventory! stashed away %s x %s. (Clear your inventory to receive)",
+  "giveItem.message.itemReceivedFromStash": "%s x %s received from stash."
 }

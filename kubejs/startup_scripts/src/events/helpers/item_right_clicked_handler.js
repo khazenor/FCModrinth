@@ -18,7 +18,8 @@ const itemRightClickedHandler = (event) => {
       CollectGuiMainMenu.openMainMenu(event)
       break
     case 'minecraft:stick':
-      GiveItem.giveItemsSmart(event, MilesTicketConsts.ticketId, 64 + 32)
+      // GiveItem.giveItemsSmart(event, MilesTicketConsts.ticketId, 64 + 32)
+      GiveItem.giveAvailableItems(event)
       break
   }
 }

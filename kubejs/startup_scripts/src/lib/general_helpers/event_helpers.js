@@ -2,6 +2,9 @@ const EventHelpers = {
   player: (event) => {
     return event.player
   },
+  playerUuid: (event) => {
+    return event.player.uuid.toString()
+  },
   isPlayerShifting: (event) => {
     return event.player.shiftKeyDown
   },
