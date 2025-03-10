@@ -1,5 +1,5 @@
 const inventoryChangedHandler = (event) => {
   let collectibleId = InventoryChangedHelper.item(event).id
   CollectMethods.checkAndLogCollectible(event, collectibleId)
-  // GiveItem.giveAvailableItems(event)
+  GiveItem.giveAvailableItems(event)
 }

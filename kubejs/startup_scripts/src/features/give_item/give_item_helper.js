@@ -10,7 +10,9 @@ const GiveItemHelper = {
     if (emptySlotsAvailable > 0) {
       numItems += emptySlotsAvailable * stackSize
     }
-    let incompleteStackAmt = EventHelpers.numItemsInPlayer(event, itemId) % stackSize
+    let numItemsInPlayer = EventHelpers.numItemsInPlayer(event, itemId)
+    let numStacksInPlayer = EventHelpers.numStacksOfItemInPlayer(event, itemId)
+    let incompleteStackAmt = numStacksInPlayer * stackSize - numItemsInPlayer
     if (incompleteStackAmt > 0) {
       numItems += incompleteStackAmt
     }

@@ -15,13 +15,11 @@ const GiveItem = {
         TransHelper.itemName(itemId),
         StrHelper.cleanFloor(numLeftOver)
       ))
-      console.log(GiveItemLogger.getAllItemStacks(event))
     }
   },
   giveAvailableItems(event) {
     let allItemStacks = GiveItemLogger.getAllItemStacks(event)
     let itemIds = Object.keys(allItemStacks)
-    console.log('allItemStacks', allItemStacks)
     if (itemIds.length > 0) {
       let lockKey = `giveAvailableItems${EventHelpers.playerUuid(event)}`
       if (!Lock.isLocked(lockKey)) {
@@ -36,7 +34,7 @@ const GiveItem = {
           if (numItemsPlayerCanReceive > 0) {
             let numToGive = GiveItemHelper.numToGive(numItemsPlayerCanReceive, count)
             EventHelpers.tellPlayer(event, Text.translate('giveItem.message.itemReceivedFromStash', 
-              itemId,
+              TransHelper.itemName(itemId),
               StrHelper.cleanFloor(numToGive)
             ))
             EventHelpers.givePlayerItemStack(event, itemId, numToGive)

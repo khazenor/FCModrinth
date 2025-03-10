@@ -20,6 +20,15 @@ const EventHelpers = {
     }
     return count
   },
+  numStacksOfItemInPlayer: (event, itemId) => {
+    let count = 0
+    for (let itemStack of event.player.inventory.allItems) {
+      if (itemStack.id === itemId) {
+        count ++
+      }
+    }
+    return count
+  },
   numSlotsLeftOverInPlayer: (event) => {
     let usedSlots = event.player.inventory.allItems.length
     let totalSlots = event.player.inventory.slots
