@@ -30,19 +30,7 @@ const MilesTicketEventMethods = {
     let bundleRate = MilesTicketConsts.numTicketsToBundle
     let numBooklets = Math.floor(numTickets / bundleRate)
     let numTixLeftover = numTickets - numBooklets * bundleRate
-
-    EventHelpers.givePlayerItemStack(
-      event,
-      MilesTicketConsts.bookletId,
-      numBooklets
-    )
-
-    EventHelpers.givePlayerItemStack(
-      event,
-      MilesTicketConsts.ticketId,
-      numTixLeftover
-    )
-
+    
     let bundledDesc = numBooklets
       ? Text.translate(
         'milesTicket.message.bundledDesc',
@@ -58,6 +46,18 @@ const MilesTicketEventMethods = {
         StrHelper.cleanFloor(numTickets),
         bundledDesc
       )
+    )
+
+    GiveItem.giveItemsSmart(
+      event,
+      MilesTicketConsts.bookletId,
+      numBooklets
+    )
+
+    GiveItem.giveItemsSmart(
+      event,
+      MilesTicketConsts.ticketId,
+      numTixLeftover
     )
   }
 }
