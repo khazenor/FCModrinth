@@ -15,7 +15,7 @@ const CollectListHelper = {
       let subCollections = collection.subCollections
       
       for (let subCollectionId in subCollections) {
-        let subCollection = subCollections[subCollectionId]
+        let subCollection = subCollections[subCollectionId].list
         collectibleIds = collectibleIds.concat(subCollection)
       }
 
@@ -31,7 +31,7 @@ const CollectListHelper = {
       let subCollections = collection.subCollections
       
       for (let subCollectionId in subCollections) {
-        let subCollection = subCollections[subCollectionId]
+        let subCollection = subCollections[subCollectionId].list
         collectibleIds = collectibleIds.concat(subCollection)
         byCategory[subCollectionId] = subCollection
       }
@@ -128,7 +128,7 @@ const CollectListHelper = {
       let subCollections = collection.subCollections
       
       for (let subCollectionId in subCollections) {
-        let subCollection = subCollections[subCollectionId]
+        let subCollection = subCollections[subCollectionId].list
         if (subCollection.includes(collectableId)) {
           return subCollectionId
         }
