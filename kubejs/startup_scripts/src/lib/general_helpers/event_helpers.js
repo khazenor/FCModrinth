@@ -5,6 +5,9 @@ const EventHelpers = {
   playerUuid: (event) => {
     return event.player.uuid.toString()
   },
+  playerName: (event) => {
+    return StrHelper.cleanStr(event.player.name)
+  },
   isPlayerShifting: (event) => {
     return event.player.shiftKeyDown
   },

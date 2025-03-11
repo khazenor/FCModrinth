@@ -7,5 +7,8 @@ const TransHelper = {
   },
   entityName (entityId) {
     return Text.translate('entity.' + entityId.replace(':', '.'))
+  },
+  itemNameTransKey (itemId) {
+    return `item.${itemId.replace(':', '.')}`
   }
 }

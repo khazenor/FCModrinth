@@ -16,6 +16,10 @@ const StrHelper = {
     return workingStr
   },
   cleanStr (str) {
-    return this.replaceAll(`${str}`, '"', '')
+    let cleanedStr = `${str}`
+    cleanedStr = cleanedStr.replace('literal{', '')
+    cleanedStr = cleanedStr.replace('}', '')
+    cleanedStr = this.replaceAll(cleanedStr, '"', '')
+    return cleanedStr
   }
 }

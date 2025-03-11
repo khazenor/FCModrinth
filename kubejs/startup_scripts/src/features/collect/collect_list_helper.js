@@ -109,6 +109,43 @@ const CollectListHelper = {
     }
     return subCollectionIdsByCollectionId
   },
+  writeAllTranslations () {
+    for (let collectionId in CollectLists) {
+      let collection = CollectLists[collectionId]
+      let collectionStr = `${collection.name} Completion`
+      EnUsHelper.addTrans(
+        CollectTransHelper.categoryNameKey(collectionId),
+        collectionStr
+      )
+      EnUsHelper.addTrans(
+        CollectTransHelper.categoryNameCapsKey(collectionId),
+        collectionStr.toUpperCase()
+      )
+      EnUsHelper.addTrans(
+        CollectTransHelper.collectedMessageKey(collectionId),
+        collection.message
+      )
+      EnUsHelper.addTrans(
+        TransHelper.itemNameTransKey(CollectTransHelper.certificateId(collectionId)),
+        collection.certificateName
+      )
+      let subCollections = collection.subCollections
+
+      for (let subCollectionId in subCollections) {
+        let subCollection = subCollections[subCollectionId]
+        let subCollectionStr = `${subCollection.name} Collection`
+        EnUsHelper.addTrans(
+          CollectTransHelper.categoryNameKey(subCollectionId),
+          subCollectionStr
+        )
+        EnUsHelper.addTrans(
+          CollectTransHelper.categoryNameCapsKey(subCollectionId),
+          subCollectionStr.toUpperCase()
+        )
+      }
+    }
+
+  },
   isACollectible (objectId) {
     return this.allCollectibleIds.includes(objectId)
   },

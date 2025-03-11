@@ -8,6 +8,15 @@ const CollectTransHelper = {
   collectedMessage (collectionId) {
     return this._transForCategory(collectionId, 'collectedMessage')
   },
+  categoryNameKey (categoryId) {
+    return this._transKeyForCategory(categoryId, 'categoryName')
+  },
+  categoryNameCapsKey (categoryId) {
+    return this._transKeyForCategory(categoryId, 'categoryNameCap')
+  },
+  collectedMessageKey (collectionId) {
+    return this._transKeyForCategory(collectionId, 'collectedMessage')
+  },
   messageKey (messageName) {
     return this._collectTransKey(
       `message.${messageName}`
@@ -18,9 +27,12 @@ const CollectTransHelper = {
   },
   _transForCategory (categoryId, subTransKey) {
     return Text.translate(
-      this._collectTransKey(
-        `${categoryId}.${subTransKey}`
-      )
+      this._transKeyForCategory(categoryId, subTransKey)
+    )
+  },
+  _transKeyForCategory (categoryId, subTransKey) {
+    return this._collectTransKey(
+      `${categoryId}.${subTransKey}`
     )
   },
   _collectTransKey(child) {
