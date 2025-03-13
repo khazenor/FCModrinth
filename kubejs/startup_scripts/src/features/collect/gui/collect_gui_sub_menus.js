@@ -1,6 +1,15 @@
 const CollectGuiSubMenus = {
   openSubMenuForCategory (event, categoryId) {
-    let subMenu = new MenuWrapper(CollectTransHelper.categoryName(categoryId), { colStart: 1 })
+    let menuTitle = Text.translate(
+      'collect.gui.menu.milestoneTitle',
+      StrHelper.cleanFloor(CollectPlayerProgress.numUntilNextMilestone(
+        event, categoryId
+      )),
+      StrHelper.cleanFloor(CollectPlayerProgress.nextMilestoneReward(
+        event, categoryId
+      ))
+    )
+    let subMenu = new MenuWrapper(menuTitle, { colStart: 1 })
     let subCollectionIdsByCollectionId = CollectCaches.subCollectionIdsByCollectionId
     let subCollectionIds = subCollectionIdsByCollectionId[categoryId]
     

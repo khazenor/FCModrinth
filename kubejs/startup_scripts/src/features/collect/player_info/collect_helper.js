@@ -32,11 +32,9 @@ const CollectHelper = {
     ))
   },
   nextMilestoneRewardMessage(event, collectionId) {
-    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
-    let nextRewardText = ''
-    let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(collectionId, collectedNum)
-    let nextReward = CollectMilestoneMethods.rewardForCategoryMilestone(nextMilestone, collectionId)
-    nextRewardText = Text.translate(
+    let nextMilestone = CollectPlayerProgress.nextMilestone(event, collectionId)
+    let nextReward = CollectPlayerProgress.nextMilestoneReward(event, collectionId)
+    let nextRewardText = Text.translate(
       CollectTransHelper.messageKey('milestone'),
       StrHelper.cleanFloor(nextMilestone),
       StrHelper.cleanFloor(CollectPlayerProgress.numUntilNextMilestone(event, collectionId)),
@@ -45,8 +43,7 @@ const CollectHelper = {
     return nextRewardText
   },
   isNextMilestoneCollectionCompletion (event, collectionId) {
-    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
-    let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(collectionId, collectedNum)
+    let nextMilestone = CollectPlayerProgress.nextMilestone(event, collectionId)
     let collectionLength = CollectCaches.categoryLists[collectionId].length
     return nextMilestone === collectionLength
 

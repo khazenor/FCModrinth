@@ -6,12 +6,23 @@ const CollectPlayerProgress = {
     return percent
   },
   numUntilNextMilestone (event, collectionId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
     let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(
       collectionId,
       collectedNum
     )
-    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
     let numUntilNextMilestone = nextMilestone - collectedNum
     return numUntilNextMilestone
+  },
+  nextMilestoneReward (event, collectionId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
+    let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(collectionId, collectedNum)
+    let nextReward = CollectMilestoneMethods.rewardForCategoryMilestone(nextMilestone, collectionId)
+    return nextReward
+  },
+  nextMilestone (event, collectionId) {
+    let collectedNum = CollectLogger.playerCollectionByCategory(event, collectionId).length
+    let nextMilestone = CollectMilestoneMethods.nextMilestoneForCollection(collectionId, collectedNum)
+    return nextMilestone
   }
 }
