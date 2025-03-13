@@ -282,6 +282,28 @@ const CollectLists = {
           'farmersdelight:baked_cod_stew'
         ]
       },
+      seafoods: {
+        name: 'Seafood Dishes',
+        list: [
+          'crabbersdelight:crab_cakes',
+          'crabbersdelight:crab_legs',
+          'crabbersdelight:fish_stick',
+          'crabbersdelight:surf_and_turf',
+          'crabbersdelight:shrimp_skewer',
+          'crabbersdelight:clam_bake',
+          'crabbersdelight:stuffed_nautilus_shell',
+          'crabbersdelight:squid_kebob',
+          'crabbersdelight:frog_leg_kebob',
+          'crabbersdelight:jar_of_pickles',
+          'crabbersdelight:kelp_shake',
+          'crabbersdelight:sea_pickle_juice',
+          'crabbersdelight:bisque',
+          'crabbersdelight:seafood_gumbo',
+          'crabbersdelight:clam_chowder',
+          'crabbersdelight:shrimp_fried_rice',
+          'crabbersdelight:coral_crunch'
+        ]
+      },
       asian: {
         name: 'Asian Foods',
         list: [
