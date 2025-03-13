@@ -17,9 +17,16 @@ const CollectGuiSubMenus = {
       let collectedIds = CollectLogger.playerCollectionByCategory(event, subCollectionId)
       let subCollectionItemIds = CollectCaches.categoryLists[subCollectionId]
       let itemIds = ArrayHelper.arrayDiff(subCollectionItemIds, collectedIds)
+      let subCollectTitle = Text.translate(
+        'collect.gui.menu.subCatFormat',
+        StrHelper.cleanFloor(
+          CollectRewards.subCollectionCompletionReward(subCollectionId)
+        ),
+        CollectTransHelper.categoryName(subCollectionId)
+      )
       if (itemIds.length > 0) {
         subMenu.addSlot({
-          label: CollectTransHelper.categoryName(subCollectionId),
+          label: subCollectTitle,
           item: "minecraft:nether_star"
         }, { "col": 0 })
         for (let itemId of itemIds) {
