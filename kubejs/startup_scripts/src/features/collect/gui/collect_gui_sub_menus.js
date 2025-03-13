@@ -9,7 +9,9 @@ const CollectGuiSubMenus = {
         event, categoryId
       ))
     )
-    let subMenu = new MenuWrapper(menuTitle, { colStart: 1 })
+    let mainMenuLabel = Text.translate('menu.backToMainMenu')
+    let mainMenuCallback = () => CollectGuiMainMenu.openMainMenu(event)
+    let subMenu = new MenuWrapper(menuTitle, { colStart: 1 }, mainMenuLabel, mainMenuCallback)
     let subCollectionIdsByCollectionId = CollectCaches.subCollectionIdsByCollectionId
     let subCollectionIds = subCollectionIdsByCollectionId[categoryId]
     

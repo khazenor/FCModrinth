@@ -1,5 +1,5 @@
-function MenuWrapper (label, overrideObj) {
-  this.menu = new MenuType(label)
+function MenuWrapper (label, overrideObj, mainMenuLabel, mainMenuCallback) {
+  this.menu = new MenuType(label, mainMenuLabel, mainMenuCallback)
   this.colLen = this.override(overrideObj, 'colLen', 9)
   this.rowLen = this.override(overrideObj, 'rowLen', 5)
 

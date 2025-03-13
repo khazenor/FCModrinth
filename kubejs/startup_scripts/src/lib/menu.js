@@ -5,10 +5,12 @@
 // Menu Implementation //
 /////////////////////////
 
-let MenuState = function(type, player) {
+let MenuState = function(type, player, pageIndicatorLabel, pageIndicatorClickCallback) {
   this.player = player;
   this.type = type;
   this.page = 0;
+  this.pageIndicatorLabel = pageIndicatorLabel
+  this.pageIndicatorClickCallback = pageIndicatorClickCallback
   player.openChestGUI(type.title, 6, (gui) => this.gui = gui);
   this.showPage();
 };
@@ -29,7 +31,16 @@ MenuState.prototype.showPage = function() {
   enabled = this.page < this.type.pages.length - 1;
   this.gui.button(8, 5, enabled ? enabledItem : disabledItem, "Next Page", () => this.nextPage());
   let pageNum = this.page + 1;
-  this.gui.button(4, 5, Item.of("minecraft:paper", pageNum), "Page #" + pageNum, () => {});
+  
+  if (this.pageIndicatorClickCallback) {
+    this.gui.button(4, 5, 
+      Item.of("minecraft:paper", pageNum),
+      this.pageIndicatorLabel,
+      () => {this.pageIndicatorClickCallback()}
+    )
+  } else {
+    this.gui.button(4, 5, Item.of("minecraft:paper", pageNum), "Page #" + pageNum, () => {});
+  }
 };
 
 MenuState.prototype.clearPage = function() {
@@ -54,9 +65,11 @@ MenuState.prototype.nextPage = function() {
   this.showPage();
 };
 
-let MenuType = function(title) {
+let MenuType = function(title, pageIndicatorLabel, pageIndicatorClickCallback) {
   this.title = title;
   this.pages = [];
+  this.pageIndicatorLabel = pageIndicatorLabel
+  this.pageIndicatorClickCallback = pageIndicatorClickCallback
 };
 
 MenuType.prototype.getPage = function(i) {
@@ -70,5 +83,9 @@ MenuType.prototype.addSlot = function(slot) {
 };
 
 MenuType.prototype.show = function(player) {
-  new MenuState(this, player);
+  if (this.pageIndicatorClickCallback) {
+    new MenuState(this, player, this.pageIndicatorLabel, this.pageIndicatorClickCallback);
+  } else {
+    new MenuState(this, player);
+  }
 };
