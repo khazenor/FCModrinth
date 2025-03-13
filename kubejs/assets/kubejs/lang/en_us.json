@@ -7,6 +7,7 @@
 	"item.kubejs.debug_clear_player_collection": "(Debug) Clear Collection Progress",
 	"item.kubejs.debug_clear_player_collection.message": "Collection progress cleared!",
 	"menu.backToMainMenu": "Back to main menu",
+	"menu.categoryNameWithMilestoneReward": "%s: %s until %s tix reward",
 	"collect.message.genericCollected": "%s: %s/%s (%s%%) %s",
 	"collect.message.subCatReward": "(%s Tickets Completion Prize)",
 	"collect.message.milestone": "Next Milestone: %s (%s to go, %s Tickets Prize)",

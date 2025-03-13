@@ -11,8 +11,18 @@ const CollectGuiMainMenu = {
 }
 
 const CollectGuiMainMenu_AddMenu = (event, menu, collectionId) => {
+  let categoryLabel = Text.translate(
+    'menu.categoryNameWithMilestoneReward',
+    CollectTransHelper.categoryName(collectionId),
+    StrHelper.cleanFloor(
+      CollectPlayerProgress.numUntilNextMilestone(event, collectionId)
+    ),
+    StrHelper.cleanFloor(
+      CollectPlayerProgress.nextMilestoneReward(event, collectionId)
+    )
+  )
   menu.addSlot({
-    label:CollectTransHelper.categoryName(collectionId),
+    label: categoryLabel,
     item: CollectLists[collectionId].icon,
     onLeftClicked: (_clickedEvent) => {
       CollectGuiSubMenus.openSubMenuForCategory(event, collectionId)
