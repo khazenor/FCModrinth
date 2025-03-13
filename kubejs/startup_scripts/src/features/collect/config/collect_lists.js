@@ -1,102 +1,4 @@
 const CollectLists = {
-  cooking: {
-    name: 'Cooking',
-    message: 'New dish cooked!',
-    certificateName: 'Chef Certificate',
-    startingRewardPerObject: 1,
-    rewardIncreasePerObject: 0.04,
-    icon: 'farmersdelight:cooking_pot',
-    subCollections: {
-      sweets: {
-        name: 'Sweets (Farmings Delight)',
-        list: [
-          'farmersdelight:apple_pie',
-          'farmersdelight:sweet_berry_cheesecake',
-          'farmersdelight:chocolate_pie',
-          'farmersdelight:sweet_berry_cookie',
-          'farmersdelight:honey_cookie',
-          'farmersdelight:melon_popsicle',
-          'farmersdelight:glow_berry_custard'
-        ]
-      },
-      salads: {
-        name: 'Salads (Farmers Delight)',
-        list: [
-          'farmersdelight:fruit_salad',
-          'farmersdelight:mixed_salad',
-          'farmersdelight:nether_salad'
-        ]
-      },
-      sandwiches: {
-        name: 'Sandwiches (Farmers Delight)',
-        list: [
-          'farmersdelight:egg_sandwich',
-          'farmersdelight:chicken_sandwich',
-          'farmersdelight:hamburger',
-          'farmersdelight:bacon_sandwich'
-        ]
-      },
-      soups: {
-        name: 'Soups (Farmers Delight)',
-        list: [
-          'farmersdelight:beef_stew',
-          'farmersdelight:bone_broth',
-          'farmersdelight:chicken_soup',
-          'farmersdelight:vegetable_soup',
-          'farmersdelight:fish_stew',
-          'farmersdelight:pumpkin_soup',
-          'farmersdelight:baked_cod_stew'
-        ]
-      },
-      asian: {
-        name: 'Asian Foods (Farmers Delight)',
-        list: [
-          'farmersdelight:dumplings',
-          'farmersdelight:fried_rice',
-          'farmersdelight:cabbage_rolls'
-        ]
-      },
-      dinners: {
-        name: 'Dinners (Farmers Delight)',
-        list: [
-          'farmersdelight:steak_and_potatoes',
-          'farmersdelight:mutton_wrap',
-          'farmersdelight:bacon_and_eggs',
-          'farmersdelight:stuffed_potato',
-          'farmersdelight:mushroom_rice',
-          'farmersdelight:ratatouille'
-        ]
-      },
-      noodles: {
-        name: 'Noodles (Farmers Delight)',
-        list: [
-          'farmersdelight:pasta_with_meatballs',
-          'farmersdelight:pasta_with_mutton_chop',
-          'farmersdelight:vegetable_noodles',
-          'farmersdelight:squid_ink_pasta',
-          'farmersdelight:noodle_soup'
-        ]
-      },
-      bbq: {
-        name: 'BBQ (Farmers Delight)',
-        list: [
-          'farmersdelight:barbecue_stick',
-          'farmersdelight:grilled_salmon',
-          'farmersdelight:roasted_mutton_chops'
-        ]
-      },
-      largeMeals: {
-        name: 'Large Meals (Farmers Delight)',
-        list: [
-          'farmersdelight:roast_chicken_block',
-          'farmersdelight:stuffed_pumpkin_block',
-          'farmersdelight:honey_glazed_ham_block',
-          'farmersdelight:shepherds_pie_block',
-          'farmersdelight:rice_roll_medley_block'
-        ]
-      }
-    }
-  },
   entities: {
     name: 'Animal Patting',
     message: 'New animal patted!',
@@ -274,6 +176,199 @@ const CollectLists = {
       }
     }
   },
+  fishing: {
+    name: 'Aquarium',
+    message: 'New sea life caught!',
+    startingRewardPerObject: 1,
+    rewardIncreasePerObject: 0.04,
+    icon: 'minecraft:cod',
+    subCollections: {
+      vanilla: {
+        name: 'Vanilla fishes',
+        list: [
+          "minecraft:cod",
+          "minecraft:salmon",
+          "minecraft:tropical_fish",
+          "minecraft:pufferfish"
+        ]
+      },
+      trap: {
+        name: 'Trap sea life',
+        list: [
+          'crabbersdelight:clam',
+          'crabbersdelight:coral_fragments',
+          'crabbersdelight:shrimp',
+          'crabbersdelight:clawster',
+          'crabbersdelight:crab',
+          'minecraft:nautilus_shell'
+        ]
+      }
+    }
+  },
+  cooking: {
+    name: 'Cooking',
+    message: 'New dish cooked!',
+    certificateName: 'Chef Certificate',
+    startingRewardPerObject: 1,
+    rewardIncreasePerObject: 0.04,
+    icon: 'farmersdelight:cooking_pot',
+    subCollections: {
+      sweets: {
+        name: 'Sweets',
+        list: [
+          'farmersdelight:apple_pie',
+          'farmersdelight:sweet_berry_cheesecake',
+          'farmersdelight:chocolate_pie',
+          'farmersdelight:sweet_berry_cookie',
+          'farmersdelight:honey_cookie',
+          'farmersdelight:melon_popsicle',
+          'farmersdelight:glow_berry_custard'
+        ]
+      },
+      filipSweets: {
+        name: 'Filipino Sweets',
+        list: [
+          'ubesdelight:ube_cake',
+          'ubesdelight:leche_flan_feast',
+          'ubesdelight:halo_halo_feast',
+          'ubesdelight:milk_tea_ube_feast',
+          'ubesdelight:milk_tea_ube',
+          'ubesdelight:halo_halo',
+          'ubesdelight:cookie_ube',
+          'ubesdelight:cookie_ginger'
+        ]
+      },
+      salads: {
+        name: 'Salads',
+        list: [
+          'farmersdelight:fruit_salad',
+          'farmersdelight:mixed_salad',
+          'farmersdelight:nether_salad'
+        ]
+      },
+      burgers: {
+        name: 'Burgers',
+        list: [
+          'farmersdelight:hamburger',
+          'delightfulburgers:bacon_burger',
+          'delightfulburgers:chicken_burger',
+          'delightfulburgers:double_patty_burger',
+          'delightfulburgers:basic_burger'
+        ]
+      },
+      sandwiches: {
+        name: 'Sandwiches',
+        list: [
+          'farmersdelight:egg_sandwich',
+          'farmersdelight:chicken_sandwich',
+          'farmersdelight:bacon_sandwich',
+          'delightfulsandwich:ham_sandwich',
+          'delightfulsandwich:bacon_and_egg_sandwich',
+          'delightfulsandwich:cooked_salmon_sandwich',
+          'delightfulsandwich:tomato_and_lettuce_sandwich',
+          'delightfulsandwich:cooked_cod_sandwich',
+          'delightfulsandwich:mutton_sandwich'
+        ]
+      },
+      soups: {
+        name: 'Soups',
+        list: [
+          'farmersdelight:beef_stew',
+          'farmersdelight:bone_broth',
+          'farmersdelight:chicken_soup',
+          'farmersdelight:vegetable_soup',
+          'farmersdelight:fish_stew',
+          'farmersdelight:pumpkin_soup',
+          'farmersdelight:baked_cod_stew'
+        ]
+      },
+      asian: {
+        name: 'Asian Foods',
+        list: [
+          'farmersdelight:dumplings',
+          'farmersdelight:fried_rice',
+          'farmersdelight:cabbage_rolls'
+        ]
+      },
+      sushi: {
+        name: 'Sushi and nigiris',
+        list: [
+          'farmersdelight:kelp_roll',
+          'farmersdelight:cod_roll',
+          'farmersdelight:salmon_roll',
+          'vegandelight:tofish_roll',
+          'vegandelight:smoked_tofish_roll',
+          'farmersdelight:rice_roll_medley_block'
+        ]
+      },
+      filipDishes: {
+        name: 'Filipino Dishes',
+        list: [
+          'ubesdelight:sinangag',
+          'ubesdelight:kinilaw',
+          'ubesdelight:lumpia',
+          'ubesdelight:tosilog',
+          'ubesdelight:bangsilog',
+          'ubesdelight:sisig',
+          'ubesdelight:bulalo',
+          'ubesdelight:arroz_caldo',
+          'ubesdelight:mechado'
+        ]
+      },
+      filipLeaf: {
+        name: 'Filipino Leaf Feasts',
+        list: [
+          'ubesdelight:lumpia_feast',
+          'ubesdelight:leaf_feast_ensaymada',
+          'ubesdelight:leaf_feast_pandesal',
+          'ubesdelight:leaf_feast_pandesal_ube',
+          'ubesdelight:leaf_feast_hopia_munggo',
+          'ubesdelight:leaf_feast_hopia_ube',
+          'ubesdelight:leaf_feast_cooked_rice',
+          'ubesdelight:leaf_feast_fried_rice',
+          'ubesdelight:leaf_feast_sinangag'
+        ]
+      },
+      dinners: {
+        name: 'Dinners',
+        list: [
+          'farmersdelight:steak_and_potatoes',
+          'farmersdelight:mutton_wrap',
+          'farmersdelight:bacon_and_eggs',
+          'farmersdelight:stuffed_potato',
+          'farmersdelight:mushroom_rice',
+          'farmersdelight:ratatouille'
+        ]
+      },
+      noodles: {
+        name: 'Noodles',
+        list: [
+          'farmersdelight:pasta_with_meatballs',
+          'farmersdelight:pasta_with_mutton_chop',
+          'farmersdelight:vegetable_noodles',
+          'farmersdelight:squid_ink_pasta',
+          'farmersdelight:noodle_soup'
+        ]
+      },
+      bbq: {
+        name: 'BBQ',
+        list: [
+          'farmersdelight:barbecue_stick',
+          'farmersdelight:grilled_salmon',
+          'farmersdelight:roasted_mutton_chops'
+        ]
+      },
+      largeMeals: {
+        name: 'Large Meals',
+        list: [
+          'farmersdelight:roast_chicken_block',
+          'farmersdelight:stuffed_pumpkin_block',
+          'farmersdelight:honey_glazed_ham_block',
+          'farmersdelight:shepherds_pie_block'
+        ]
+      }
+    }
+  },
   flora: {
     name: 'Flora',
     message: 'New flora obtained!',
@@ -304,7 +399,13 @@ const CollectLists = {
           "farmersdelight:cabbage_seeds",
           "farmersdelight:onion",
           "farmersdelight:rice",
-          "farmersdelight:tomato_seeds"
+          "farmersdelight:tomato_seeds",
+          'delightful:salmonberries',
+          'vegandelight:soybean',
+          'ubesdelight:lemongrass_seeds',
+          'ubesdelight:ginger',
+          'ubesdelight:garlic',
+          'ubesdelight:ube'
         ],
       },
       vanillaFlowers: {
