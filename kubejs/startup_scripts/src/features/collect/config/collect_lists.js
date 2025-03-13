@@ -1,4 +1,102 @@
 const CollectLists = {
+  cooking: {
+    name: 'Cooking',
+    message: 'New dish cooked!',
+    certificateName: 'Chef Certificate',
+    startingRewardPerObject: 1,
+    rewardIncreasePerObject: 0.04,
+    icon: 'farmersdelight:cooking_pot',
+    subCollections: {
+      sweets: {
+        name: 'Sweets (Farmings Delight)',
+        list: [
+          'farmersdelight:apple_pie',
+          'farmersdelight:sweet_berry_cheesecake',
+          'farmersdelight:chocolate_pie',
+          'farmersdelight:sweet_berry_cookie',
+          'farmersdelight:honey_cookie',
+          'farmersdelight:melon_popsicle',
+          'farmersdelight:glow_berry_custard'
+        ]
+      },
+      salads: {
+        name: 'Salads (Farmers Delight)',
+        list: [
+          'farmersdelight:fruit_salad',
+          'farmersdelight:mixed_salad',
+          'farmersdelight:nether_salad'
+        ]
+      },
+      sandwiches: {
+        name: 'Sandwiches (Farmers Delight)',
+        list: [
+          'farmersdelight:egg_sandwich',
+          'farmersdelight:chicken_sandwich',
+          'farmersdelight:hamburger',
+          'farmersdelight:bacon_sandwich'
+        ]
+      },
+      soups: {
+        name: 'Soups (Farmers Delight)',
+        list: [
+          'farmersdelight:beef_stew',
+          'farmersdelight:bone_broth',
+          'farmersdelight:chicken_soup',
+          'farmersdelight:vegetable_soup',
+          'farmersdelight:fish_stew',
+          'farmersdelight:pumpkin_soup',
+          'farmersdelight:baked_cod_stew'
+        ]
+      },
+      asian: {
+        name: 'Asian Foods (Farmers Delight)',
+        list: [
+          'farmersdelight:dumplings',
+          'farmersdelight:fried_rice',
+          'farmersdelight:cabbage_rolls'
+        ]
+      },
+      dinners: {
+        name: 'Dinners (Farmers Delight)',
+        list: [
+          'farmersdelight:steak_and_potatoes',
+          'farmersdelight:mutton_wrap',
+          'farmersdelight:bacon_and_eggs',
+          'farmersdelight:stuffed_potato',
+          'farmersdelight:mushroom_rice',
+          'farmersdelight:ratatouille'
+        ]
+      },
+      noodles: {
+        name: 'Noodles (Farmers Delight)',
+        list: [
+          'farmersdelight:pasta_with_meatballs',
+          'farmersdelight:pasta_with_mutton_chop',
+          'farmersdelight:vegetable_noodles',
+          'farmersdelight:squid_ink_pasta',
+          'farmersdelight:noodle_soup'
+        ]
+      },
+      bbq: {
+        name: 'BBQ (Farmers Delight)',
+        list: [
+          'farmersdelight:barbecue_stick',
+          'farmersdelight:grilled_salmon',
+          'farmersdelight:roasted_mutton_chops'
+        ]
+      },
+      largeMeals: {
+        name: 'Large Meals (Farmers Delight)',
+        list: [
+          'farmersdelight:roast_chicken_block',
+          'farmersdelight:stuffed_pumpkin_block',
+          'farmersdelight:honey_glazed_ham_block',
+          'farmersdelight:shepherds_pie_block',
+          'farmersdelight:rice_roll_medley_block'
+        ]
+      }
+    }
+  },
   entities: {
     name: 'Animal Patting',
     message: 'New animal patted!',
@@ -431,6 +529,77 @@ const CollectLists = {
         name: 'Modded misc flora',
         list: [
           "regions_unexplored:barrel_cactus"
+        ]
+      }
+    }
+  },
+  mineral: {
+    name: 'Mineral Museum',
+    message: 'New mineral mined!',
+    certificateName: 'Mineral Museum Certificate',
+    startingRewardPerObject: 1,
+    rewardIncreasePerObject: 0.02,
+    icon: 'minecraft:raw_iron',
+    subCollections: {
+      vanillaBlocks: {
+        name: 'Vanilla Blocks',
+        list: [
+          "minecraft:cobblestone",
+          "minecraft:mossy_cobblestone",
+          "minecraft:cobbled_deepslate",
+          "minecraft:diorite",
+          "minecraft:granite",
+          "minecraft:andesite",
+          "minecraft:sandstone",
+          "minecraft:red_sandstone",
+          "minecraft:calcite",
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:smooth_basalt",
+          "minecraft:tuff",
+          "minecraft:obsidian"
+        ]
+      },
+      ore: {
+        name: 'Ore',
+        list: [
+          "minecraft:coal",
+          "minecraft:raw_copper",
+          "create:raw_zinc",
+          "minecraft:raw_iron",
+          "minecraft:amethyst_shard",
+          "minecraft:raw_gold",
+          "minecraft:redstone",
+          "minecraft:lapis_lazuli",
+          "minecraft:diamond"
+        ]
+      },
+      regions: {
+        name: 'Regions Unexplored',
+        list: [
+          "regions_unexplored:argillite",
+          "regions_unexplored:chalk",
+          "regions_unexplored:mossy_stone",
+          "regions_unexplored:raw_redstone_block",
+          "regions_unexplored:hanging_prismarite",
+          "regions_unexplored:large_prismarite_cluster",
+          "regions_unexplored:blackstone_cluster",
+          "regions_unexplored:prismarite_cluster",
+          "regions_unexplored:pointed_redstone",
+          "regions_unexplored:redstone_bud",
+          "regions_unexplored:redstone_bulb"
+        ]
+      },
+      create: {
+        name: 'Create',
+        list: [
+          'create:crimsite',
+          'create:asurine',
+          'create:limestone',
+          'create:ochrum',
+          'create:scoria',
+          'create:scorchia',
+          'create:veridium'
         ]
       }
     }
