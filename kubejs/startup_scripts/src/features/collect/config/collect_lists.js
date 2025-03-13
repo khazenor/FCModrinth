@@ -291,7 +291,7 @@ const CollectLists = {
         ]
       },
       sushi: {
-        name: 'Sushi and nigiris',
+        name: 'Sushi and Nigiris',
         list: [
           'farmersdelight:kelp_roll',
           'farmersdelight:cod_roll',

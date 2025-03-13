@@ -112,7 +112,7 @@ const CollectListHelper = {
   writeAllTranslations () {
     for (let collectionId in CollectLists) {
       let collection = CollectLists[collectionId]
-      let collectionStr = `${collection.name} Completion`
+      let collectionStr = collection.name
       EnUsHelper.addTrans(
         CollectTransHelper.categoryNameKey(collectionId),
         collectionStr
@@ -133,7 +133,7 @@ const CollectListHelper = {
 
       for (let subCollectionId in subCollections) {
         let subCollection = subCollections[subCollectionId]
-        let subCollectionStr = `${subCollection.name} Collection`
+        let subCollectionStr = subCollection.name
         EnUsHelper.addTrans(
           CollectTransHelper.categoryNameKey(subCollectionId),
           subCollectionStr
