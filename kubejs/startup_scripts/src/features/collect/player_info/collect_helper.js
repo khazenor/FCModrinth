@@ -11,7 +11,7 @@ const CollectHelper = {
   tellPlayerCollectionProgress(event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
     let collectionSize = CollectCaches.categoryLists[categoryId].length
-    let percent = collectedNum * 100 / collectionSize
+    let percent = CollectPlayerProgress.categoryCompletionPercent(event, categoryId)
     let subCategoryRewardText = ''
     if (CollectListHelper.isSubCollectionId(categoryId)) {
       subCategoryRewardText = Text.translate(
@@ -39,7 +39,7 @@ const CollectHelper = {
     nextRewardText = Text.translate(
       CollectTransHelper.messageKey('milestone'),
       StrHelper.cleanFloor(nextMilestone),
-      StrHelper.cleanFloor(nextMilestone - collectedNum),
+      StrHelper.cleanFloor(CollectPlayerProgress.numUntilNextMilestone(event, collectionId)),
       StrHelper.cleanFloor(nextReward)
     )
     return nextRewardText
