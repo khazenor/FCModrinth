@@ -143,7 +143,6 @@ const CollectLists = {
           "minecraft:bat",
           "minecraft:glow_squid",
           "alexsmobs:flutter",
-          "alexsmobs:cockroach",
           "minecraft:axolotl"
         ]
       },
