@@ -147,7 +147,7 @@ const CollectListHelper = {
 
   },
   isACollectible (objectId) {
-    return this.allCollectibleIds.includes(objectId)
+    return CollectCaches.allCollectibleIds.includes(objectId)
   },
   collectionIdOfCollectible (collectableId) {
     let byCollection = this.byCollection

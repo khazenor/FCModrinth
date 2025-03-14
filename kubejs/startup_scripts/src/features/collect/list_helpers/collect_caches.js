@@ -1,4 +1,10 @@
 const CollectCaches = {
+  get allCollectibleIds () {
+    return this._getAndReturnCache(
+      'allCollectibleIds',
+      () => CollectListHelper.allCollectibleIds
+    )
+  },
   get categoryLists () {
     return this._getAndReturnCache(
       'categoryLists',

@@ -7,6 +7,8 @@ const CollectMethods = {
       CollectLogger.logCollectibleByCategory(event, collectibleId, subCollectionId)
       CollectLogger.logCollectible(event, collectibleId)
 
+      CollectEventCollected.handleFirstCollectible(event)
+
       EventHelpers.tellPlayer(event, '')
       
       let collectionCompleted = CollectHelper.categoryCompleted(event, collectionId)

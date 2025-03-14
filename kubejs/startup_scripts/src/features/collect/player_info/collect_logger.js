@@ -1,9 +1,17 @@
 const CollectLogger = {
   playerCollection (event) {
-    return PlayerDataHelper.getPlayerList(
+    let collectedObjs = PlayerDataHelper.getPlayerList(
       event,
       CollectConst.playerCollectedDataKey
     )
+    let allCollectibleIds = CollectCaches.allCollectibleIds
+    let collectedObjInList = []
+    for (let collectedObj of collectedObjs) {
+      if (allCollectibleIds.includes(collectedObj)) {
+        collectedObjInList.push(collectedObj)
+      }
+    }
+    return collectedObjInList
   },
   logCollectible (event, collectibleId) {
     PlayerDataHelper.addToPlayerList(

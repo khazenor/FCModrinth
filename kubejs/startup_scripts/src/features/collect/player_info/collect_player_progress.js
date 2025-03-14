@@ -1,4 +1,7 @@
 const CollectPlayerProgress = {
+  hasJustCollectedFirstCollectible(event) {
+    return CollectLogger.playerCollection(event).length === 1
+  },
   categoryCompletionPercent (event, categoryId) {
     let collectedNum = CollectLogger.playerCollectionByCategory(event, categoryId).length
     let collectionSize = CollectCaches.categoryLists[categoryId].length
