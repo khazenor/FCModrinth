@@ -12,7 +12,7 @@ const CollectGuiMainMenu = {
 
 const CollectGuiMainMenu_AddMenu = (event, menu, collectionId) => {
   let categoryLabel = Text.translate(
-    'menu.categoryNameWithMilestoneReward',
+    'collect.gui.menu.categoryNameWithMilestoneReward',
     CollectTransHelper.categoryName(collectionId),
     StrHelper.cleanFloor(
       CollectPlayerProgress.numUntilNextMilestone(event, collectionId)

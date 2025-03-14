@@ -9,7 +9,7 @@ const CollectGuiSubMenus = {
         event, categoryId
       ))
     )
-    let mainMenuLabel = Text.translate('menu.backToMainMenu')
+    let mainMenuLabel = Text.translate('collect.gui.menu.backToMainMenu')
     let mainMenuCallback = () => CollectGuiMainMenu.openMainMenu(event)
     let subMenu = new MenuWrapper(menuTitle, {
       colStart: 1,

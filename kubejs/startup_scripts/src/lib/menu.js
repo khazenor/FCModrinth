@@ -28,9 +28,17 @@ MenuState.prototype.showPage = function() {
   let enabledItemRight = CollectGuiConst.id.rightArrowId;
   let enabledItemLeft = CollectGuiConst.id.leftArrowId;
   let enabled = this.page > 0;
-  this.gui.button(0, 5, enabled ? enabledItemLeft : disabledItem, "Previous Page", () => this.prevPage());
+  this.gui.button(0, 5,
+    enabled ? enabledItemLeft : disabledItem,
+    Text.translate('menu.prevPage'),
+    () => this.prevPage()
+  );
   enabled = this.page < this.type.pages.length - 1;
-  this.gui.button(8, 5, enabled ? enabledItemRight : disabledItem, "Next Page", () => this.nextPage());
+  this.gui.button(8, 5,
+    enabled ? enabledItemRight : disabledItem,
+    Text.translate('menu.nextPage'),
+    () => this.nextPage()
+  );
   let pageNum = this.page + 1;
   
   if (this.pageIndicatorClickCallback) {
@@ -40,7 +48,10 @@ MenuState.prototype.showPage = function() {
       () => {this.pageIndicatorClickCallback()}
     )
   } else {
-    this.gui.button(4, 5, Item.of("minecraft:paper", pageNum), "Page #" + pageNum, () => {});
+    this.gui.button(4, 5,
+      Item.of("minecraft:paper", pageNum),
+      Text.translate('menu.pageNum', StrHelper.cleanFloor(pageNum)),
+      () => {});
   }
 };
 
