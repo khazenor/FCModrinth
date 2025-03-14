@@ -180,7 +180,7 @@ const CollectLists = {
     name: 'Aquarium',
     message: 'New sea life caught!',
     startingRewardPerObject: 1,
-    rewardIncreasePerObject: 0.04,
+    rewardIncreasePerObject: 0.08,
     icon: 'minecraft:cod',
     subCollections: {
       vanilla: {
@@ -190,6 +190,21 @@ const CollectLists = {
           "minecraft:salmon",
           "minecraft:tropical_fish",
           "minecraft:pufferfish"
+        ]
+      },
+      fishOfThieves: {
+        name: 'Fish of Thieves',
+        list: [
+          'fishofthieves:ancientscale',
+          'fishofthieves:battlegill',
+          'fishofthieves:devilfish',
+          'fishofthieves:islehopper',
+          'fishofthieves:plentifin',
+          'fishofthieves:pondie',
+          'fishofthieves:splashtail',
+          'fishofthieves:stormfish',
+          'fishofthieves:wildsplash',
+          'fishofthieves:wrecker',
         ]
       },
       trap: {
