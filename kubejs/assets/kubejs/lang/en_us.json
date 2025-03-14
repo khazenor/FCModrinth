@@ -133,7 +133,7 @@
 	"collect.fishing.categoryName": "Aquarium",
 	"collect.fishing.categoryNameCap": "AQUARIUM",
 	"collect.fishing.collectedMessage": "New sea life caught!",
-	"item.kubejs.fishing_certificate": "undefined",
+	"item.kubejs.fishing_certificate": "Aquarium Completion Certificate",
 	"collect.vanilla.categoryName": "Vanilla fishes",
 	"collect.vanilla.categoryNameCap": "VANILLA FISHES",
 	"collect.trap.categoryName": "Trap sea life",

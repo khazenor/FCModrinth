@@ -179,6 +179,7 @@ const CollectLists = {
   fishing: {
     name: 'Aquarium',
     message: 'New sea life caught!',
+    certificateName: 'Aquarium Completion Certificate',
     startingRewardPerObject: 1,
     rewardIncreasePerObject: 0.08,
     icon: 'minecraft:cod',
