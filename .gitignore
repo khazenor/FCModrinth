@@ -23,9 +23,11 @@ kubejs/client_scripts/jsconfig.json
 kubejs/config/probe-settings.json
 $devFiles/todo.md
 $devFiles/notes/*
+$devFiles/assetFiles/*
 crash-reports/*
 servers.dat_old
 servers.dat
 config/inventoryprofilesnext/FlatTest/villager-trading-config.json
 screenshots/*
 config/inventoryprofilesnext/New World/villager-trading-config.json
+config/jei/world/*
