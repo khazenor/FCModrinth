@@ -25,11 +25,12 @@ MenuState.prototype.showPage = function() {
     }
   }
   let disabledItem = "minecraft:barrier";
-  let enabledItem = "minecraft:slime_ball";
+  let enabledItemRight = CollectGuiConst.id.rightArrowId;
+  let enabledItemLeft = CollectGuiConst.id.leftArrowId;
   let enabled = this.page > 0;
-  this.gui.button(0, 5, enabled ? enabledItem : disabledItem, "Previous Page", () => this.prevPage());
+  this.gui.button(0, 5, enabled ? enabledItemLeft : disabledItem, "Previous Page", () => this.prevPage());
   enabled = this.page < this.type.pages.length - 1;
-  this.gui.button(8, 5, enabled ? enabledItem : disabledItem, "Next Page", () => this.nextPage());
+  this.gui.button(8, 5, enabled ? enabledItemRight : disabledItem, "Next Page", () => this.nextPage());
   let pageNum = this.page + 1;
   
   if (this.pageIndicatorClickCallback) {
