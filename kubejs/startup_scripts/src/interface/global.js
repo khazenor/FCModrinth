@@ -1,5 +1,5 @@
 global.MilesTicketEventMethods = MilesTicketEventMethods
-global.addRecipes = addRecipes
+global.recipeHandler = recipeHandler
 global.tooltipHandler = tooltipHandler
 global.inventoryChangedHandler = inventoryChangedHandler
 global.itemRightClickedHandler = itemRightClickedHandler
