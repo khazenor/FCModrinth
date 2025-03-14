@@ -19,6 +19,7 @@ incontrol-1.20-9.2.11.jar
 InventoryProfilesNext-forge-1.20-1.10.14.jar
 Jade-1.20.1-Forge-11.12.3.jar
 jei-1.20.1-forge-15.20.0.106.jar
+JustEnoughResources-1.20.1-1.4.0.247.jar
 kotlinforforge-4.11.0-all.jar
 kubejs-forge-2001.6.5-build.16.jar
 libIPN-forge-1.20-4.0.2.jar

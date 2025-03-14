@@ -31,3 +31,5 @@ config/inventoryprofilesnext/FlatTest/villager-trading-config.json
 screenshots/*
 config/inventoryprofilesnext/New World/villager-trading-config.json
 config/jei/world/*
+config/inventoryprofilesnext/villager-trading-config.json
+$devFiles/export/*
