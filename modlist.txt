@@ -1,5 +1,6 @@
 alexsmobs-1.22.9.jar
 architectury-9.2.14-forge.jar
+balm-forge-1.20.1-7.3.18-all.jar
 citadel-2.6.1-1.20.1.jar
 cloth-config-11.1.136-forge.jar
 collective-1.20.1-7.94.jar
@@ -11,6 +12,7 @@ delightfulburgers-1.20.1.jar
 delightfulsandwich-1.20.1.jar
 farmers-cutting-regions-unexplored-1.20.1-1.1a-forge.jar
 FarmersDelight-1.20.1-1.2.7.jar
+farmingforblockheads-forge-1.20.1-14.0.2.jar
 fishontheline-1.20.1-3.5.jar
 fish_of_thieves-mc1.20.1-v3.0.10-forge.jar
 geckolib-neoforge-1.20.1-4.4.9.jar
