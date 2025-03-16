@@ -1,10 +1,6 @@
 const FfbMarketSimpleTrades = {
   exportSimpleMarket () {
-    this._writeTranslations()
-    IoHelper.writeObj(
-      'kubejs/data/farmingforblockheads/farmingforblockheads_compat/simple_trades.json',
-      this._simpleMarketObject
-    )
+    FfbMarketFileHelper.writeMarketFile('simple_trades', this._simpleMarketObject)
   },
   get _simpleMarketObject () {
     let categories = {}
@@ -29,16 +25,5 @@ const FfbMarketSimpleTrades = {
       categories,
       trades
     )
-  },
-  _writeTranslations() {
-    for (let categoryId in FfbMarketConfigSimpleTrades) {
-      EnUsHelper.addTrans(
-        this._marketCategoryTransKey(categoryId),
-        FfbMarketConfigSimpleTrades[categoryId].name
-      )
-    }
-  },
-  _marketCategoryTransKey(categoryId) {
-    return `ffbMarket.category.${categoryId}`
   }
 }
