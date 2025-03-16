@@ -1,3 +1,26 @@
+const FfbMarketConfigSimpleTradesHelper = {
+  get collectSpawnEggs () {
+    return CollectEntity.allCollectibleSpawnEggs.filter(
+      v => !['minecraft:bee_spawn_egg'].includes(v)
+    )
+  },
+  crops: CollectLists.flora.subCollections.crops.list,
+  get generalCollectibles () {
+    let specialCollectibles = [].concat(
+      CollectCaches.categoryLists[CollectEntity.entityCollectionId],
+      this.crops,
+      CollectLists.mineral.subCollections.ore.list
+    )
+    let generalCollectibles = CollectCaches.allCollectibleIds.filter(
+      v => !specialCollectibles.includes(v)
+    )
+    return [].concat(
+      generalCollectibles,
+      this.collectSpawnEggs
+    )
+  }
+}
+
 const FfbMarketConfigSimpleTrades = {
   fc_shop: {
     name: "Farming Crossing Shop",
@@ -192,17 +215,8 @@ const FfbMarketConfigSimpleTrades = {
     simpleTrades: [
       {
         paymentNum: 64,
-        products: FfbMarketConfigSimpleTradesHelper.collectSpawnEggs
+        products: FfbMarketConfigSimpleTradesHelper.generalCollectibles
       }
     ]
   }
-}
-
-const FfbMarketConfigSimpleTradesHelper = {
-  get collectSpawnEggs () {
-    return CollectEntity.allCollectibleSpawnEggs.filter(
-      v => !['minecraft:bee_spawn_egg'].includes(v)
-    )
-  },
-  crops: CollectLists.flora.subCollections.crops.list
 }

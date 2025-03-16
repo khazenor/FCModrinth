@@ -1025,6 +1025,3383 @@
 		},
 		{
 			"output": {
+				"item": "minecraft:cod",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:salmon",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:tropical_fish",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:pufferfish",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:ancientscale",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:battlegill",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:devilfish",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:islehopper",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:plentifin",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:pondie",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:splashtail",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:stormfish",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:wildsplash",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "fishofthieves:wrecker",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:clam",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:coral_fragments",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:shrimp",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:clawster",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:crab",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:nautilus_shell",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:apple_pie",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:sweet_berry_cheesecake",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:chocolate_pie",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:sweet_berry_cookie",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:honey_cookie",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:melon_popsicle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:glow_berry_custard",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:ube_cake",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leche_flan_feast",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:halo_halo_feast",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:milk_tea_ube_feast",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:milk_tea_ube",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:halo_halo",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:cookie_ube",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:cookie_ginger",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:fruit_salad",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:mixed_salad",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:nether_salad",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:hamburger",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulburgers:bacon_burger",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulburgers:chicken_burger",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulburgers:double_patty_burger",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulburgers:basic_burger",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:egg_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:chicken_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:bacon_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulsandwich:ham_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulsandwich:bacon_and_egg_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulsandwich:cooked_salmon_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulsandwich:tomato_and_lettuce_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulsandwich:cooked_cod_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "delightfulsandwich:mutton_sandwich",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:beef_stew",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:bone_broth",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:chicken_soup",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:vegetable_soup",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:fish_stew",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:pumpkin_soup",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:baked_cod_stew",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:crab_cakes",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:crab_legs",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:fish_stick",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:surf_and_turf",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:shrimp_skewer",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:clam_bake",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:stuffed_nautilus_shell",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:squid_kebob",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:frog_leg_kebob",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:jar_of_pickles",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:kelp_shake",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:sea_pickle_juice",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:bisque",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:seafood_gumbo",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:clam_chowder",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:shrimp_fried_rice",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "crabbersdelight:coral_crunch",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:dumplings",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:fried_rice",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:cabbage_rolls",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:kelp_roll",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:cod_roll",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:salmon_roll",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "vegandelight:tofish_roll",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "vegandelight:smoked_tofish_roll",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:rice_roll_medley_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:sinangag",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:kinilaw",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:lumpia",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:tosilog",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:bangsilog",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:sisig",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:bulalo",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:arroz_caldo",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:mechado",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:lumpia_feast",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_ensaymada",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_pandesal",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_pandesal_ube",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_hopia_munggo",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_hopia_ube",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_cooked_rice",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_fried_rice",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:leaf_feast_sinangag",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:steak_and_potatoes",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:mutton_wrap",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:bacon_and_eggs",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:stuffed_potato",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:mushroom_rice",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:ratatouille",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:pasta_with_meatballs",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:pasta_with_mutton_chop",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:vegetable_noodles",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:squid_ink_pasta",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:noodle_soup",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:barbecue_stick",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:grilled_salmon",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:roasted_mutton_chops",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:roast_chicken_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:stuffed_pumpkin_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:honey_glazed_ham_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:shepherds_pie_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:allium",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:azure_bluet",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:blue_orchid",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:cornflower",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:dandelion",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:lilac",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:lily_of_the_valley",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:orange_tulip",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:oxeye_daisy",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:peony",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:pink_tulip",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:poppy",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:red_tulip",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:rose_bush",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:sunflower",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:white_tulip",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:wither_rose",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:torchflower_seeds",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:acacia_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:azalea",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:birch_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:cherry_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:dark_oak_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:jungle_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:oak_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:spruce_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:mangrove_propagule",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:flowering_azalea",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:moss_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:moss_carpet",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:pink_petals",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:spore_blossom",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:big_dripleaf",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:sea_pickle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:lily_pad",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:maple_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:orange_maple_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:red_maple_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:magnolia_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blue_magnolia_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pink_magnolia_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:white_magnolia_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:alpha_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:apple_oak_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:ashen_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:bamboo_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:baobab_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blackwood_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:cypress_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:dead_pine_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:dead_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:enchanted_birch_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:eucalyptus_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:flowering_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:golden_larch_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:joshua_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:kapok_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:larch_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:mauve_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:palm_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pine_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:redwood_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:silver_birch_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:small_oak_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:socotra_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:willow_sapling",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:maple_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:orange_maple_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:red_maple_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:magnolia_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blue_magnolia_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pink_magnolia_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:white_magnolia_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:acacia_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:birch_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:cherry_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:dark_oak_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:jungle_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:oak_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:spruce_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:ashen_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:baobab_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blackwood_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:cypress_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:dead_pine_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:dead_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:dead_steppe_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:enchanted_birch_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:eucalyptus_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:flowering_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:golden_larch_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:joshua_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:kapok_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:larch_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:mangrove_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:mauve_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:palm_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pine_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:redwood_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:silver_birch_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:small_desert_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:socotra_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:steppe_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:willow_shrub",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blue_magnolia_flowers",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pink_magnolia_flowers",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:white_magnolia_flowers",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:black_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blue_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:brown_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:cyan_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:gray_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:green_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:light_blue_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:light_gray_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:lime_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:magenta_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:orange_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pink_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:purple_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:red_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:white_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:yellow_snowbelle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:alpha_dandelion",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:alpha_rose",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:aster",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:bleeding_heart",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blue_lupine",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:daisy",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:day_lily",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:felicia_daisy",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:fireweed",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:hibiscus",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:hyacinth_flowers",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:hyacinth_bloom",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:tall_hyacinth_stock",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:hyssop",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:mallow",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:orange_coneflower",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pink_lupine",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:poppy_bush",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:purple_coneflower",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:purple_lupine",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:red_lupine",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:salmon_poppy_bush",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:tassel",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:tsubaki",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:waratah",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:white_trillium",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:wilting_trillium",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:yellow_lupine",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:cactus_flower",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:meadow_sage",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:barrel_cactus",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:cobblestone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:mossy_cobblestone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:cobbled_deepslate",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:diorite",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:granite",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:andesite",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:sandstone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:red_sandstone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:calcite",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:dripstone_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:pointed_dripstone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:smooth_basalt",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:tuff",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "minecraft:obsidian",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:argillite",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:chalk",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:mossy_stone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:raw_redstone_block",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:hanging_prismarite",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:large_prismarite_cluster",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:blackstone_cluster",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:prismarite_cluster",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:pointed_redstone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:redstone_bud",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "regions_unexplored:redstone_bulb",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "create:crimsite",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "create:asurine",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "create:limestone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "create:ochrum",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "create:scoria",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "create:scorchia",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
+				"item": "create:veridium",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 64
+			},
+			"category": "collection"
+		},
+		{
+			"output": {
 				"item": "minecraft:squid_spawn_egg",
 				"count": 1
 			},
