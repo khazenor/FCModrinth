@@ -1,0 +1,39 @@
+{
+  "groupOverrides": {
+    "Vanilla Seeds": {
+      "enabled": false
+    },
+    "Vanilla Saplings": {
+      "enabled": false
+    },
+    "Quark Saplings": {
+      "enabled": false
+    },
+    "Farmers Delight Mushroom Colonies": {
+      "enabled": false
+    },
+    "Farmers Delight Seeds": {
+      "enabled": false
+    },
+    "Supplementaries Seeds": {
+      "enabled": false
+    },
+    "BiomesOPlenty Saplings": {
+      "enabled": false
+    },
+    "Pam's HarvestCraft 2 Crops Seeds": {
+      "enabled": false
+    },
+    "Pam's HarvestCraft 2 Trees Saplings": {
+      "enabled": false
+    }
+  },
+  "entryOverrides": {
+    "minecraft:bone_meal": {
+      "enabled": false
+    },
+    "create:tree_fertilizer": {
+      "enabled": false
+    }
+  }
+}
