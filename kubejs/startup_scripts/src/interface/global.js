@@ -6,3 +6,4 @@ global.itemRightClickedHandler = itemRightClickedHandler
 global.serverLoadedHandler = serverLoadedHandler
 global.entityInteractedHandler = entityInteractedHandler
 global.loggedInHandler = loggedInHandler
+global.jeiHideItemsHandler = jeiHideItemsHandler
