@@ -18,11 +18,6 @@ const itemRightClickedHandler = (event) => {
       CollectGuiMainMenu.openMainMenu(event)
       break
     case 'minecraft:stick':
-      // GiveItem.giveItemsSmart(event, MilesTicketConsts.ticketId, 64 + 32)
-      // GiveItem.giveAvailableItems(event)
-      let en_us = JsonIO.read('kubejs/assets/kubejs/lang/en_us.json')
-      console.log(en_us)
-      JsonIO.write('kubejs/assets/kubejs/lang/en_us.json', en_us)
       break
   }
 }
