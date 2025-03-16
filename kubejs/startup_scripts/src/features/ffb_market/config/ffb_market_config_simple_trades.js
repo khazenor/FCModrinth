@@ -88,7 +88,7 @@ const FfbMarketConfigSimpleTrades = {
       {
         paymentNum: 8,
         productNum: 4,
-        products: CollectLists.flora.subCollections.crops.list
+        products: FfbMarketConfigSimpleTradesHelper.crops
       },
       {
         productNum: 4,
@@ -192,10 +192,17 @@ const FfbMarketConfigSimpleTrades = {
     simpleTrades: [
       {
         paymentNum: 64,
-        products: CollectEntity.allCollectibleSpawnEggs.filter(
-          v => !['minecraft:bee_spawn_egg'].includes(v)
-        )
+        products: FfbMarketConfigSimpleTradesHelper.collectSpawnEggs
       }
     ]
   }
+}
+
+const FfbMarketConfigSimpleTradesHelper = {
+  get collectSpawnEggs () {
+    return CollectEntity.allCollectibleSpawnEggs.filter(
+      v => !['minecraft:bee_spawn_egg'].includes(v)
+    )
+  },
+  crops: CollectLists.flora.subCollections.crops.list
 }
