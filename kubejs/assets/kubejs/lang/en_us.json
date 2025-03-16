@@ -165,5 +165,6 @@
 	"ffbMarket.category.flora": "Garden Stand",
 	"ffbMarket.category.farm": "Animal Range",
 	"ffbMarket.category.mobs": "Mob Drops",
-	"ffbMarket.category.collection": "Collection Helper"
+	"ffbMarket.category.collection": "Collection Helper",
+	"ffbMarket.category.enchantments": "Enchantment Store"
 }

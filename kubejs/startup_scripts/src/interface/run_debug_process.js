@@ -3,4 +3,5 @@ const runDebugProcess = () => {
 
   FfbMarketTransHelper.exportFfbMarketTrans()
   FfbMarketSimpleTrades.exportSimpleMarket()
+  FfbMarketEnchantTrades.exportEnchantTrades()
 }

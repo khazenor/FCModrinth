@@ -7,8 +7,8 @@ const FfbMarketTrades = {
       }
     }
   },
-  simpleTradeEntry (simpleTradeObj, categoryId) {
-    return {
+  simpleTradeEntry (simpleTradeObj, categoryId, nbtObj) {
+    let entry = {
       output: {
         item: simpleTradeObj.product,
         count: simpleTradeObj.productNum
@@ -19,6 +19,33 @@ const FfbMarketTrades = {
       },
       category: categoryId
     }
+    if (nbtObj) {
+      entry.output.nbt = nbtObj
+    }
+    return entry
+  },
+  enchantmentTradeEntry (enchantId, level, paymentNum, categoryId) {
+    let simpleTradeObj = {
+      products: ['minecraft:enchanted_book'],
+      paymentNum: paymentNum
+    }
+    let tradeObj = TradeReader.tradesFromSimplifiedDefinition(simpleTradeObj)[0]
+    let nbtObj = {
+      StoredEnchantments: [
+        {
+          id: enchantId,
+          lvl: level
+        }
+      ],
+      RepairCost: 0,
+      display: {
+        Name: StrHelper.objToMinecraftStr([
+          { translate: EnchantHelper.transKeyFromEnchantId(enchantId) },
+          { text: ` ${StrHelper.cleanFloor(level)}` }
+        ])
+      }
+    }
+    return this.simpleTradeEntry(tradeObj, categoryId, nbtObj)
   },
   marketOverrideObj (categories, entries) {
     return {

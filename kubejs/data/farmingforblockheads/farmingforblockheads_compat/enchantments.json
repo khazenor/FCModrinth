@@ -1,0 +1,2956 @@
+{
+	"customCategories": {
+		"enchantments": {
+			"name": "ffbMarket.category.enchantments",
+			"icon": {
+				"item": "minecraft:enchanted_book"
+			}
+		}
+	},
+	"customEntries": [
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:protection",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.protection\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:protection",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.protection\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:protection",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.protection\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:protection",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.protection\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fire_protection",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fire_protection\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fire_protection",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fire_protection\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fire_protection",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fire_protection\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fire_protection",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fire_protection\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:feather_falling",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.feather_falling\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:feather_falling",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.feather_falling\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:feather_falling",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.feather_falling\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:feather_falling",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.feather_falling\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:blast_protection",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.blast_protection\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:blast_protection",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.blast_protection\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:blast_protection",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.blast_protection\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:blast_protection",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.blast_protection\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:projectile_protection",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.projectile_protection\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:projectile_protection",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.projectile_protection\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:projectile_protection",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.projectile_protection\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:projectile_protection",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.projectile_protection\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:respiration",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.respiration\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:respiration",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.respiration\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:respiration",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.respiration\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:aqua_affinity",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.aqua_affinity\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:thorns",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.thorns\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:thorns",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.thorns\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:thorns",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.thorns\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:depth_strider",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.depth_strider\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:depth_strider",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.depth_strider\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:depth_strider",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.depth_strider\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:frost_walker",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.frost_walker\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:frost_walker",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.frost_walker\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:binding_curse",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.binding_curse\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:soul_speed",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.soul_speed\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:soul_speed",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.soul_speed\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:soul_speed",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.soul_speed\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:swift_sneak",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.swift_sneak\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:swift_sneak",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.swift_sneak\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:swift_sneak",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.swift_sneak\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sharpness",
+							"lvl": 5
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sharpness\"},{\"text\":\" 5\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sharpness",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sharpness\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sharpness",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sharpness\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sharpness",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sharpness\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sharpness",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sharpness\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:smite",
+							"lvl": 5
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.smite\"},{\"text\":\" 5\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:smite",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.smite\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:smite",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.smite\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:smite",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.smite\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:smite",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.smite\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:bane_of_arthropods",
+							"lvl": 5
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.bane_of_arthropods\"},{\"text\":\" 5\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:bane_of_arthropods",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.bane_of_arthropods\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:bane_of_arthropods",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.bane_of_arthropods\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:bane_of_arthropods",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.bane_of_arthropods\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:bane_of_arthropods",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.bane_of_arthropods\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:knockback",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.knockback\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:knockback",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.knockback\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fire_aspect",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fire_aspect\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fire_aspect",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fire_aspect\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:looting",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.looting\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:looting",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.looting\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:looting",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.looting\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sweeping",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sweeping\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sweeping",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sweeping\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:sweeping",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.sweeping\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:efficiency",
+							"lvl": 5
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.efficiency\"},{\"text\":\" 5\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:efficiency",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.efficiency\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:efficiency",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.efficiency\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:efficiency",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.efficiency\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:efficiency",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.efficiency\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:silk_touch",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.silk_touch\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:unbreaking",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.unbreaking\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:unbreaking",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.unbreaking\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:unbreaking",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.unbreaking\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fortune",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fortune\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fortune",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fortune\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:fortune",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.fortune\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:power",
+							"lvl": 5
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.power\"},{\"text\":\" 5\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:power",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.power\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:power",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.power\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:power",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.power\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:power",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.power\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:punch",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.punch\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:punch",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.punch\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:flame",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.flame\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:infinity",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.infinity\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:luck_of_the_sea",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:luck_of_the_sea",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:luck_of_the_sea",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:lure",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.lure\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:lure",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.lure\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:lure",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.lure\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:loyalty",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.loyalty\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:loyalty",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.loyalty\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:loyalty",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.loyalty\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:impaling",
+							"lvl": 5
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.impaling\"},{\"text\":\" 5\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:impaling",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.impaling\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:impaling",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.impaling\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:impaling",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.impaling\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:impaling",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.impaling\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:riptide",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.riptide\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:riptide",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.riptide\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:riptide",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.riptide\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:channeling",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.channeling\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:multishot",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.multishot\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:quick_charge",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.quick_charge\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:quick_charge",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.quick_charge\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:quick_charge",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.quick_charge\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:piercing",
+							"lvl": 4
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.piercing\"},{\"text\":\" 4\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:piercing",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.piercing\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:piercing",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.piercing\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:piercing",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.piercing\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:mending",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.mending\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "minecraft:vanishing_curse",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.minecraft.vanishing_curse\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "alexsmobs:straddle_jump",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.alexsmobs.straddle_jump\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "alexsmobs:straddle_jump",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.alexsmobs.straddle_jump\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "alexsmobs:straddle_jump",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.alexsmobs.straddle_jump\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "alexsmobs:lavawax",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.alexsmobs.lavawax\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "alexsmobs:serpentfriend",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.alexsmobs.serpentfriend\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "alexsmobs:board_return",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.alexsmobs.board_return\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "farmersdelight:backstabbing",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.farmersdelight.backstabbing\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "farmersdelight:backstabbing",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.farmersdelight.backstabbing\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "farmersdelight:backstabbing",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.farmersdelight.backstabbing\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "create:potato_recovery",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.create.potato_recovery\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "create:potato_recovery",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.create.potato_recovery\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "create:potato_recovery",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.create.potato_recovery\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "create:capacity",
+							"lvl": 3
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.create.capacity\"},{\"text\":\" 3\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "create:capacity",
+							"lvl": 2
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.create.capacity\"},{\"text\":\" 2\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 16
+			},
+			"category": "enchantments"
+		},
+		{
+			"output": {
+				"item": "minecraft:enchanted_book",
+				"count": 1,
+				"nbt": {
+					"StoredEnchantments": [
+						{
+							"id": "create:capacity",
+							"lvl": 1
+						}
+					],
+					"RepairCost": 0,
+					"display": {
+						"Name": "[{\"translate\":\"enchantment.create.capacity\"},{\"text\":\" 1\"}]"
+					}
+				}
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "enchantments"
+		}
+	]
+}

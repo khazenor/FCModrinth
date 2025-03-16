@@ -9,6 +9,6 @@ const jeiHideItemsHandler = (event) => {
         enchants[enchant.id] = Math.max(enchants[enchant.id] || 0, enchant.lvl);
       }
     });
-    IoHelper.writeObj('kubejs/cache/all_enchants.json', enchants)
+    IoHelper.writeObj(EnchantHelper.enchantCacheDir, enchants)
   }
 }

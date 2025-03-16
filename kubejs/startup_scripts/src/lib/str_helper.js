@@ -9,11 +9,19 @@ const StrHelper = {
     }
   },
   replaceAll (parentStr, findStr, replaceStr) {
-    let workingStr = parentStr
-    while (workingStr.includes(findStr)) {
-      workingStr = workingStr.replace(findStr,replaceStr)
+    let replacedStr = ''
+    let findLen = findStr.length
+    for (let i = 0; i < parentStr.length; i++) {
+      if (i < parentStr.length - findLen) {
+        let workingStr = parentStr.substring(i, i + findLen)
+        if (workingStr === findStr) {
+          replacedStr = replacedStr + replaceStr
+          continue
+        }
+      }
+      replacedStr = replacedStr + parentStr.substring(i, i + 1)
     }
-    return workingStr
+    return replacedStr
   },
   cleanStr (str) {
     let cleanedStr = `${str}`
@@ -21,5 +29,8 @@ const StrHelper = {
     cleanedStr = cleanedStr.replace('}', '')
     cleanedStr = this.replaceAll(cleanedStr, '"', '')
     return cleanedStr
+  },
+  objToMinecraftStr(obj) {
+    return JSON.stringify(obj)
   }
 }
