@@ -1,4 +1,9 @@
 const CollectEntity = {
+  get allCollectibleSpawnEggs () {
+    return this.listToSpawnEggs(
+      CollectCaches.categoryLists[this.entityCollectionId]
+    )
+  },
   listToSpawnEggs (typeList) {
     return typeList.map(eType => this.spawnEggFromEntityType(eType))
   },
@@ -9,7 +14,8 @@ const CollectEntity = {
     return `${entityType}_spawn_egg`
   },
   isEntityCollection (collectionId) {
-    return `${collectionId}` === 'entities'
+    return `${collectionId}` === this.entityCollectionId
   },
+  entityCollectionId: 'entities',
   _alexsmobs: 'alexsmobs:'
 }

@@ -180,5 +180,17 @@ const FfbMarketConfigSimpleTrades = {
         ]
       }
     ]
+  },
+  collection: {
+    name: 'Collection Helper',
+    icon: "minecraft:writable_book",
+    simpleTrades: [
+      {
+        paymentNum: 64,
+        products: CollectEntity.allCollectibleSpawnEggs.filter(
+          v => !['minecraft:bee_spawn_egg'].includes(v)
+        )
+      }
+    ]
   }
 }
