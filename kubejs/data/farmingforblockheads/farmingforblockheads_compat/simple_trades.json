@@ -1,0 +1,746 @@
+{
+	"customCategories": {
+		"fc_shop": {
+			"name": "ffbMarket.category.fc_shop",
+			"icon": {
+				"item": "minecraft:mangrove_propagule"
+			}
+		},
+		"blocks": {
+			"name": "ffbMarket.category.blocks",
+			"icon": {
+				"item": "minecraft:blackstone"
+			}
+		},
+		"deco": {
+			"name": "ffbMarket.category.deco",
+			"icon": {
+				"item": "minecraft:magenta_dye"
+			}
+		},
+		"flora": {
+			"name": "ffbMarket.category.flora",
+			"icon": {
+				"item": "minecraft:poppy"
+			}
+		},
+		"farm": {
+			"name": "ffbMarket.category.farm",
+			"icon": {
+				"item": "minecraft:leather"
+			}
+		},
+		"mobs": {
+			"name": "ffbMarket.category.mobs",
+			"icon": {
+				"item": "minecraft:rotten_flesh"
+			}
+		}
+	},
+	"customEntries": [
+		{
+			"output": {
+				"item": "minecraft:quartz",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:glowstone_dust",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 6
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:bundle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:beehive",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:bee_spawn_egg",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:saddle",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:lead",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:emerald",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 1
+			},
+			"category": "fc_shop"
+		},
+		{
+			"output": {
+				"item": "minecraft:ice",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:blackstone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:end_stone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:sea_lantern",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:shroomlight",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:ochre_froglight",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:pearlescent_froglight",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:verdant_froglight",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "blocks"
+		},
+		{
+			"output": {
+				"item": "minecraft:black_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:blue_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:brown_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:cyan_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:gray_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:green_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:light_blue_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:light_gray_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:lime_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:magenta_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:orange_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:pink_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:purple_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:red_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:white_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:yellow_dye",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "deco"
+		},
+		{
+			"output": {
+				"item": "minecraft:crimson_fungus",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 1
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:warped_fungus",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 1
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:chorus_fruit",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:vine",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:weeping_vines",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:twisting_vines",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 32
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:beef",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:chicken",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:mutton",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:porkchop",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:rabbit",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:ham",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:rabbit_foot",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:feather",
+				"count": 8
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:leather",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:rabbit_hide",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:ink_sac",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "farm"
+		},
+		{
+			"output": {
+				"item": "minecraft:arrow",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 1
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:string",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:slime_ball",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 2
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:rotten_flesh",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:bone",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:bow",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 4
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:spider_eye",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:gunpowder",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:prismarine_shard",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:prismarine_crystals",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:glow_ink_sac",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:ender_pearl",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 24
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:blaze_rod",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 24
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:ghast_tear",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 24
+			},
+			"category": "mobs"
+		},
+		{
+			"output": {
+				"item": "minecraft:phantom_membrane",
+				"count": 1
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 24
+			},
+			"category": "mobs"
+		}
+	]
+}

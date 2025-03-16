@@ -4,34 +4,62 @@ const FfbMarketConfigSimpleTrades = {
     icon: "minecraft:mangrove_propagule",
     simpleTrades: [
       {
-        products: ['minecraft:diamond']
+        paymentNum: 4,
+        products: ["minecraft:quartz"]
       },
       {
+        paymentNum: 6,
+        products: ["minecraft:glowstone_dust"]
+      },
+      {
+        paymentNum: 8,
         products: [
-          'minecraft:spruce_fence',
-          'minecraft:spruce_fence_gate',
-          'minecraft:spruce_hanging_sign'
+          "minecraft:bundle",
+          "minecraft:beehive",
+          "minecraft:bee_spawn_egg"
         ]
       },
       {
-        products: ['minecraft:spruce_leaves'],
-        productNum: 3
+        paymentNum: 4,
+        products: [
+          "minecraft:saddle",
+          "minecraft:lead"
+        ]
       },
       {
+        productNum: 4,
         products: [
-          'minecraft:spruce_planks',
-          'minecraft:spruce_pressure_plate',
-          'minecraft:spruce_sapling'
-        ],
-        payment: 'minecraft:spruce_sign',
+          "minecraft:emerald"
+        ]
       }
     ]
   },
-  flora_shop: {
-    name: "Garden Stand",
-    icon: "minecraft:poppy",
+  blocks: {
+    name: 'Quarry Trades',
+    icon: "minecraft:blackstone",
     simpleTrades: [
       {
+        paymentNum: 32,
+        products: [
+          "minecraft:ice",
+          "minecraft:blackstone",
+          "minecraft:end_stone",
+          'minecraft:sea_lantern',
+          'minecraft:shroomlight',
+          'minecraft:ochre_froglight',
+          'minecraft:pearlescent_froglight',
+          'minecraft:verdant_froglight'
+        ]
+      }
+    ]
+  },
+  deco: {
+    name: 'Decor Depot',
+    icon: "minecraft:magenta_dye",
+    simpleTrades: [
+      {
+        paymentNum: 4,
+        productNum: 8,
         products: [
           "minecraft:black_dye",
           "minecraft:blue_dye",
@@ -49,33 +77,107 @@ const FfbMarketConfigSimpleTrades = {
           "minecraft:red_dye",
           "minecraft:white_dye",
           "minecraft:yellow_dye"
-        ],
-        productNum: 8,
-        paymentNum: 4
-      },
+        ]
+      }
+    ]
+  },
+  flora: {
+    name: 'Garden Stand',
+    icon: "minecraft:poppy",
+    simpleTrades: [
       {
+        productNum: 4,
         products: [
-          'minecraft:spruce_slab',
-          'minecraft:spruce_stairs'
-        ],
-        payment: 'minecraft:stone_button',
-        paymentNum: 10
+          "minecraft:crimson_fungus",
+          "minecraft:warped_fungus"
+        ]
       },
       {
-        products: ['minecraft:diamond'],
-        paymentNum: 15
+        paymentNum: 8,
+        products: [
+          "minecraft:chorus_fruit"
+        ]
+      },
+      { // not in collection
+        paymentNum: 32,
+        productNum: 4,
+        products: [
+          'minecraft:vine',
+          'minecraft:weeping_vines',
+          'minecraft:twisting_vines'
+        ]
+      }
+    ]
+  },
+  farm: {
+    name: 'Animal Range',
+    icon: "minecraft:leather",
+    simpleTrades: [
+      { // meats
+        paymentNum: 2,
+        productNum: 8,
+        products: [
+          "minecraft:beef",
+          "minecraft:chicken",
+          "minecraft:mutton",
+          "minecraft:porkchop",
+          "minecraft:rabbit",
+          "farmersdelight:ham",
+          "minecraft:rabbit_foot",
+          "minecraft:feather"
+        ]
       },
       {
-        products: ['minecraft:diamond'],
-        paymentNum: 50
+        paymentNum: 2,
+        products: [
+          "minecraft:leather",
+          "minecraft:rabbit_hide",
+          "minecraft:ink_sac"
+        ]
+      }
+    ]
+  },
+  mobs: {
+    name: "Mob Drops",
+    icon: "minecraft:rotten_flesh",
+    simpleTrades: [
+      {
+        productNum: 4,
+        products: ["minecraft:arrow"]
       },
       {
-        products: ['minecraft:stone_button'],
-        paymentNum: 125
+        paymentNum: 2,
+        products: [
+          "minecraft:string",
+          "minecraft:slime_ball"
+        ]
       },
       {
-        products: ['minecraft:spruce_stairs'],
-        paymentNum: 120
+        paymentNum: 4,
+        products: [
+          "minecraft:rotten_flesh",
+          "minecraft:bone",
+          "minecraft:bow"
+        ]
+      },
+      {
+        paymentNum: 8,
+        products: [
+          "minecraft:spider_eye",
+          "minecraft:gunpowder",
+          "minecraft:prismarine_shard",
+          "minecraft:prismarine_crystals",
+          "minecraft:glow_ink_sac"
+        ]
+      },
+      {
+        paymentNum: 24,
+        products: [
+          "minecraft:ender_pearl",
+          "minecraft:blaze_rod",
+          "minecraft:ghast_tear",
+          "minecraft:phantom_membrane"
+        ]
       }
     ]
   }

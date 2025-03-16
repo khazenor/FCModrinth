@@ -7,7 +7,7 @@ const FfbMarketSimpleTrades = {
     let trades = []
     for (let categoryId in FfbMarketConfigSimpleTrades) {
       categories[categoryId] = FfbMarketTrades.categoryEntry(
-        this._marketCategoryTransKey(categoryId),
+        FfbMarketTransHelper.marketCategoryTransKey(categoryId),
         FfbMarketConfigSimpleTrades[categoryId].icon
       )
 

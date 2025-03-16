@@ -158,5 +158,11 @@
 	"collect.seafoods.categoryName": "Seafood Dishes",
 	"collect.seafoods.categoryNameCap": "SEAFOOD DISHES",
 	"collect.fishOfThieves.categoryName": "Fish of Thieves",
-	"collect.fishOfThieves.categoryNameCap": "FISH OF THIEVES"
+	"collect.fishOfThieves.categoryNameCap": "FISH OF THIEVES",
+	"ffbMarket.category.fc_shop": "Farming Crossing Shop",
+	"ffbMarket.category.blocks": "Quarry Trades",
+	"ffbMarket.category.deco": "Decor Depot",
+	"ffbMarket.category.flora": "Garden Stand",
+	"ffbMarket.category.farm": "Animal Range",
+	"ffbMarket.category.mobs": "Mob Drops"
 }
