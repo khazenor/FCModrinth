@@ -433,7 +433,6 @@ const CollectLists = {
           "minecraft:wheat_seeds",
           "minecraft:apple",
           "minecraft:pumpkin",
-          "minecraft:apple",
           "farmersdelight:cabbage_seeds",
           "farmersdelight:onion",
           "farmersdelight:rice",

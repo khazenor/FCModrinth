@@ -86,6 +86,11 @@ const FfbMarketConfigSimpleTrades = {
     icon: "minecraft:poppy",
     simpleTrades: [
       {
+        paymentNum: 8,
+        productNum: 4,
+        products: CollectLists.flora.subCollections.crops.list
+      },
+      {
         productNum: 4,
         products: [
           "minecraft:crimson_fungus",

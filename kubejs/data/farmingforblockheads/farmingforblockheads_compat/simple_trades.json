@@ -398,6 +398,281 @@
 		},
 		{
 			"output": {
+				"item": "minecraft:bamboo",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:beetroot_seeds",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:brown_mushroom",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:cactus",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:carrot",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:cocoa_beans",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:glow_berries",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:kelp",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:potato",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:red_mushroom",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:sugar_cane",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:sweet_berries",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:wheat_seeds",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:apple",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:pumpkin",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:cabbage_seeds",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:onion",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:rice",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:tomato_seeds",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "delightful:salmonberries",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "vegandelight:soybean",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:lemongrass_seeds",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:ginger",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:garlic",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:ube",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
 				"item": "minecraft:crimson_fungus",
 				"count": 4
 			},
