@@ -2,7 +2,7 @@ const EnchantHelper = {
   get allEnchants () {
     return IoHelper.readObj(this.enchantCacheDir)
   },
-  enchantCacheDir: 'kubejs/cache/all_enchants.json',
+  enchantCacheDir: CacheHelperConst.cacheFileDir('all_enchants'),
   transKeyFromEnchantId (enchantId) {
     return `enchantment.${enchantId.replace(':', '.')}`
   }
