@@ -8,6 +8,7 @@ const FfbMarketConfigSimpleTradesHelper = {
   get generalCollectibles () {
     let specialCollectibles = [].concat(
       CollectCaches.categoryLists[CollectEntity.entityCollectionId],
+      CollectCaches.categoryLists['cooking'],
       this.crops,
       CollectLists.mineral.subCollections.ore.list
     )
