@@ -13,6 +13,15 @@ const ArrayHelper = {
       objArray[key] = [value]
     }
   },
+  mergeObjectArrays (parentObj, childObj) {
+    let workingObj = Object.assign(parentObj)
+    for (let childKey in childObj) {
+      for (let childValue of childObj[childKey]) {
+        this.addToObjectArray(workingObj, childKey, childValue)
+      }
+    }
+    return workingObj
+  },
   arrayDiff (parentArray, subtractArray) {
     let arrayDiff = []
     for (let parentVal of parentArray) {

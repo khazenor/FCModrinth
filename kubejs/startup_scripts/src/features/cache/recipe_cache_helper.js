@@ -13,5 +13,13 @@ const RecipeCacheHelper = {
     })
   },
   modpackDefinedIngsByOutput: {},
-  _allRecipeFileDir: CacheHelperConst.cacheFileDir('all_recipes')
+  _allRecipeFileDir: CacheHelperConst.cacheFileDir('all_recipes'),
+  pushNonRepeatIngs (ingArray, repeatCache, ing, ingType) {
+    if (!repeatCache.includes(ing)) {
+      repeatCache.push(ing)
+      let ingObj = {}
+      ingObj[ingType] = ing
+      ingArray.push(ingObj)
+    }
+  }
 }
