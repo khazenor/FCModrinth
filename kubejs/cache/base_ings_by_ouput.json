@@ -1,0 +1,1066 @@
+{
+	"minecraft:stick": [
+		[
+			[
+				"minecraft:bamboo"
+			]
+		]
+	],
+	"farmersdelight:sweet_berry_cheesecake": [
+		[
+			[
+				"minecraft:sweet_berries"
+			]
+		]
+	],
+	"minecraft:purple_dye": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		]
+	],
+	"minecraft:pumpkin_pie": [
+		[
+			[
+				"minecraft:pumpkin"
+			]
+		],
+		[
+			[
+				"minecraft:pumpkin"
+			]
+		]
+	],
+	"ubesdelight:mechado": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"ubesdelight:garlic"
+			],
+			[
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"minecraft:carrot",
+				"farmersdelight:onion",
+				"ubesdelight:ube",
+				"minecraft:potato"
+			]
+		]
+	],
+	"ubesdelight:lumpia": [
+		[
+			[
+				"ubesdelight:ube",
+				"minecraft:brown_mushroom",
+				"minecraft:potato",
+				"minecraft:carrot",
+				"minecraft:red_mushroom"
+			]
+		]
+	],
+	"ubesdelight:ube_cake": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		]
+	],
+	"farmersdelight:barbecue_stick": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"minecraft:rabbit_stew": [
+		[
+			[
+				"minecraft:carrot"
+			],
+			[
+				"minecraft:red_mushroom",
+				"minecraft:brown_mushroom"
+			]
+		]
+	],
+	"farmersdelight:basket": [
+		[
+			[
+				"minecraft:bamboo"
+			]
+		]
+	],
+	"farmersdelight:dumplings": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"crabbersdelight:frog_leg_kebob": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"minecraft:brown_mushroom"
+			],
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"delightful:cantaloupe_gummy": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"minecraft:sugar": [
+		[
+			[
+				"minecraft:sugar_cane"
+			]
+		]
+	],
+	"farmingforblockheads:red_fertilizer": [
+		[
+			[
+				"minecraft:wheat_seeds"
+			]
+		]
+	],
+	"farmersdelight:carrot_crate": [
+		[
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"delightful:matcha_gummy": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"alexsmobs:shark_tooth_arrow": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"vegandelight:soymilk_bucket": [
+		[
+			[
+				"vegandelight:soybean"
+			]
+		]
+	],
+	"minecraft:carrot_on_a_stick": [
+		[
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"ubesdelight:arroz_caldo": [
+		[
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"ubesdelight:garlic"
+			],
+			[
+				"ubesdelight:ginger"
+			]
+		]
+	],
+	"crabbersdelight:squid_kebob": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"crabbersdelight:crab_cakes": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"delightful:cactus_soup": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone_cc": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"farmersdelight:kelp_roll": [
+		[
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"crabbersdelight:kelp_shake": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"minecraft:fermented_spider_eye": [
+		[
+			[
+				"minecraft:brown_mushroom"
+			]
+		]
+	],
+	"minecraft:paper": [
+		[
+			[
+				"minecraft:sugar_cane"
+			]
+		]
+	],
+	"ubesdelight:lumpia_wrapper": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"farmingforblockheads:green_fertilizer": [
+		[
+			[
+				"minecraft:wheat_seeds"
+			]
+		]
+	],
+	"farmersdelight:baked_cod_stew": [
+		[
+			[
+				"minecraft:potato"
+			]
+		]
+	],
+	"delightful:salmonberry_pips": [
+		[
+			[
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"minecraft:golden_apple": [
+		[
+			[
+				"minecraft:apple"
+			]
+		]
+	],
+	"farmersdelight:steak_and_potatoes": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"minecraft:brown_dye": [
+		[
+			[
+				"minecraft:cocoa_beans"
+			]
+		]
+	],
+	"crabbersdelight:shrimp_fried_rice": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"delightful:salmonberry_sack": [
+		[
+			[
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"delightful:sinigang": [
+		[
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"minecraft:glow_berries",
+				"minecraft:sweet_berries",
+				"delightful:salmonberries",
+				"minecraft:apple"
+			],
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"ubesdelight:kinilaw": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"ubesdelight:garlic"
+			],
+			[
+				"ubesdelight:ginger"
+			]
+		],
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"ubesdelight:garlic"
+			],
+			[
+				"ubesdelight:ginger"
+			]
+		]
+	],
+	"farmersdelight:vegetable_noodles": [
+		[
+			[
+				"minecraft:carrot"
+			],
+			[
+				"minecraft:brown_mushroom"
+			],
+			[
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"minecraft:carrot",
+				"farmersdelight:onion",
+				"ubesdelight:ube",
+				"minecraft:potato"
+			]
+		]
+	],
+	"alexsmobs:sopa_de_macaco": [
+		[
+			[
+				"minecraft:brown_mushroom"
+			]
+		]
+	],
+	"delightful:berry_matcha_latte": [
+		[
+			[
+				"minecraft:glow_berries",
+				"minecraft:sweet_berries",
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"ubesdelight:sinangag": [
+		[
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"ubesdelight:garlic"
+			]
+		]
+	],
+	"farmersdelight:mushroom_rice": [
+		[
+			[
+				"minecraft:brown_mushroom"
+			],
+			[
+				"minecraft:red_mushroom"
+			],
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"ubesdelight:baking_mat_bamboo": [
+		[
+			[
+				"minecraft:bamboo"
+			]
+		]
+	],
+	"delightful:salmonberry_pie": [
+		[
+			[
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"farmersdelight:cabbage_rolls": [
+		[
+			[
+				"ubesdelight:ube",
+				"minecraft:brown_mushroom",
+				"minecraft:potato",
+				"minecraft:carrot",
+				"minecraft:red_mushroom"
+			]
+		]
+	],
+	"ubesdelight:tocino": [
+		[
+			[
+				"ubesdelight:ginger"
+			]
+		]
+	],
+	"farmersdelight:mutton_wrap": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:grilled_salmon": [
+		[
+			[
+				"minecraft:sweet_berries"
+			],
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"minecraft:honey_bottle": [
+		[
+			[
+				"minecraft:cactus"
+			]
+		]
+	],
+	"delightful:stuffed_cantaloupe_block": [
+		[
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"minecraft:glow_berries",
+				"minecraft:sweet_berries",
+				"delightful:salmonberries"
+			],
+			[
+				"minecraft:wheat_seeds",
+				"farmersdelight:cabbage_seeds",
+				"farmersdelight:tomato_seeds",
+				"minecraft:beetroot_seeds",
+				"farmersdelight:rice",
+				"ubesdelight:lemongrass_seeds"
+			]
+		]
+	],
+	"farmersdelight:honey_glazed_ham_block": [
+		[
+			[
+				"minecraft:sweet_berries"
+			]
+		],
+		[
+			[
+				"minecraft:sweet_berries"
+			]
+		]
+	],
+	"minecraft:golden_carrot": [
+		[
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"crabbersdelight:stuffed_nautilus_shell": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"farmersdelight:onion_crate": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:fruit_salad": [
+		[
+			[
+				"minecraft:apple"
+			],
+			[
+				"minecraft:glow_berries",
+				"minecraft:sweet_berries",
+				"delightful:salmonberries",
+				"minecraft:apple"
+			],
+			[
+				"minecraft:glow_berries",
+				"minecraft:sweet_berries",
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"vegandelight:soybean_bag": [
+		[
+			[
+				"vegandelight:soybean"
+			]
+		]
+	],
+	"delightful:salmonberry_gummy": [
+		[
+			[
+				"delightful:salmonberries"
+			],
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"farmersdelight:fish_stew": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:dog_food": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		],
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"delightful:salmonberry_ice_cream": [
+		[
+			[
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"minecraft:scaffolding": [
+		[
+			[
+				"minecraft:bamboo"
+			]
+		],
+		[
+			[
+				"minecraft:bamboo"
+			]
+		]
+	],
+	"delightful:cheeseburger": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"crabbersdelight:bisque": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"delightful:cactus_chili": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"ubesdelight:halo_halo": [
+		[
+			[
+				"ubesdelight:ube"
+			],
+			[
+				"minecraft:sweet_berries"
+			],
+			[
+				"minecraft:glow_berries"
+			]
+		]
+	],
+	"delightful:field_salad": [
+		[
+			[
+				"minecraft:carrot"
+			],
+			[
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"ubesdelight:sisig": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"ubesdelight:garlic"
+			]
+		]
+	],
+	"farmersdelight:hot_cocoa": [
+		[
+			[
+				"minecraft:cocoa_beans"
+			]
+		]
+	],
+	"minecraft:bamboo_block": [
+		[
+			[
+				"minecraft:bamboo"
+			]
+		]
+	],
+	"crabbersdelight:clam_chowder": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"minecraft:potato"
+			]
+		]
+	],
+	"farmersdelight:ratatouille": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"minecraft:carrot",
+				"farmersdelight:onion",
+				"ubesdelight:ube",
+				"minecraft:potato"
+			]
+		]
+	],
+	"regions_unexplored:deepslate_viridescent_nylium": [
+		[
+			[
+				"minecraft:red_mushroom",
+				"minecraft:brown_mushroom"
+			]
+		]
+	],
+	"delightful:glow_jam_jar": [
+		[
+			[
+				"minecraft:glow_berries"
+			]
+		]
+	],
+	"ubesdelight:ginger_crate": [
+		[
+			[
+				"ubesdelight:ginger"
+			]
+		]
+	],
+	"farmersdelight:fried_rice": [
+		[
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"minecraft:carrot"
+			],
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:stuffed_pumpkin_block": [
+		[
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"minecraft:carrot",
+				"farmersdelight:onion",
+				"ubesdelight:ube",
+				"minecraft:potato"
+			],
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"minecraft:brown_mushroom"
+			],
+			[
+				"minecraft:potato"
+			],
+			[
+				"minecraft:glow_berries",
+				"minecraft:sweet_berries",
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"minecraft:mushroom_stew": [
+		[
+			[
+				"minecraft:brown_mushroom"
+			],
+			[
+				"minecraft:red_mushroom"
+			]
+		]
+	],
+	"delightfulburgers:chicken_burger": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:hamburger": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		],
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"delightful:jam_jar": [
+		[
+			[
+				"minecraft:sweet_berries",
+				"minecraft:apple",
+				"delightful:salmonberries"
+			]
+		]
+	],
+	"ubesdelight:milk_tea_ube": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
+			]
+		]
+	],
+	"minecraft:cookie": [
+		[
+			[
+				"minecraft:cocoa_beans"
+			]
+		],
+		[
+			[
+				"minecraft:cocoa_beans"
+			]
+		]
+	],
+	"farmersdelight:sweet_berry_cookie": [
+		[
+			[
+				"minecraft:sweet_berries"
+			]
+		]
+	],
+	"farmersdelight:glow_berry_custard": [
+		[
+			[
+				"minecraft:glow_berries"
+			]
+		]
+	],
+	"minecraft:pumpkin_seeds": [
+		[
+			[
+				"minecraft:pumpkin"
+			]
+		]
+	],
+	"farmersdelight:horse_feed": [
+		[
+			[
+				"minecraft:apple"
+			]
+		]
+	],
+	"farmersdelight:beef_stew": [
+		[
+			[
+				"minecraft:carrot"
+			],
+			[
+				"minecraft:potato"
+			]
+		]
+	],
+	"delightful:deluxe_cheeseburger": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:rice_bag": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"farmersdelight:chicken_sandwich": [
+		[
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"farmersdelight:cooked_rice": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"vegandelight:smoked_tofish": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"ubesdelight:cookie_ginger": [
+		[
+			[
+				"ubesdelight:ginger"
+			]
+		]
+	],
+	"regions_unexplored:viridescent_nylium": [
+		[
+			[
+				"minecraft:red_mushroom",
+				"minecraft:brown_mushroom"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone_pinipig": [
+		[
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"farmersdelight:potato_crate": [
+		[
+			[
+				"minecraft:potato"
+			]
+		]
+	],
+	"vegandelight:tofish": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"crabbersdelight:clam_bake": [
+		[
+			[
+				"minecraft:carrot"
+			],
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"ubesdelight:cookie_ube": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		]
+	],
+	"farmingforblockheads:yellow_fertilizer": [
+		[
+			[
+				"minecraft:wheat_seeds"
+			]
+		]
+	],
+	"delightfulburgers:bacon_burger": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:vegetable_soup": [
+		[
+			[
+				"minecraft:carrot"
+			],
+			[
+				"minecraft:potato"
+			]
+		]
+	],
+	"vegandelight:leather_substitute": [
+		[
+			[
+				"minecraft:red_mushroom",
+				"minecraft:brown_mushroom"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone_ube": [
+		[
+			[
+				"farmersdelight:rice"
+			],
+			[
+				"ubesdelight:ube"
+			]
+		]
+	],
+	"ubesdelight:garlic_crate": [
+		[
+			[
+				"ubesdelight:garlic"
+			]
+		]
+	],
+	"ubesdelight:ube_crate": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		]
+	],
+	"farmersdelight:shepherds_pie_block": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:apple_cider": [
+		[
+			[
+				"minecraft:apple"
+			]
+		]
+	],
+	"ubesdelight:bulalo": [
+		[
+			[
+				"farmersdelight:onion"
+			]
+		]
+	],
+	"crabbersdelight:seafood_gumbo": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"farmersdelight:rice"
+			]
+		]
+	],
+	"farmersdelight:apple_pie": [
+		[
+			[
+				"minecraft:apple"
+			]
+		]
+	],
+	"farmersdelight:roast_chicken_block": [
+		[
+			[
+				"farmersdelight:onion"
+			],
+			[
+				"minecraft:carrot"
+			]
+		]
+	],
+	"farmersdelight:chicken_soup": [
+		[
+			[
+				"minecraft:carrot"
+			],
+			[
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"minecraft:carrot",
+				"farmersdelight:onion",
+				"ubesdelight:ube",
+				"minecraft:potato"
+			]
+		]
+	]
+}
