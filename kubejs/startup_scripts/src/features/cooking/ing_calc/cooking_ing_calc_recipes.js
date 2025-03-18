@@ -10,19 +10,31 @@ const CookingIngCalcRecipes = {
     let recipes = RecipeCacheHelper.allRecipes
     let ingsByOutput = {}
     for (let recipe of recipes) {
-      let output = this._singleOutput(recipe)
+      let outputs = this._outputs(recipe)
       let ings = this._ingredients(recipe)
-      if (output && ings) {
-        ArrayHelper.addToObjectArray(
-          ingsByOutput, output, ings
-        )
+      if (outputs && ings) {
+        for (let output of outputs) {
+          ArrayHelper.addToObjectArray(
+            ingsByOutput, output, ings
+          )
+        }
       }
     }
     return ingsByOutput
   },
-  _singleOutput(recipe) {
-    if (recipe.result && recipe.result.item) {
-      return recipe.result.item
+  _outputs(recipe) {
+    if (recipe.result) {
+      if (typeof recipe.result === 'string') {
+        return [recipe.result]
+      } else if (recipe.result.item) {
+        return [recipe.result.item]
+      } else {
+        let outputs = []
+        for (let resultObj of recipe.result) {
+          outputs.push(resultObj.item)
+        }
+        return outputs
+      }
     } else {
       return null
     }

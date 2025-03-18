@@ -23,11 +23,12 @@ const recipeHandler = (event) => {
       baseIngListsByOutput,
       CollectCaches.categoryLists['cooking']
     )
-    console.log(`missingOutput: ${missingOutput.length}`)
-    console.log(missingOutput)
+    console.log(`missingOutputLen: ${missingOutput.length}`)
     let tries = 1
+    let prevMissingLen
     while (missingOutput.length > 0 && tries <= 10) {
       tries ++
+      prevMissingLen = missingOutput.length
       let newBaseIngs = Object.keys(baseIngListsByOutput)
       baseIngListsByOutput = CookingIngCalcSearch.baseIngListsByOutput(
         newBaseIngs,
@@ -40,8 +41,9 @@ const recipeHandler = (event) => {
         baseIngListsByOutput,
         missingOutput
       )
-      console.log(`missingOutput: ${missingOutput.length}`)
-      console.log(missingOutput)
+      console.log(`missingOutputLen: ${missingOutput.length}`)
     }
+    console.log(`missingOutput`)
+    console.log(missingOutput)
   }
 }
