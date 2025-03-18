@@ -9,10 +9,39 @@ const recipeHandler = (event) => {
     let allIngsByOutput = CookingIngCalcRecipes.allIngsByOutput
     CacheHelperConst.cacheObject('all_ings_by_output', allIngsByOutput)
     
+    let allBaseIngListsByOutput = []
+
     let baseIngListsByOutput = CookingIngCalcSearch.baseIngListsByOutput(
       CollectLists.flora.subCollections.crops.list,
       allIngsByOutput
     )
-    CacheHelperConst.cacheObject('base_ings_by_ouput', baseIngListsByOutput)
+    allBaseIngListsByOutput.push(baseIngListsByOutput)
+
+    CacheHelperConst.cacheObject('base_ings_by_output_1', baseIngListsByOutput)
+    console.log('missingOutputs')
+    let missingOutput = CookingIngCalcSearch.missingOutputs(
+      baseIngListsByOutput,
+      CollectCaches.categoryLists['cooking']
+    )
+    console.log(`missingOutput: ${missingOutput.length}`)
+    console.log(missingOutput)
+    let tries = 1
+    while (missingOutput.length > 0 && tries <= 10) {
+      tries ++
+      let newBaseIngs = Object.keys(baseIngListsByOutput)
+      baseIngListsByOutput = CookingIngCalcSearch.baseIngListsByOutput(
+        newBaseIngs,
+        allIngsByOutput
+      )
+      allBaseIngListsByOutput.push(baseIngListsByOutput)
+      CacheHelperConst.cacheObject(`base_ings_by_output_${tries}`, baseIngListsByOutput)
+      console.log(`missingOutputs${tries}`)
+      missingOutput = CookingIngCalcSearch.missingOutputs(
+        baseIngListsByOutput,
+        missingOutput
+      )
+      console.log(`missingOutput: ${missingOutput.length}`)
+      console.log(missingOutput)
+    }
   }
 }

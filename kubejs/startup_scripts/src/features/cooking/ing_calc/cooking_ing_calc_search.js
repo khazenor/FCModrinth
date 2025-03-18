@@ -1,4 +1,13 @@
 const CookingIngCalcSearch = {
+  missingOutputs (baseIngListsByOutput, outputList) {
+    let missingOutputs = []
+    for (let output of outputList) {
+      if (!baseIngListsByOutput[output]) {
+        missingOutputs.push(output)
+      }
+    }
+    return missingOutputs
+  },
   baseIngListsByOutput (baseIngs, allIngsByOutput) {
     let baseIngListsByOutput = {}
     for (let output in allIngsByOutput) {
