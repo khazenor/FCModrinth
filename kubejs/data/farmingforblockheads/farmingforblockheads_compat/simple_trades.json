@@ -541,6 +541,17 @@
 		},
 		{
 			"output": {
+				"item": "minecraft:wheat",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
 				"item": "minecraft:apple",
 				"count": 4
 			},
@@ -564,6 +575,17 @@
 		{
 			"output": {
 				"item": "farmersdelight:cabbage_seeds",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "farmersdelight:cabbage",
 				"count": 4
 			},
 			"payment": {
@@ -607,6 +629,17 @@
 		},
 		{
 			"output": {
+				"item": "farmersdelight:tomato",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
 				"item": "delightful:salmonberries",
 				"count": 4
 			},
@@ -630,6 +663,17 @@
 		{
 			"output": {
 				"item": "ubesdelight:lemongrass_seeds",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "ubesdelight:lemongrass",
 				"count": 4
 			},
 			"payment": {
