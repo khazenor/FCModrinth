@@ -7,12 +7,12 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				]
 			],
 			[
@@ -26,8 +26,8 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			],
 			[
@@ -36,8 +36,8 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			]
 		],
@@ -47,12 +47,12 @@
 					"farmersdelight:pie_crust"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				]
 			],
 			[
@@ -65,8 +65,8 @@
 					"farmersdelight:pie_crust"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			],
 			[
@@ -74,8 +74,8 @@
 					"farmersdelight:pie_crust"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			]
 		],
@@ -153,14 +153,14 @@
 					"farmersdelight:tomato"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				],
 				[
 					"ubesdelight:fish_sauce_bottle"
@@ -190,14 +190,14 @@
 					"farmersdelight:tomato"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				]
 			]
 		]
@@ -253,9 +253,9 @@
 		[
 			[
 				[
-					"vegandelight:tofu_slices",
+					"vegandelight:silken_tofu",
 					"vegandelight:applesauce",
-					"vegandelight:silken_tofu"
+					"vegandelight:tofu_slices"
 				],
 				[
 					"farmersdelight:cabbage_leaf"
@@ -268,12 +268,12 @@
 		[
 			[
 				[
-					"minecraft:carrot",
-					"vegandelight:smoked_tofish",
-					"vegandelight:applesauce",
-					"minecraft:potato",
 					"vegandelight:silken_tofu",
-					"ubesdelight:ube"
+					"ubesdelight:ube",
+					"minecraft:carrot",
+					"minecraft:potato",
+					"vegandelight:applesauce",
+					"vegandelight:smoked_tofish"
 				],
 				[
 					"farmersdelight:cabbage",
@@ -291,8 +291,8 @@
 			[
 				[
 					"vegandelight:tofish",
-					"vegandelight:smoked_tofish",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:smoked_tofish"
 				],
 				[
 					"farmersdelight:cabbage_leaf"
@@ -305,11 +305,11 @@
 		[
 			[
 				[
-					"minecraft:red_mushroom",
+					"minecraft:brown_mushroom",
+					"ubesdelight:ube",
 					"minecraft:carrot",
 					"minecraft:potato",
-					"minecraft:brown_mushroom",
-					"ubesdelight:ube"
+					"minecraft:red_mushroom"
 				],
 				[
 					"farmersdelight:cabbage",
@@ -326,15 +326,15 @@
 			[
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				],
 				[
 					"ubesdelight:sugar_brown"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				]
 			],
 			[
@@ -343,8 +343,8 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			],
 			[
@@ -353,8 +353,8 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			],
 			[
@@ -366,19 +366,19 @@
 		[
 			[
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				],
 				[
 					"minecraft:wheat"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				],
 				[
 					"ubesdelight:ube"
@@ -386,12 +386,12 @@
 			],
 			[
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
 					"ubesdelight:ube"
@@ -402,12 +402,12 @@
 			],
 			[
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
 					"ubesdelight:ube"
@@ -498,8 +498,8 @@
 					"farmersdelight:onion"
 				],
 				[
-					"vegandelight:cooked_tofish",
-					"vegandelight:cooked_smoked_tofish"
+					"vegandelight:cooked_smoked_tofish",
+					"vegandelight:cooked_tofish"
 				]
 			]
 		],
@@ -529,16 +529,16 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			]
 		],
 		[
 			[
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			]
 		],
@@ -749,8 +749,8 @@
 		[
 			[
 				[
-					"farmersdelight:wheat_dough",
-					"delightful:nut_dough"
+					"delightful:nut_dough",
+					"farmersdelight:wheat_dough"
 				],
 				[
 					"farmersdelight:cabbage_leaf"
@@ -763,8 +763,8 @@
 		[
 			[
 				[
-					"farmersdelight:wheat_dough",
-					"delightful:nut_dough"
+					"delightful:nut_dough",
+					"farmersdelight:wheat_dough"
 				],
 				[
 					"farmersdelight:cabbage"
@@ -851,8 +851,8 @@
 		[
 			[
 				[
-					"vegandelight:cooked_tofish",
-					"vegandelight:cooked_smoked_tofish"
+					"vegandelight:cooked_smoked_tofish",
+					"vegandelight:cooked_tofish"
 				]
 			]
 		],
@@ -1319,8 +1319,8 @@
 		[
 			[
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				]
 			]
 		],
@@ -1330,8 +1330,8 @@
 					"minecraft:potato"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				],
 				[
 					"farmersdelight:tomato"
@@ -1619,8 +1619,8 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			]
 		],
@@ -1631,8 +1631,8 @@
 					"ubesdelight:lemongrass"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			]
 		],
@@ -1782,15 +1782,15 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			],
 			[
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				],
 				[
 					"farmersdelight:pie_crust"
@@ -1802,8 +1802,8 @@
 			[
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				],
 				[
 					"farmersdelight:pie_crust"
@@ -1824,8 +1824,8 @@
 					"farmersdelight:pie_crust"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
 					"minecraft:sugar"
@@ -1833,28 +1833,28 @@
 			],
 			[
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
 					"farmersdelight:pie_crust"
 				],
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				]
 			],
 			[
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
 					"farmersdelight:pie_crust"
 				],
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				]
 			]
 		],
@@ -1934,14 +1934,14 @@
 					"ubesdelight:lemongrass"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				]
 			]
 		],
@@ -1972,14 +1972,14 @@
 					"ubesdelight:lemongrass"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				]
 			]
 		]
@@ -2227,9 +2227,9 @@
 					"farmersdelight:cabbage_leaf"
 				],
 				[
-					"vegandelight:tofu_slices",
+					"vegandelight:silken_tofu",
 					"vegandelight:applesauce",
-					"vegandelight:silken_tofu"
+					"vegandelight:tofu_slices"
 				]
 			]
 		],
@@ -2239,12 +2239,12 @@
 					"farmersdelight:cabbage"
 				],
 				[
-					"minecraft:carrot",
-					"vegandelight:smoked_tofish",
-					"vegandelight:applesauce",
-					"minecraft:potato",
 					"vegandelight:silken_tofu",
-					"ubesdelight:ube"
+					"ubesdelight:ube",
+					"minecraft:carrot",
+					"minecraft:potato",
+					"vegandelight:applesauce",
+					"vegandelight:smoked_tofish"
 				]
 			]
 		],
@@ -2255,8 +2255,8 @@
 				],
 				[
 					"vegandelight:tofish",
-					"vegandelight:smoked_tofish",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:smoked_tofish"
 				]
 			]
 		],
@@ -2266,11 +2266,11 @@
 					"farmersdelight:cabbage"
 				],
 				[
-					"minecraft:red_mushroom",
+					"minecraft:brown_mushroom",
+					"ubesdelight:ube",
 					"minecraft:carrot",
 					"minecraft:potato",
-					"minecraft:brown_mushroom",
-					"ubesdelight:ube"
+					"minecraft:red_mushroom"
 				]
 			]
 		]
@@ -2440,8 +2440,8 @@
 		[
 			[
 				[
-					"vegandelight:cooked_tofish",
-					"vegandelight:cooked_smoked_tofish"
+					"vegandelight:cooked_smoked_tofish",
+					"vegandelight:cooked_tofish"
 				]
 			]
 		],
@@ -2490,9 +2490,9 @@
 					"minecraft:apple"
 				],
 				[
+					"delightful:salmonberries",
 					"minecraft:sweet_berries",
-					"minecraft:glow_berries",
-					"delightful:salmonberries"
+					"minecraft:glow_berries"
 				]
 			]
 		]
@@ -2706,8 +2706,8 @@
 			[
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			]
 		],
@@ -2723,8 +2723,8 @@
 					"minecraft:carrot"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			]
 		],
@@ -2948,16 +2948,16 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			]
 		],
 		[
 			[
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			]
 		],
@@ -3006,8 +3006,8 @@
 			[
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			]
 		],
@@ -3020,8 +3020,8 @@
 					"minecraft:potato"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			]
 		],
@@ -3061,14 +3061,14 @@
 					"farmersdelight:onion"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				]
 			]
 		],
@@ -3089,14 +3089,14 @@
 					"farmersdelight:onion"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				]
 			]
 		]
@@ -3105,8 +3105,8 @@
 		[
 			[
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				]
 			]
 		],
@@ -3116,8 +3116,8 @@
 					"farmersdelight:rice"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				],
 				[
 					"minecraft:carrot"
@@ -3163,14 +3163,14 @@
 					"farmersdelight:rice"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				],
 				[
 					"farmersdelight:onion"
@@ -3197,14 +3197,14 @@
 					"farmersdelight:rice"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				],
 				[
 					"farmersdelight:onion"
@@ -3216,9 +3216,9 @@
 					"minecraft:potato"
 				],
 				[
+					"delightful:salmonberries",
 					"minecraft:sweet_berries",
-					"minecraft:glow_berries",
-					"delightful:salmonberries"
+					"minecraft:glow_berries"
 				]
 			]
 		]
@@ -3395,8 +3395,8 @@
 					"ubesdelight:ube"
 				],
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				],
 				[
 					"ubesdelight:condensed_milk_bottle"
@@ -3407,8 +3407,8 @@
 					"ubesdelight:ube"
 				],
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				],
 				[
 					"ubesdelight:condensed_milk_bottle"
@@ -3445,24 +3445,24 @@
 			[
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				]
 			]
 		],
 		[
 			[
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				],
 				[
 					"minecraft:sugar"
@@ -3498,8 +3498,8 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				]
 			]
 		],
@@ -3509,8 +3509,8 @@
 					"ubesdelight:milk_tea_ube"
 				],
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				]
 			]
 		],
@@ -3769,8 +3769,8 @@
 					"farmersdelight:pie_crust"
 				],
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				]
 			],
 			[
@@ -3781,8 +3781,8 @@
 					"farmersdelight:pie_crust"
 				],
 				[
-					"minecraft:sugar",
-					"ubesdelight:sugar_brown"
+					"ubesdelight:sugar_brown",
+					"minecraft:sugar"
 				]
 			],
 			[
@@ -3886,8 +3886,8 @@
 				],
 				[
 					"vegandelight:soymilk_bucket",
-					"minecraft:milk_bucket",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"minecraft:milk_bucket"
 				],
 				[
 					"minecraft:bowl"
@@ -3897,8 +3897,8 @@
 		[
 			[
 				[
-					"vegandelight:soymilk_bottle",
-					"ubesdelight:condensed_milk_bottle"
+					"ubesdelight:condensed_milk_bottle",
+					"vegandelight:soymilk_bottle"
 				],
 				[
 					"farmersdelight:onion"
@@ -3975,8 +3975,8 @@
 		[
 			[
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				],
 				[
 					"minecraft:bread"
@@ -3995,8 +3995,8 @@
 					"farmersdelight:onion"
 				],
 				[
-					"vegandelight:silken_tofu",
-					"vegandelight:applesauce"
+					"vegandelight:applesauce",
+					"vegandelight:silken_tofu"
 				],
 				[
 					"minecraft:bread"
@@ -4055,14 +4055,14 @@
 					"ubesdelight:lemongrass"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				]
 			]
 		],
@@ -4087,14 +4087,14 @@
 					"ubesdelight:lemongrass"
 				],
 				[
-					"ubesdelight:lemongrass",
-					"minecraft:carrot",
-					"farmersdelight:onion",
-					"minecraft:potato",
-					"ubesdelight:garlic",
+					"ubesdelight:ube",
 					"ubesdelight:ginger",
 					"farmersdelight:tomato",
-					"ubesdelight:ube"
+					"minecraft:carrot",
+					"minecraft:potato",
+					"ubesdelight:garlic",
+					"farmersdelight:onion",
+					"ubesdelight:lemongrass"
 				]
 			]
 		]
