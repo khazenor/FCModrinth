@@ -1,0 +1,4580 @@
+{
+	"minecraft:bread": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			]
+		],
+		[
+			[
+				"farmersdelight:wheat_dough"
+			]
+		]
+	],
+	"sophisticatedbackpacks:crafting_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:bamboo_planks": [
+		[
+			[
+				"minecraft:bamboo_block"
+			]
+		]
+	],
+	"sophisticatedbackpacks:advanced_magnet_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"sophisticatedbackpacks:void_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:lime_stained_glass_pane": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"farmersdelight:sweet_berry_cheesecake": [
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"vegandelight:applesauce"
+			]
+		],
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		],
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:spruce_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"vegandelight:applesauce": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"ubesdelight:sugar_brown": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"create:brass_tunnel": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"minecraft:cyan_dye": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"create:sand_paper": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"minecraft:pumpkin_pie": [
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"vegandelight:applesauce"
+			],
+			[
+				"farmersdelight:pumpkin_slice"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:applesauce"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"farmingforblockheads:chicken_nest": [
+		[
+			[
+				"minecraft:hay_block"
+			]
+		]
+	],
+	"minecraft:magenta_dye": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"minecraft:green_stained_glass": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"minecraft:cherry_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:mechado": [
+		[
+			[
+				"ubesdelight:garlic_chop"
+			],
+			[
+				"ubesdelight:ginger_chop",
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"delightful:cantaloupe_popsicle": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:mojang_banner_pattern": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"minecraft:golden_hoe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:green_bed": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"delightful:cactus_steak": [
+		[
+			[
+				"delightful:cactus_flesh"
+			]
+		],
+		[
+			[
+				"delightful:cactus_flesh"
+			]
+		],
+		[
+			[
+				"delightful:cactus_flesh"
+			]
+		]
+	],
+	"minecraft:brown_stained_glass": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"ubesdelight:lumpia": [
+		[
+			[
+				"vegandelight:smoked_tofish",
+				"vegandelight:tofish",
+				"vegandelight:applesauce"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			],
+			[
+				"ubesdelight:lumpia_wrapper"
+			]
+		]
+	],
+	"vegandelight:cooked_smoked_tofish": [
+		[
+			[
+				"vegandelight:smoked_tofish"
+			]
+		],
+		[
+			[
+				"vegandelight:smoked_tofish"
+			]
+		]
+	],
+	"minecraft:potato": [
+		[
+			[
+				"farmersdelight:potato_crate"
+			]
+		]
+	],
+	"regions_unexplored:cypress_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:dried_kelp_block": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"sophisticatedbackpacks:upgrade_base": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:lime_candle": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"regions_unexplored:cherry_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:ube_cake": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:applesauce"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"regions_unexplored:magnolia_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:barbecue_stick": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:stuffed_potato": [
+		[
+			[
+				"minecraft:baked_potato"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:rabbit_stew": [
+		[
+			[
+				"minecraft:baked_potato"
+			]
+		]
+	],
+	"minecraft:stone_sword": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:blackwood_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"vegandelight:cooked_tofish": [
+		[
+			[
+				"vegandelight:tofish"
+			]
+		],
+		[
+			[
+				"vegandelight:tofish"
+			]
+		]
+	],
+	"minecraft:iron_hoe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:filter_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"regions_unexplored:brimwood_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:golden_pickaxe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:ladder": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:redstone_torch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:mauve_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:pumpkin": [
+		[
+			[
+				"farmersdelight:pumpkin_slice"
+			]
+		]
+	],
+	"minecraft:target": [
+		[
+			[
+				"minecraft:hay_block"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_upgrade_starter_tier": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:armor_stand": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:pine_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:leather": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		],
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		],
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:brown_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"alexsmobs:banner_pattern_australia_1": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"alexsmobs:banner_pattern_australia_0": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"regions_unexplored:eucalyptus_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:bacon_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		],
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_upgrade_tier_4": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"alexsmobs:banner_pattern_new_mexico": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"minecraft:painting": [
+		[
+			[
+				"minecraft:stick"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:lemongrass": [
+		[
+			[
+				"ubesdelight:lemongrass_crate"
+			]
+		]
+	],
+	"create:green_table_cloth": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"ubesdelight:pandesal_ube": [
+		[
+			[
+				"ubesdelight:pandesal_ube_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:pandesal_ube_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:pandesal_ube_raw"
+			]
+		]
+	],
+	"ubesdelight:fish_sauce_bottle": [
+		[
+			[
+				"vegandelight:tofish",
+				"vegandelight:smoked_tofish"
+			]
+		]
+	],
+	"minecraft:gray_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"vegandelight:smoked_tofish_roll": [
+		[
+			[
+				"vegandelight:smoked_tofish"
+			],
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"farmersdelight:roasted_mutton_chops": [
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		],
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"sophisticatedbackpacks:magnet_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:rail": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:diamond_sword": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:yellow_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:dumplings": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"sophisticatedstorage:storage_tool": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"crabbersdelight:frog_leg_kebob": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:book": [
+		[
+			[
+				"minecraft:paper"
+			]
+		],
+		[
+			[
+				"minecraft:paper"
+			]
+		],
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"crabbersdelight:fish_stick": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:garlic": [
+		[
+			[
+				"ubesdelight:garlic_crate"
+			]
+		],
+		[
+			[
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"regions_unexplored:pink_bioshroom_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:flower_banner_pattern": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"sophisticatedbackpacks:advanced_pickup_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"delightful:cantaloupe_gummy": [
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:honey_bottle"
+			]
+		]
+	],
+	"regions_unexplored:joshua_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:feeding_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		],
+		[
+			[
+				"minecraft:golden_apple"
+			],
+			[
+				"minecraft:golden_carrot"
+			]
+		]
+	],
+	"minecraft:green_stained_glass_pane": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"minecraft:lime_carpet": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"minecraft:purple_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:sugar": [
+		[
+			[
+				"minecraft:honey_bottle"
+			]
+		]
+	],
+	"minecraft:wooden_hoe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:jukebox_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"create:purple_postbox": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		],
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"regions_unexplored:blackwood_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:matcha_latte": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"delightful:nut_butter_bottle": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"delightfulburgers:basic_burger": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"minecraft:white_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:joshua_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:light_gray_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:wooden_axe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:joshua_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"vegandelight:tofish_roll": [
+		[
+			[
+				"vegandelight:tofish"
+			],
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"delightful:rock_candy": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"create:clipboard": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"minecraft:diamond_axe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:purple_table_cloth": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"ubesdelight:ensaymada_ube_raw": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		],
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"delightfulsandwich:cooked_salmon_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"delightful:matcha_gummy": [
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:honey_bottle"
+			]
+		]
+	],
+	"regions_unexplored:willow_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:socotra_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:red_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:baobab_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:cookie_ginger": [
+		[
+			[
+				"ubesdelight:ginger_chop"
+			]
+		],
+		[
+			[
+				"ubesdelight:ginger_chop"
+			]
+		],
+		[
+			[
+				"ubesdelight:ginger_chop"
+			]
+		]
+	],
+	"farmersdelight:apple_pie_slice": [
+		[
+			[
+				"farmersdelight:apple_pie"
+			]
+		]
+	],
+	"farmersdelight:wheat_dough": [
+		[
+			[
+				"vegandelight:applesauce"
+			]
+		]
+	],
+	"minecraft:lime_dye": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"minecraft:torch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"alexsmobs:shark_tooth_arrow": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:map": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"sophisticatedstorage:stack_downgrade_tier_1": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:slime_ball": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"delightful:matcha_milkshake": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:oak_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:socotra_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:arroz_caldo": [
+		[
+			[
+				"ubesdelight:garlic_chop"
+			],
+			[
+				"ubesdelight:ginger_chop"
+			]
+		]
+	],
+	"farmersdelight:raw_pasta": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			]
+		]
+	],
+	"ubesdelight:pandesal_raw": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:bread"
+			]
+		],
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"minecraft:warped_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:dark_oak_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:item_frame": [
+		[
+			[
+				"minecraft:stick"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:cake_slice": [
+		[
+			[
+				"minecraft:cake"
+			]
+		]
+	],
+	"regions_unexplored:dead_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:egg_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"minecraft:arrow": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedstorage:stack_downgrade_tier_3": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedstorage:stack_downgrade_tier_2": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:cobalt_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:smoking_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"crabbersdelight:squid_kebob": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:purple_canvas_sign": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"farmersdelight:sweet_berry_cheesecake_slice": [
+		[
+			[
+				"farmersdelight:sweet_berry_cheesecake"
+			]
+		]
+	],
+	"ubesdelight:leche_flan": [
+		[
+			[
+				"vegandelight:applesauce"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"farmersdelight:brown_hanging_canvas_sign": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"minecraft:stone_axe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"crabbersdelight:crab_cakes": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			]
+		]
+	],
+	"minecraft:purple_carpet": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"ubesdelight:hopia_ube_raw": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"delightful:cactus_soup": [
+		[
+			[
+				"delightful:cactus_flesh"
+			]
+		]
+	],
+	"vegandelight:silken_tofu": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone_cc": [
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:cookie"
+			]
+		]
+	],
+	"regions_unexplored:mangrove_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:compacting_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"farmersdelight:kelp_roll": [
+		[
+			[
+				"minecraft:dried_kelp"
+			],
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"minecraft:iron_axe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:carrot": [
+		[
+			[
+				"farmersdelight:carrot_crate"
+			]
+		]
+	],
+	"minecraft:acacia_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"crabbersdelight:kelp_shake": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"create:brass_funnel": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"minecraft:fermented_spider_eye": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"alexsmobs:banner_pattern_bear": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"minecraft:purple_stained_glass_pane": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"farmersdelight:pasta_with_mutton_chop": [
+		[
+			[
+				"farmersdelight:raw_pasta"
+			],
+			[
+				"farmersdelight:tomato_sauce"
+			]
+		]
+	],
+	"minecraft:brown_wool": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"farmersdelight:cabbage": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		],
+		[
+			[
+				"farmersdelight:cabbage_crate"
+			]
+		]
+	],
+	"minecraft:warped_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:bamboo_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:dead_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:spout": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"ubesdelight:ensaymada_raw": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		],
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:cherry_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:spruce_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:salmon_roll": [
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"ubesdelight:lumpia_wrapper": [
+		[
+			[
+				"vegandelight:applesauce"
+			]
+		]
+	],
+	"create:brown_table_cloth": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"minecraft:bamboo_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmingforblockheads:green_fertilizer": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"farmersdelight:baked_cod_stew": [
+		[
+			[
+				"vegandelight:tofish"
+			],
+			[
+				"vegandelight:applesauce"
+			]
+		]
+	],
+	"minecraft:magenta_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:polvorone_ube": [
+		[
+			[
+				"ubesdelight:raw_polvorone_ube"
+			]
+		],
+		[
+			[
+				"ubesdelight:raw_polvorone_ube"
+			]
+		]
+	],
+	"minecraft:mangrove_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:willow_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightfulsandwich:tomato_and_lettuce_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"farmersdelight:melon_popsicle": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:ensaymada_ube": [
+		[
+			[
+				"ubesdelight:ensaymada_ube_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:ensaymada_ube_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:ensaymada_ube_raw"
+			]
+		]
+	],
+	"minecraft:diamond_pickaxe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:empty_schematic": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"regions_unexplored:kapok_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:steak_and_potatoes": [
+		[
+			[
+				"minecraft:baked_potato"
+			],
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"create:lime_table_cloth": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"farmersdelight:golden_knife": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:salmonberries": [
+		[
+			[
+				"delightful:salmonberry_sack"
+			]
+		]
+	],
+	"farmersdelight:squid_ink_pasta": [
+		[
+			[
+				"vegandelight:tofish",
+				"vegandelight:smoked_tofish"
+			],
+			[
+				"farmersdelight:raw_pasta"
+			]
+		]
+	],
+	"create:controller_rail": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:bangsilog": [
+		[
+			[
+				"ubesdelight:sinangag"
+			]
+		],
+		[
+			[
+				"vegandelight:tofish",
+				"vegandelight:smoked_tofish"
+			],
+			[
+				"ubesdelight:sinangag"
+			]
+		]
+	],
+	"minecraft:green_carpet": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"sophisticatedbackpacks:advanced_jukebox_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"vegandelight:soybean": [
+		[
+			[
+				"vegandelight:soybean_bag"
+			]
+		]
+	],
+	"minecraft:wooden_pickaxe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"vegandelight:smoked_tofish": [
+		[
+			[
+				"vegandelight:tofish"
+			]
+		]
+	],
+	"create:andesite_funnel": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"regions_unexplored:dark_oak_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:blue_bioshroom_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:mangrove_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"crabbersdelight:shrimp_fried_rice": [
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"ubesdelight:rolling_pin_diamond": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:golden_axe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:sinigang": [
+		[
+			[
+				"vegandelight:tofish",
+				"vegandelight:smoked_tofish"
+			]
+		]
+	],
+	"minecraft:acacia_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:lumpia_feast": [
+		[
+			[
+				"ubesdelight:lumpia"
+			]
+		]
+	],
+	"minecraft:cyan_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:pumpkin_soup": [
+		[
+			[
+				"farmersdelight:pumpkin_slice"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:acacia_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:brown_seat": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"ubesdelight:kinilaw": [
+		[
+			[
+				"ubesdelight:garlic_chop"
+			],
+			[
+				"ubesdelight:ginger_chop"
+			]
+		],
+		[
+			[
+				"vegandelight:tofish",
+				"vegandelight:smoked_tofish"
+			],
+			[
+				"ubesdelight:garlic_chop"
+			],
+			[
+				"ubesdelight:ginger_chop"
+			]
+		]
+	],
+	"farmersdelight:chocolate_pie": [
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"farmersdelight:vegetable_noodles": [
+		[
+			[
+				"farmersdelight:raw_pasta"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			],
+			[
+				"ubesdelight:ginger_chop",
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"minecraft:lime_wool": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"farmersdelight:mixed_salad": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"ubesdelight:polvorone": [
+		[
+			[
+				"ubesdelight:raw_polvorone"
+			]
+		],
+		[
+			[
+				"ubesdelight:raw_polvorone"
+			]
+		]
+	],
+	"sophisticatedbackpacks:blasting_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"create:schedule": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"crabbersdelight:crab_trap": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:mauve_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:onion": [
+		[
+			[
+				"farmersdelight:onion_crate"
+			]
+		]
+	],
+	"regions_unexplored:cypress_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:condensed_milk_bottle": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"regions_unexplored:pine_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:green_canvas_sign": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"minecraft:diamond_shovel": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:sinangag": [
+		[
+			[
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"minecraft:creeper_banner_pattern": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"minecraft:golden_shovel": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:eucalyptus_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:lime_valve_handle": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"create:brown_postbox": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		],
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"ubesdelight:leaf_feast_fried_rice_half": [
+		[
+			[
+				"farmersdelight:fried_rice"
+			]
+		],
+		[
+			[
+				"farmersdelight:fried_rice"
+			]
+		]
+	],
+	"minecraft:birch_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_downgrade_tier_3": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_upgrade_tier_3": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"sophisticatedbackpacks:auto_blasting_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:jungle_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:baklava": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:honey_bottle"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"minecraft:mud_bricks": [
+		[
+			[
+				"minecraft:packed_mud"
+			]
+		]
+	],
+	"minecraft:brown_terracotta": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"farmersdelight:cutting_board": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"crabbersdelight:surf_and_turf": [
+		[
+			[
+				"minecraft:baked_potato"
+			]
+		]
+	],
+	"regions_unexplored:eucalyptus_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:hopia_munggo": [
+		[
+			[
+				"ubesdelight:hopia_munggo_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:hopia_munggo_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:hopia_munggo_raw"
+			]
+		]
+	],
+	"farmersdelight:honey_cookie": [
+		[
+			[
+				"minecraft:honey_bottle"
+			]
+		],
+		[
+			[
+				"minecraft:honey_bottle"
+			]
+		],
+		[
+			[
+				"minecraft:honey_bottle"
+			]
+		]
+	],
+	"ubesdelight:ginger": [
+		[
+			[
+				"ubesdelight:ginger_crate"
+			]
+		],
+		[
+			[
+				"ubesdelight:ginger_chop"
+			]
+		]
+	],
+	"minecraft:brown_candle": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"regions_unexplored:kapok_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:bone_knife": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:lime_bed": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"farmersdelight:rice": [
+		[
+			[
+				"farmersdelight:rice_bag"
+			]
+		]
+	],
+	"delightful:salmonberry_pie": [
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"farmersdelight:flint_knife": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:cake": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"vegandelight:applesauce"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"farmersdelight:wheat_dough"
+			]
+		],
+		[
+			[
+				"vegandelight:applesauce"
+			],
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"sophisticatedbackpacks:advanced_filter_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:lime_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:leaf_feast_fried_rice": [
+		[
+			[
+				"farmersdelight:fried_rice"
+			]
+		],
+		[
+			[
+				"farmersdelight:fried_rice"
+			]
+		]
+	],
+	"minecraft:crimson_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:cabbage_rolls": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			],
+			[
+				"vegandelight:smoked_tofish",
+				"vegandelight:tofish",
+				"vegandelight:applesauce"
+			]
+		]
+	],
+	"ubesdelight:tocino": [
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"ubesdelight:ginger_chop"
+			]
+		]
+	],
+	"regions_unexplored:maple_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:mutton_wrap": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"farmersdelight:grilled_salmon": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"create:white_sail": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:stuffed_cantaloupe_block": [
+		[
+			[
+				"delightful:salmonberry_pips",
+				"minecraft:pumpkin_seeds",
+				"farmersdelight:tomato_seeds",
+				"ubesdelight:lemongrass_seeds"
+			]
+		]
+	],
+	"regions_unexplored:blue_bioshroom_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"vegandelight:applesauce_bucket": [
+		[
+			[
+				"vegandelight:applesauce"
+			]
+		]
+	],
+	"regions_unexplored:brown_painted_planks": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"regions_unexplored:pink_bioshroom_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:auto_smoking_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"regions_unexplored:dead_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:honey_glazed_ham_block": [
+		[
+			[
+				"minecraft:honey_bottle"
+			],
+			[
+				"farmersdelight:cooked_rice"
+			]
+		],
+		[
+			[
+				"minecraft:honey_bottle"
+			],
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"minecraft:blue_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:stripped_bamboo_block": [
+		[
+			[
+				"minecraft:bamboo_block"
+			]
+		]
+	],
+	"farmersdelight:straw": [
+		[
+			[
+				"minecraft:bamboo_block"
+			]
+		]
+	],
+	"create:belt_connector": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"minecraft:cherry_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:purple_seat": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"farmersdelight:fruit_salad": [
+		[
+			[
+				"farmersdelight:pumpkin_slice"
+			]
+		]
+	],
+	"ubesdelight:rolling_pin_iron": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:pink_bioshroom_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:diamond_hoe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:advanced_feeding_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:green_wool": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"minecraft:pink_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightfulsandwich:ham_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"ubesdelight:ube": [
+		[
+			[
+				"ubesdelight:ube_crate"
+			]
+		]
+	],
+	"minecraft:brown_bed": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"ubesdelight:leaf_feast_sinangag": [
+		[
+			[
+				"ubesdelight:sinangag"
+			]
+		],
+		[
+			[
+				"ubesdelight:sinangag"
+			]
+		]
+	],
+	"delightful:salmonberry_gummy": [
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:honey_bottle"
+			]
+		]
+	],
+	"delightful:ender_nectar": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"regions_unexplored:baobab_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:fish_stew": [
+		[
+			[
+				"vegandelight:tofish",
+				"vegandelight:smoked_tofish"
+			],
+			[
+				"farmersdelight:tomato_sauce"
+			]
+		],
+		[
+			[
+				"vegandelight:tofish",
+				"vegandelight:smoked_tofish"
+			],
+			[
+				"farmersdelight:tomato_sauce"
+			]
+		]
+	],
+	"regions_unexplored:palm_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:activator_rail": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:purple_valve_handle": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"delightfulsandwich:bacon_and_egg_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"minecraft:iron_pickaxe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:pasta_with_meatballs": [
+		[
+			[
+				"farmersdelight:raw_pasta"
+			],
+			[
+				"farmersdelight:tomato_sauce"
+			]
+		],
+		[
+			[
+				"farmersdelight:raw_pasta"
+			],
+			[
+				"farmersdelight:tomato_sauce"
+			]
+		]
+	],
+	"regions_unexplored:larch_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:leaf_feast_cooked_rice_half": [
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		],
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"minecraft:bamboo_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:purple_snowbelle": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"ubesdelight:pandesal_ube_raw": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:bread"
+			]
+		],
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"minecraft:lime_stained_glass": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"minecraft:birch_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"alexsmobs:maraca": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:salmonberry_pie_slice": [
+		[
+			[
+				"delightful:salmonberry_pie"
+			]
+		]
+	],
+	"create:green_valve_handle": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"minecraft:spruce_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:salmonberry_ice_cream": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"regions_unexplored:socotra_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:eucalyptus_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:green_postbox": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		],
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"minecraft:purple_candle": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"regions_unexplored:socotra_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:extendo_grip": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:honey_block": [
+		[
+			[
+				"minecraft:honey_bottle"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stonecutter_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"farmersdelight:melon_juice": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"delightful:cheeseburger": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"regions_unexplored:lime_painted_planks": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"crabbersdelight:bisque": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"delightful:matcha_ice_cream": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"ubesdelight:leaf_feast_cooked_rice": [
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		],
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"crabbersdelight:shrimp_skewer": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:cactus_chili": [
+		[
+			[
+				"farmersdelight:tomato_sauce"
+			],
+			[
+				"delightful:cactus_flesh"
+			]
+		]
+	],
+	"minecraft:jungle_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:analog_lever": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"crabbersdelight:sea_pickle_juice": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"regions_unexplored:kapok_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:smelting_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:brown_carpet": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_upgrade_tier_2": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:crimson_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:joshua_beard": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:purple_stained_glass": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"minecraft:orange_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:dark_oak_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:lime_concrete_powder": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"regions_unexplored:redwood_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:field_salad": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"minecraft:wooden_shovel": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:larch_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:maple_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:mauve_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:palm_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:oak_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:sisig": [
+		[
+			[
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"ubesdelight:rolling_pin_wood": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightfulsandwich:cooked_cod_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"ubesdelight:hopia_ube": [
+		[
+			[
+				"ubesdelight:hopia_ube_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:hopia_ube_raw"
+			]
+		],
+		[
+			[
+				"ubesdelight:hopia_ube_raw"
+			]
+		]
+	],
+	"regions_unexplored:blue_bioshroom_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:pickup_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"farmersdelight:diamond_knife": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:oak_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:hot_cocoa": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"minecraft:purple_concrete_powder": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"regions_unexplored:acacia_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:halo_halo_feast": [
+		[
+			[
+				"ubesdelight:halo_halo"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"alexsmobs:kangaroo_burger": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"create:red_sand_paper": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"farmersdelight:noodle_soup": [
+		[
+			[
+				"farmersdelight:raw_pasta"
+			],
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"farmersdelight:tomato": [
+		[
+			[
+				"farmersdelight:tomato_crate"
+			]
+		]
+	],
+	"crabbersdelight:clam_chowder": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:stone_pickaxe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:ratatouille": [
+		[
+			[
+				"ubesdelight:ginger_chop",
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"minecraft:tripwire_hook": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:green_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:cartography_table": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"regions_unexplored:green_painted_planks": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"sophisticatedbackpacks:auto_smelting_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:light_blue_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:lime_postbox": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		],
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"delightful:glow_jam_jar": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"regions_unexplored:redwood_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:stone_shovel": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:fried_rice": [
+		[
+			[
+				"vegandelight:applesauce"
+			]
+		]
+	],
+	"farmersdelight:stuffed_pumpkin_block": [
+		[
+			[
+				"ubesdelight:ginger_chop",
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"delightful:nut_butter_and_jam_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"delightful:jam_jar",
+				"delightful:glow_jam_jar"
+			]
+		]
+	],
+	"create:lime_seat": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"regions_unexplored:kapok_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:ink_sac": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"sophisticatedbackpacks:advanced_void_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"create:green_seat": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"regions_unexplored:magnolia_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightfulburgers:chicken_burger": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"regions_unexplored:green_bioshroom_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:hamburger": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		],
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_downgrade_tier_2": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		],
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:brown_valve_handle": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"regions_unexplored:brimwood_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:jam_jar": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"ubesdelight:milk_tea_ube": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"minecraft:wooden_sword": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:birch_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"alexsmobs:tendon_whip": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:cypress_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:brown_stained_glass_pane": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"sophisticatedstorage:basic_tier_upgrade": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:chicken_inasal": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"regions_unexplored:green_bioshroom_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:glow_berry_custard": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"vegandelight:applesauce"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"farmersdelight:lime_canvas_sign": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"minecraft:pumpkin_seeds": [
+		[
+			[
+				"farmersdelight:pumpkin_slice"
+			]
+		]
+	],
+	"farmersdelight:chocolate_pie_slice": [
+		[
+			[
+				"farmersdelight:chocolate_pie"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_upgrade_tier_1": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"farmersdelight:green_hanging_canvas_sign": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"farmersdelight:horse_feed": [
+		[
+			[
+				"minecraft:hay_block"
+			],
+			[
+				"minecraft:golden_carrot"
+			]
+		]
+	],
+	"ubesdelight:polvorone_pinipig": [
+		[
+			[
+				"ubesdelight:raw_polvorone_pinipig"
+			]
+		],
+		[
+			[
+				"ubesdelight:raw_polvorone_pinipig"
+			]
+		]
+	],
+	"regions_unexplored:green_snowbelle": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"regions_unexplored:palm_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:jungle_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:salmonberry_milkshake": [
+		[
+			[
+				"delightful:salmonberry_ice_cream"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:soul_campfire": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_downgrade_tier_1": [
+		[
+			[
+				"minecraft:stick"
+			]
+		],
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"regions_unexplored:baobab_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:birch_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:chicken_inasal_rice": [
+		[
+			[
+				"ubesdelight:chicken_inasal"
+			],
+			[
+				"ubesdelight:sinangag"
+			]
+		]
+	],
+	"minecraft:crimson_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:maple_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:leaf_feast_sinangag_half": [
+		[
+			[
+				"ubesdelight:sinangag"
+			]
+		],
+		[
+			[
+				"ubesdelight:sinangag"
+			]
+		]
+	],
+	"regions_unexplored:magnolia_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:cobalt_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:iron_knife": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:oak_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedbackpacks:stack_upgrade_omega_tier": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"ubesdelight:milk_tea_ube_feast": [
+		[
+			[
+				"ubesdelight:milk_tea_ube"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"regions_unexplored:brimwood_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:purple_bed": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"delightful:deluxe_cheeseburger": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"farmersdelight:chicken_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"regions_unexplored:yellow_bioshroom_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:soul_torch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:warped_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:hopia_munggo_raw": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"farmersdelight:wheat_dough"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"delightful:nut_dough": [
+		[
+			[
+				"vegandelight:applesauce"
+			]
+		]
+	],
+	"farmersdelight:brown_canvas_sign": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"sophisticatedbackpacks:advanced_compacting_upgrade": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"minecraft:iron_sword": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:spruce_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:ube_cake_slice": [
+		[
+			[
+				"ubesdelight:ube_cake"
+			]
+		]
+	],
+	"regions_unexplored:jungle_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:brown_toolbox": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"regions_unexplored:larch_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:smore": [
+		[
+			[
+				"farmersdelight:honey_cookie"
+			]
+		]
+	],
+	"minecraft:powered_rail": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:green_concrete_powder": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"regions_unexplored:baobab_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:larch_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:fishing_rod": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedstorage:packing_tape": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"farmersdelight:canvas_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:tosilog": [
+		[
+			[
+				"ubesdelight:tocino"
+			],
+			[
+				"ubesdelight:sinangag"
+			]
+		]
+	],
+	"regions_unexplored:willow_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:brown_concrete_powder": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"minecraft:mangrove_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"vegandelight:tofu": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:grindstone": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:golden_sword": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:cardboard_sword": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:dead_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:andesite_tunnel": [
+		[
+			[
+				"minecraft:dried_kelp"
+			]
+		]
+	],
+	"regions_unexplored:yellow_bioshroom_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:pine_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:purple_terracotta": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"minecraft:brush": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:polvorone_cc": [
+		[
+			[
+				"ubesdelight:raw_polvorone_cc"
+			]
+		],
+		[
+			[
+				"ubesdelight:raw_polvorone_cc"
+			]
+		]
+	],
+	"regions_unexplored:mauve_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:dark_oak_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:rolling_pin_gold": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone_pinipig": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"sophisticatedbackpacks:backpack": [
+		[
+			[
+				"vegandelight:leather_substitute"
+			]
+		]
+	],
+	"farmersdelight:cod_roll": [
+		[
+			[
+				"farmersdelight:cooked_rice"
+			]
+		]
+	],
+	"minecraft:crossbow": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:pine_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:green_terracotta": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"delightful:brass_knife": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:blackwood_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:cantaloupe_bread": [
+		[
+			[
+				"farmersdelight:wheat_dough"
+			]
+		]
+	],
+	"regions_unexplored:lime_snowbelle": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"alexsmobs:banner_pattern_brazil": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"delightful:marshmallow_stick": [
+		[
+			[
+				"minecraft:sugar"
+			],
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:lime_terracotta": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"farmingforblockheads:feeding_trough": [
+		[
+			[
+				"minecraft:hay_block"
+			],
+			[
+				"minecraft:golden_carrot"
+			]
+		]
+	],
+	"regions_unexplored:cypress_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightful:pumpkin_pie_slice": [
+		[
+			[
+				"minecraft:pumpkin_pie"
+			]
+		]
+	],
+	"regions_unexplored:purple_painted_planks": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"minecraft:lever": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightfulburgers:bacon_burger": [
+		[
+			[
+				"minecraft:bread"
+			],
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"regions_unexplored:blackwood_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:vegetable_soup": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"minecraft:black_banner": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:iron_shovel": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"sophisticatedstorage:paintbrush": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:redwood_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:pie_crust": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		],
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		],
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"regions_unexplored:cobalt_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:apple_pie": [
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"minecraft:sugar"
+			]
+		],
+		[
+			[
+				"farmersdelight:pie_crust"
+			],
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"delightful:zinc_knife": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"create:wrench": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"ubesdelight:raw_polvorone_ube": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"regions_unexplored:palm_beard": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:wheat": [
+		[
+			[
+				"minecraft:hay_block"
+			]
+		]
+	],
+	"minecraft:bow": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"delightfulburgers:double_patty_burger": [
+		[
+			[
+				"farmersdelight:hamburger"
+			]
+		]
+	],
+	"minecraft:skull_banner_pattern": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"farmersdelight:shepherds_pie_block": [
+		[
+			[
+				"minecraft:baked_potato"
+			],
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"minecraft:firework_rocket": [
+		[
+			[
+				"minecraft:paper"
+			]
+		]
+	],
+	"farmersdelight:kelp_roll_slice": [
+		[
+			[
+				"farmersdelight:kelp_roll"
+			]
+		]
+	],
+	"farmersdelight:apple_cider": [
+		[
+			[
+				"minecraft:sugar"
+			]
+		]
+	],
+	"ubesdelight:bulalo": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			]
+		]
+	],
+	"vegandelight:soymilk_bottle": [
+		[
+			[
+				"vegandelight:soymilk_bucket"
+			]
+		]
+	],
+	"sophisticatedstorage:feeding_upgrade": [
+		[
+			[
+				"minecraft:golden_apple"
+			],
+			[
+				"minecraft:golden_carrot"
+			]
+		]
+	],
+	"regions_unexplored:willow_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:green_bioshroom_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"alexsmobs:animal_dictionary": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"regions_unexplored:magnolia_fence": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:yellow_bioshroom_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:maple_fence_gate": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:green_candle": [
+		[
+			[
+				"minecraft:green_dye"
+			]
+		]
+	],
+	"regions_unexplored:silver_birch_branch": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"minecraft:stone_hoe": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:lime_hanging_canvas_sign": [
+		[
+			[
+				"minecraft:lime_dye"
+			]
+		]
+	],
+	"farmersdelight:purple_hanging_canvas_sign": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"create:wooden_bracket": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"farmersdelight:roast_chicken_block": [
+		[
+			[
+				"vegandelight:applesauce"
+			],
+			[
+				"minecraft:bread"
+			],
+			[
+				"minecraft:baked_potato"
+			]
+		]
+	],
+	"minecraft:campfire": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	],
+	"regions_unexplored:brown_snowbelle": [
+		[
+			[
+				"minecraft:brown_dye"
+			]
+		]
+	],
+	"farmersdelight:chicken_soup": [
+		[
+			[
+				"farmersdelight:cabbage_leaf"
+			],
+			[
+				"ubesdelight:ginger_chop",
+				"ubesdelight:garlic_chop"
+			]
+		]
+	],
+	"delightfulsandwich:mutton_sandwich": [
+		[
+			[
+				"minecraft:bread"
+			]
+		]
+	],
+	"minecraft:purple_wool": [
+		[
+			[
+				"minecraft:purple_dye"
+			]
+		]
+	],
+	"regions_unexplored:redwood_sign": [
+		[
+			[
+				"minecraft:stick"
+			]
+		]
+	]
+}

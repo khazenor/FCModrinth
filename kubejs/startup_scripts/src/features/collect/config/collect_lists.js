@@ -302,7 +302,6 @@ const CollectLists = {
         name: 'Seafood Dishes',
         list: [
           'crabbersdelight:crab_cakes',
-          'crabbersdelight:crab_legs',
           'crabbersdelight:fish_stick',
           'crabbersdelight:surf_and_turf',
           'crabbersdelight:shrimp_skewer',
@@ -420,13 +419,14 @@ const CollectLists = {
         list: [
           "minecraft:bamboo",
           "minecraft:beetroot_seeds",
-          "minecraft:brown_mushroom",
           "minecraft:cactus",
           "minecraft:carrot",
           "minecraft:cocoa_beans",
           "minecraft:glow_berries",
           "minecraft:kelp",
+          "minecraft:sea_pickle",
           "minecraft:potato",
+          "minecraft:brown_mushroom",
           "minecraft:red_mushroom",
           "minecraft:sugar_cane",
           "minecraft:sweet_berries",

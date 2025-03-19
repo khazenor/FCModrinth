@@ -70,9 +70,13 @@ const CookingIngCalcRecipes = {
       }
       if (ing.item) {
         pushIng(ing.item, 'item')
-      }
-      if (ing.tag) {
+      } else if (ing.tag) {
         pushIng(ing.tag, 'tag')
+      } else if (ArrayHelper.isArray(ing)) {
+        ings.push(ing)
+      } else {
+        FcLogger.log('Error processing ingredient: CookingIngCalcRecipes')
+        console.log(ing)
       }
     }
     return ings

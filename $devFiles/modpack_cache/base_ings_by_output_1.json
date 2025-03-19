@@ -1,4 +1,21 @@
 {
+	"minecraft:bread": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
 	"minecraft:stick": [
 		[
 			[
@@ -7,6 +24,16 @@
 		]
 	],
 	"farmersdelight:sweet_berry_cheesecake": [
+		[
+			[
+				"minecraft:sweet_berries"
+			]
+		],
+		[
+			[
+				"minecraft:sweet_berries"
+			]
+		],
 		[
 			[
 				"minecraft:sweet_berries"
@@ -20,7 +47,24 @@
 			]
 		]
 	],
+	"vegandelight:applesauce": [
+		[
+			[
+				"minecraft:apple"
+			]
+		]
+	],
 	"minecraft:pumpkin_pie": [
+		[
+			[
+				"minecraft:pumpkin"
+			]
+		],
+		[
+			[
+				"minecraft:pumpkin"
+			]
+		],
 		[
 			[
 				"minecraft:pumpkin"
@@ -41,35 +85,69 @@
 				"ubesdelight:garlic"
 			],
 			[
-				"ubesdelight:garlic",
-				"ubesdelight:ginger",
-				"minecraft:carrot",
+				"farmersdelight:tomato"
+			],
+			[
 				"farmersdelight:onion",
-				"ubesdelight:ube",
-				"minecraft:potato"
+				"ubesdelight:ginger",
+				"minecraft:potato",
+				"farmersdelight:tomato",
+				"ubesdelight:garlic",
+				"ubesdelight:lemongrass",
+				"minecraft:carrot",
+				"ubesdelight:ube"
 			]
 		]
 	],
 	"ubesdelight:lumpia": [
 		[
 			[
-				"ubesdelight:ube",
-				"minecraft:brown_mushroom",
 				"minecraft:potato",
+				"minecraft:brown_mushroom",
+				"minecraft:red_mushroom",
 				"minecraft:carrot",
-				"minecraft:red_mushroom"
+				"ubesdelight:ube"
+			],
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"ubesdelight:lemongrass"
 			]
 		]
 	],
 	"ubesdelight:ube_cake": [
 		[
 			[
+				"minecraft:wheat"
+			],
+			[
 				"ubesdelight:ube"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
+			],
+			[
+				"minecraft:wheat"
 			]
 		]
 	],
 	"farmersdelight:barbecue_stick": [
 		[
+			[
+				"farmersdelight:tomato"
+			],
 			[
 				"farmersdelight:onion"
 			]
@@ -81,8 +159,8 @@
 				"minecraft:carrot"
 			],
 			[
-				"minecraft:red_mushroom",
-				"minecraft:brown_mushroom"
+				"minecraft:brown_mushroom",
+				"minecraft:red_mushroom"
 			]
 		]
 	],
@@ -93,10 +171,88 @@
 			]
 		]
 	],
+	"farmersdelight:tomato_crate": [
+		[
+			[
+				"farmersdelight:tomato"
+			]
+		]
+	],
+	"farmersdelight:bacon_sandwich": [
+		[
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"farmersdelight:tomato"
+			]
+		],
+		[
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"farmersdelight:tomato"
+			]
+		]
+	],
+	"minecraft:brown_dye": [
+		[
+			[
+				"minecraft:cocoa_beans"
+			]
+		]
+	],
+	"farmersdelight:roasted_mutton_chops": [
+		[
+			[
+				"farmersdelight:tomato"
+			]
+		],
+		[
+			[
+				"farmersdelight:tomato"
+			]
+		]
+	],
 	"farmersdelight:dumplings": [
 		[
 			[
+				"farmersdelight:cabbage"
+			],
+			[
 				"farmersdelight:onion"
+			],
+			[
+				"minecraft:brown_mushroom"
+			]
+		]
+	],
+	"farmersdelight:sweet_berry_cookie": [
+		[
+			[
+				"minecraft:sweet_berries"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:sweet_berries"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:sweet_berries"
+			],
+			[
+				"minecraft:wheat"
 			]
 		]
 	],
@@ -113,6 +269,46 @@
 			]
 		]
 	],
+	"minecraft:packed_mud": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
+	"ubesdelight:cookie_ube": [
+		[
+			[
+				"ubesdelight:ube"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
+			],
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
+	"ubesdelight:lemongrass_seeds": [
+		[
+			[
+				"ubesdelight:lemongrass"
+			]
+		]
+	],
 	"delightful:cantaloupe_gummy": [
 		[
 			[
@@ -124,6 +320,45 @@
 		[
 			[
 				"minecraft:sugar_cane"
+			]
+		],
+		[
+			[
+				"minecraft:sugar_cane"
+			]
+		],
+		[
+			[
+				"minecraft:sugar_cane"
+			]
+		]
+	],
+	"minecraft:dried_kelp": [
+		[
+			[
+				"minecraft:kelp"
+			]
+		],
+		[
+			[
+				"minecraft:kelp"
+			]
+		],
+		[
+			[
+				"minecraft:kelp"
+			]
+		]
+	],
+	"ubesdelight:ensaymada_ube_raw": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
 			]
 		]
 	],
@@ -145,6 +380,71 @@
 		[
 			[
 				"minecraft:kelp"
+			]
+		]
+	],
+	"ubesdelight:cookie_ginger": [
+		[
+			[
+				"ubesdelight:ginger"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"ubesdelight:ginger"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"ubesdelight:ginger"
+			],
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
+	"farmersdelight:wheat_dough": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
+	"minecraft:lime_dye": [
+		[
+			[
+				"minecraft:sea_pickle"
 			]
 		]
 	],
@@ -172,6 +472,7 @@
 	"ubesdelight:arroz_caldo": [
 		[
 			[
+				"minecraft:wheat",
 				"farmersdelight:rice"
 			],
 			[
@@ -179,6 +480,31 @@
 			],
 			[
 				"ubesdelight:ginger"
+			],
+			[
+				"ubesdelight:lemongrass"
+			]
+		]
+	],
+	"farmersdelight:raw_pasta": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
 			]
 		]
 	],
@@ -186,6 +512,9 @@
 		[
 			[
 				"farmersdelight:onion"
+			],
+			[
+				"farmersdelight:tomato"
 			]
 		]
 	],
@@ -196,8 +525,23 @@
 			]
 		]
 	],
+	"ubesdelight:hopia_ube_raw": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
+			]
+		]
+	],
 	"delightful:cactus_soup": [
 		[
+			[
+				"farmersdelight:tomato"
+			],
 			[
 				"farmersdelight:rice"
 			]
@@ -206,6 +550,7 @@
 	"ubesdelight:raw_polvorone_cc": [
 		[
 			[
+				"minecraft:wheat",
 				"farmersdelight:rice"
 			]
 		]
@@ -231,6 +576,23 @@
 			]
 		]
 	],
+	"minecraft:baked_potato": [
+		[
+			[
+				"minecraft:potato"
+			]
+		],
+		[
+			[
+				"minecraft:potato"
+			]
+		],
+		[
+			[
+				"minecraft:potato"
+			]
+		]
+	],
 	"minecraft:paper": [
 		[
 			[
@@ -241,6 +603,7 @@
 	"ubesdelight:lumpia_wrapper": [
 		[
 			[
+				"minecraft:wheat",
 				"farmersdelight:rice"
 			]
 		]
@@ -249,6 +612,9 @@
 		[
 			[
 				"minecraft:wheat_seeds"
+			],
+			[
+				"minecraft:wheat"
 			]
 		]
 	],
@@ -256,6 +622,9 @@
 		[
 			[
 				"minecraft:potato"
+			],
+			[
+				"farmersdelight:tomato"
 			]
 		]
 	],
@@ -266,10 +635,28 @@
 			]
 		]
 	],
+	"delightfulsandwich:tomato_and_lettuce_sandwich": [
+		[
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"farmersdelight:tomato"
+			]
+		]
+	],
 	"minecraft:golden_apple": [
 		[
 			[
 				"minecraft:apple"
+			]
+		]
+	],
+	"minecraft:green_dye": [
+		[
+			[
+				"minecraft:cactus"
 			]
 		]
 	],
@@ -280,10 +667,24 @@
 			]
 		]
 	],
-	"minecraft:brown_dye": [
+	"farmersdelight:cabbage_leaf": [
 		[
 			[
-				"minecraft:cocoa_beans"
+				"farmersdelight:cabbage"
+			]
+		]
+	],
+	"farmersdelight:squid_ink_pasta": [
+		[
+			[
+				"farmersdelight:tomato"
+			]
+		]
+	],
+	"vegandelight:smoked_tofish": [
+		[
+			[
+				"minecraft:kelp"
 			]
 		]
 	],
@@ -310,13 +711,24 @@
 				"farmersdelight:rice"
 			],
 			[
-				"minecraft:glow_berries",
-				"minecraft:sweet_berries",
+				"farmersdelight:tomato"
+			],
+			[
 				"delightful:salmonberries",
-				"minecraft:apple"
+				"minecraft:sweet_berries",
+				"minecraft:apple",
+				"minecraft:glow_berries"
 			],
 			[
 				"farmersdelight:onion"
+			]
+		]
+	],
+	"farmersdelight:pumpkin_soup": [
+		[
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
 			]
 		]
 	],
@@ -330,6 +742,9 @@
 			],
 			[
 				"ubesdelight:ginger"
+			],
+			[
+				"ubesdelight:lemongrass"
 			]
 		],
 		[
@@ -341,6 +756,21 @@
 			],
 			[
 				"ubesdelight:ginger"
+			],
+			[
+				"ubesdelight:lemongrass"
+			]
+		]
+	],
+	"farmersdelight:chocolate_pie": [
+		[
+			[
+				"minecraft:cocoa_beans"
+			]
+		],
+		[
+			[
+				"minecraft:cocoa_beans"
 			]
 		]
 	],
@@ -353,12 +783,29 @@
 				"minecraft:brown_mushroom"
 			],
 			[
-				"ubesdelight:garlic",
-				"ubesdelight:ginger",
-				"minecraft:carrot",
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
 				"farmersdelight:onion",
-				"ubesdelight:ube",
-				"minecraft:potato"
+				"ubesdelight:ginger",
+				"minecraft:potato",
+				"farmersdelight:tomato",
+				"ubesdelight:garlic",
+				"ubesdelight:lemongrass",
+				"minecraft:carrot",
+				"ubesdelight:ube"
+			]
+		]
+	],
+	"farmersdelight:mixed_salad": [
+		[
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"farmersdelight:tomato"
 			]
 		]
 	],
@@ -373,8 +820,8 @@
 		[
 			[
 				"minecraft:glow_berries",
-				"minecraft:sweet_berries",
-				"delightful:salmonberries"
+				"delightful:salmonberries",
+				"minecraft:sweet_berries"
 			]
 		]
 	],
@@ -398,6 +845,27 @@
 			],
 			[
 				"farmersdelight:rice"
+			],
+			[
+				"minecraft:carrot",
+				"minecraft:potato"
+			]
+		]
+	],
+	"farmersdelight:honey_cookie": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
 			]
 		]
 	],
@@ -411,25 +879,63 @@
 	"delightful:salmonberry_pie": [
 		[
 			[
+				"minecraft:wheat"
+			],
+			[
 				"delightful:salmonberries"
+			]
+		]
+	],
+	"minecraft:cake": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
+	"crabbersdelight:jar_of_pickles": [
+		[
+			[
+				"minecraft:sea_pickle"
 			]
 		]
 	],
 	"ubesdelight:raw_polvorone": [
 		[
 			[
+				"minecraft:wheat",
 				"farmersdelight:rice"
+			]
+		]
+	],
+	"farmersdelight:cabbage_crate": [
+		[
+			[
+				"farmersdelight:cabbage"
 			]
 		]
 	],
 	"farmersdelight:cabbage_rolls": [
 		[
 			[
-				"ubesdelight:ube",
-				"minecraft:brown_mushroom",
+				"farmersdelight:cabbage"
+			],
+			[
 				"minecraft:potato",
+				"minecraft:brown_mushroom",
+				"minecraft:red_mushroom",
 				"minecraft:carrot",
-				"minecraft:red_mushroom"
+				"ubesdelight:ube"
 			]
 		]
 	],
@@ -443,6 +949,10 @@
 	"farmersdelight:mutton_wrap": [
 		[
 			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
 				"farmersdelight:onion"
 			]
 		]
@@ -451,6 +961,9 @@
 		[
 			[
 				"minecraft:sweet_berries"
+			],
+			[
+				"farmersdelight:cabbage"
 			],
 			[
 				"farmersdelight:onion"
@@ -474,16 +987,50 @@
 			],
 			[
 				"minecraft:glow_berries",
-				"minecraft:sweet_berries",
-				"delightful:salmonberries"
+				"delightful:salmonberries",
+				"minecraft:sweet_berries"
 			],
 			[
 				"minecraft:wheat_seeds",
-				"farmersdelight:cabbage_seeds",
-				"farmersdelight:tomato_seeds",
-				"minecraft:beetroot_seeds",
 				"farmersdelight:rice",
+				"farmersdelight:cabbage_seeds",
+				"minecraft:beetroot_seeds",
+				"farmersdelight:tomato_seeds",
 				"ubesdelight:lemongrass_seeds"
+			]
+		]
+	],
+	"minecraft:cookie": [
+		[
+			[
+				"minecraft:cocoa_beans"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:cocoa_beans"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			],
+			[
+				"minecraft:cocoa_beans"
+			]
+		],
+		[
+			[
+				"minecraft:cocoa_beans"
+			],
+			[
+				"minecraft:wheat"
 			]
 		]
 	],
@@ -520,21 +1067,35 @@
 			]
 		]
 	],
+	"farmersdelight:tomato_sauce": [
+		[
+			[
+				"farmersdelight:tomato"
+			]
+		]
+	],
 	"farmersdelight:fruit_salad": [
 		[
 			[
 				"minecraft:apple"
 			],
 			[
-				"minecraft:glow_berries",
-				"minecraft:sweet_berries",
 				"delightful:salmonberries",
-				"minecraft:apple"
+				"minecraft:sweet_berries",
+				"minecraft:apple",
+				"minecraft:glow_berries"
 			],
 			[
 				"minecraft:glow_berries",
-				"minecraft:sweet_berries",
-				"delightful:salmonberries"
+				"delightful:salmonberries",
+				"minecraft:sweet_berries"
+			]
+		]
+	],
+	"farmersdelight:tomato_seeds": [
+		[
+			[
+				"farmersdelight:tomato"
 			]
 		]
 	],
@@ -559,6 +1120,18 @@
 		[
 			[
 				"farmersdelight:onion"
+			]
+		]
+	],
+	"ubesdelight:pandesal_ube_raw": [
+		[
+			[
+				"ubesdelight:ube"
+			]
+		],
+		[
+			[
+				"ubesdelight:ube"
 			]
 		]
 	],
@@ -596,6 +1169,12 @@
 	"delightful:cheeseburger": [
 		[
 			[
+				"farmersdelight:cabbage"
+			],
+			[
+				"farmersdelight:tomato"
+			],
+			[
 				"farmersdelight:onion"
 			]
 		]
@@ -613,10 +1192,24 @@
 			]
 		]
 	],
+	"crabbersdelight:shrimp_skewer": [
+		[
+			[
+				"farmersdelight:tomato"
+			]
+		]
+	],
 	"delightful:cactus_chili": [
 		[
 			[
 				"farmersdelight:onion"
+			]
+		]
+	],
+	"crabbersdelight:sea_pickle_juice": [
+		[
+			[
+				"minecraft:sea_pickle"
 			]
 		]
 	],
@@ -635,6 +1228,10 @@
 	],
 	"delightful:field_salad": [
 		[
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
 			[
 				"minecraft:carrot"
 			],
@@ -680,23 +1277,28 @@
 	"farmersdelight:ratatouille": [
 		[
 			[
+				"farmersdelight:tomato"
+			],
+			[
 				"farmersdelight:onion"
 			],
 			[
-				"ubesdelight:garlic",
-				"ubesdelight:ginger",
-				"minecraft:carrot",
 				"farmersdelight:onion",
-				"ubesdelight:ube",
-				"minecraft:potato"
+				"ubesdelight:ginger",
+				"minecraft:potato",
+				"farmersdelight:tomato",
+				"ubesdelight:garlic",
+				"ubesdelight:lemongrass",
+				"minecraft:carrot",
+				"ubesdelight:ube"
 			]
 		]
 	],
 	"regions_unexplored:deepslate_viridescent_nylium": [
 		[
 			[
-				"minecraft:red_mushroom",
-				"minecraft:brown_mushroom"
+				"minecraft:brown_mushroom",
+				"minecraft:red_mushroom"
 			]
 		]
 	],
@@ -711,6 +1313,13 @@
 		[
 			[
 				"ubesdelight:ginger"
+			]
+		]
+	],
+	"ubesdelight:garlic_chop": [
+		[
+			[
+				"ubesdelight:garlic"
 			]
 		]
 	],
@@ -733,12 +1342,14 @@
 				"farmersdelight:rice"
 			],
 			[
-				"ubesdelight:garlic",
-				"ubesdelight:ginger",
-				"minecraft:carrot",
 				"farmersdelight:onion",
-				"ubesdelight:ube",
-				"minecraft:potato"
+				"ubesdelight:ginger",
+				"minecraft:potato",
+				"farmersdelight:tomato",
+				"ubesdelight:garlic",
+				"ubesdelight:lemongrass",
+				"minecraft:carrot",
+				"ubesdelight:ube"
 			],
 			[
 				"farmersdelight:onion"
@@ -751,8 +1362,8 @@
 			],
 			[
 				"minecraft:glow_berries",
-				"minecraft:sweet_berries",
-				"delightful:salmonberries"
+				"delightful:salmonberries",
+				"minecraft:sweet_berries"
 			]
 		]
 	],
@@ -769,6 +1380,13 @@
 	"delightfulburgers:chicken_burger": [
 		[
 			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"farmersdelight:tomato"
+			],
+			[
 				"farmersdelight:onion"
 			]
 		]
@@ -776,10 +1394,23 @@
 	"farmersdelight:hamburger": [
 		[
 			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"farmersdelight:tomato"
+			],
+			[
 				"farmersdelight:onion"
 			]
 		],
 		[
+			[
+				"farmersdelight:cabbage"
+			],
+			[
+				"farmersdelight:tomato"
+			],
 			[
 				"farmersdelight:onion"
 			]
@@ -788,9 +1419,9 @@
 	"delightful:jam_jar": [
 		[
 			[
-				"minecraft:sweet_berries",
+				"delightful:salmonberries",
 				"minecraft:apple",
-				"delightful:salmonberries"
+				"minecraft:sweet_berries"
 			]
 		]
 	],
@@ -806,22 +1437,10 @@
 			]
 		]
 	],
-	"minecraft:cookie": [
+	"ubesdelight:chicken_inasal": [
 		[
 			[
-				"minecraft:cocoa_beans"
-			]
-		],
-		[
-			[
-				"minecraft:cocoa_beans"
-			]
-		]
-	],
-	"farmersdelight:sweet_berry_cookie": [
-		[
-			[
-				"minecraft:sweet_berries"
+				"ubesdelight:lemongrass"
 			]
 		]
 	],
@@ -846,6 +1465,13 @@
 			]
 		]
 	],
+	"ubesdelight:lemongrass_crate": [
+		[
+			[
+				"ubesdelight:lemongrass"
+			]
+		]
+	],
 	"farmersdelight:beef_stew": [
 		[
 			[
@@ -858,6 +1484,12 @@
 	],
 	"delightful:deluxe_cheeseburger": [
 		[
+			[
+				"farmersdelight:cabbage"
+			],
+			[
+				"farmersdelight:tomato"
+			],
 			[
 				"farmersdelight:onion"
 			]
@@ -873,7 +1505,23 @@
 	"farmersdelight:chicken_sandwich": [
 		[
 			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
 				"minecraft:carrot"
+			]
+		]
+	],
+	"ubesdelight:hopia_munggo_raw": [
+		[
+			[
+				"minecraft:cocoa_beans"
+			]
+		],
+		[
+			[
+				"minecraft:cocoa_beans"
 			]
 		]
 	],
@@ -884,30 +1532,43 @@
 			]
 		]
 	],
-	"vegandelight:smoked_tofish": [
+	"farmersdelight:pumpkin_slice": [
 		[
 			[
-				"minecraft:kelp"
-			]
-		]
-	],
-	"ubesdelight:cookie_ginger": [
-		[
-			[
-				"ubesdelight:ginger"
+				"minecraft:pumpkin"
 			]
 		]
 	],
 	"regions_unexplored:viridescent_nylium": [
 		[
 			[
-				"minecraft:red_mushroom",
-				"minecraft:brown_mushroom"
+				"minecraft:brown_mushroom",
+				"minecraft:red_mushroom"
+			]
+		]
+	],
+	"minecraft:hay_block": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
+	"farmersdelight:bone_broth": [
+		[
+			[
+				"minecraft:glow_berries",
+				"minecraft:brown_mushroom",
+				"minecraft:red_mushroom"
 			]
 		]
 	],
 	"ubesdelight:raw_polvorone_pinipig": [
 		[
+			[
+				"minecraft:wheat",
+				"farmersdelight:rice"
+			],
 			[
 				"farmersdelight:rice"
 			]
@@ -937,13 +1598,6 @@
 			]
 		]
 	],
-	"ubesdelight:cookie_ube": [
-		[
-			[
-				"ubesdelight:ube"
-			]
-		]
-	],
 	"farmingforblockheads:yellow_fertilizer": [
 		[
 			[
@@ -953,6 +1607,13 @@
 	],
 	"delightfulburgers:bacon_burger": [
 		[
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
+				"farmersdelight:tomato"
+			],
 			[
 				"farmersdelight:onion"
 			]
@@ -965,20 +1626,75 @@
 			],
 			[
 				"minecraft:potato"
+			],
+			[
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
 			]
 		]
 	],
 	"vegandelight:leather_substitute": [
 		[
 			[
-				"minecraft:red_mushroom",
-				"minecraft:brown_mushroom"
+				"minecraft:brown_mushroom",
+				"minecraft:red_mushroom"
+			]
+		]
+	],
+	"ubesdelight:ginger_chop": [
+		[
+			[
+				"ubesdelight:ginger"
+			]
+		]
+	],
+	"farmersdelight:pie_crust": [
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			]
+		]
+	],
+	"farmersdelight:apple_pie": [
+		[
+			[
+				"minecraft:apple"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:apple"
+			],
+			[
+				"minecraft:wheat"
+			]
+		],
+		[
+			[
+				"minecraft:wheat"
+			],
+			[
+				"minecraft:apple"
 			]
 		]
 	],
 	"ubesdelight:raw_polvorone_ube": [
 		[
 			[
+				"minecraft:wheat",
 				"farmersdelight:rice"
 			],
 			[
@@ -1000,6 +1716,13 @@
 			]
 		]
 	],
+	"delightful:cactus_flesh": [
+		[
+			[
+				"minecraft:cactus"
+			]
+		]
+	],
 	"farmersdelight:shepherds_pie_block": [
 		[
 			[
@@ -1018,6 +1741,12 @@
 		[
 			[
 				"farmersdelight:onion"
+			],
+			[
+				"farmersdelight:cabbage"
+			],
+			[
+				"ubesdelight:lemongrass"
 			]
 		]
 	],
@@ -1028,13 +1757,6 @@
 			],
 			[
 				"farmersdelight:rice"
-			]
-		]
-	],
-	"farmersdelight:apple_pie": [
-		[
-			[
-				"minecraft:apple"
 			]
 		]
 	],
@@ -1054,12 +1776,18 @@
 				"minecraft:carrot"
 			],
 			[
-				"ubesdelight:garlic",
-				"ubesdelight:ginger",
-				"minecraft:carrot",
+				"farmersdelight:cabbage",
+				"ubesdelight:lemongrass"
+			],
+			[
 				"farmersdelight:onion",
-				"ubesdelight:ube",
-				"minecraft:potato"
+				"ubesdelight:ginger",
+				"minecraft:potato",
+				"farmersdelight:tomato",
+				"ubesdelight:garlic",
+				"ubesdelight:lemongrass",
+				"minecraft:carrot",
+				"ubesdelight:ube"
 			]
 		]
 	]

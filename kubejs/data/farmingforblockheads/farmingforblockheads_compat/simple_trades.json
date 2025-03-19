@@ -420,17 +420,6 @@
 		},
 		{
 			"output": {
-				"item": "minecraft:brown_mushroom",
-				"count": 4
-			},
-			"payment": {
-				"item": "kubejs:miles_ticket",
-				"count": 8
-			},
-			"category": "flora"
-		},
-		{
-			"output": {
 				"item": "minecraft:cactus",
 				"count": 4
 			},
@@ -486,7 +475,29 @@
 		},
 		{
 			"output": {
+				"item": "minecraft:sea_pickle",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
 				"item": "minecraft:potato",
+				"count": 4
+			},
+			"payment": {
+				"item": "kubejs:miles_ticket",
+				"count": 8
+			},
+			"category": "flora"
+		},
+		{
+			"output": {
+				"item": "minecraft:brown_mushroom",
 				"count": 4
 			},
 			"payment": {
@@ -1642,17 +1653,6 @@
 		{
 			"output": {
 				"item": "minecraft:big_dripleaf",
-				"count": 1
-			},
-			"payment": {
-				"item": "kubejs:miles_ticket",
-				"count": 64
-			},
-			"category": "collection"
-		},
-		{
-			"output": {
-				"item": "minecraft:sea_pickle",
 				"count": 1
 			},
 			"payment": {

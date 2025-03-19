@@ -1286,7 +1286,40 @@
 		]
 	],
 	"minecraft:gold_nugget": [
-		[],
+		[
+			[
+				{
+					"item": "minecraft:golden_pickaxe"
+				},
+				{
+					"item": "minecraft:golden_shovel"
+				},
+				{
+					"item": "minecraft:golden_axe"
+				},
+				{
+					"item": "minecraft:golden_hoe"
+				},
+				{
+					"item": "minecraft:golden_sword"
+				},
+				{
+					"item": "minecraft:golden_helmet"
+				},
+				{
+					"item": "minecraft:golden_chestplate"
+				},
+				{
+					"item": "minecraft:golden_leggings"
+				},
+				{
+					"item": "minecraft:golden_boots"
+				},
+				{
+					"item": "minecraft:golden_horse_armor"
+				}
+			]
+		],
 		[
 			{
 				"item": "farmersdelight:golden_knife"
@@ -1302,7 +1335,40 @@
 				"item": "farmersdelight:golden_knife"
 			}
 		],
-		[]
+		[
+			[
+				{
+					"item": "minecraft:golden_pickaxe"
+				},
+				{
+					"item": "minecraft:golden_shovel"
+				},
+				{
+					"item": "minecraft:golden_axe"
+				},
+				{
+					"item": "minecraft:golden_hoe"
+				},
+				{
+					"item": "minecraft:golden_sword"
+				},
+				{
+					"item": "minecraft:golden_helmet"
+				},
+				{
+					"item": "minecraft:golden_chestplate"
+				},
+				{
+					"item": "minecraft:golden_leggings"
+				},
+				{
+					"item": "minecraft:golden_boots"
+				},
+				{
+					"item": "minecraft:golden_horse_armor"
+				}
+			]
+		]
 	],
 	"create:oak_window": [
 		[
@@ -2544,7 +2610,23 @@
 				"item": "minecraft:bowl"
 			}
 		],
-		[]
+		[
+			[
+				{
+					"item": "minecraft:apple"
+				}
+			],
+			[
+				{
+					"item": "minecraft:sugar"
+				}
+			],
+			[
+				{
+					"item": "minecraft:water_bucket"
+				}
+			]
+		]
 	],
 	"minecraft:cut_copper_slab": [
 		[
@@ -2863,7 +2945,54 @@
 		[
 			{
 				"item": "minecraft:light_blue_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"create:factory_gauge": [
@@ -3123,7 +3252,54 @@
 		[
 			{
 				"item": "minecraft:magenta_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"minecraft:oxidized_cut_copper_stairs": [
@@ -3341,7 +3517,16 @@
 				"item": "minecraft:sandstone"
 			}
 		],
-		[]
+		[
+			[
+				{
+					"item": "minecraft:sandstone"
+				},
+				{
+					"item": "minecraft:chiseled_sandstone"
+				}
+			]
+		]
 	],
 	"regions_unexplored:pink_bioshroom_slab": [
 		[
@@ -3889,7 +4074,54 @@
 		[
 			{
 				"item": "minecraft:pink_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"regions_unexplored:flowering_sapling": [
@@ -3906,7 +4138,15 @@
 			},
 			{
 				"item": "minecraft:blaze_powder"
-			}
+			},
+			[
+				{
+					"item": "minecraft:coal"
+				},
+				{
+					"item": "minecraft:charcoal"
+				}
+			]
 		]
 	],
 	"minecraft:golden_hoe": [
@@ -3957,7 +4197,54 @@
 		[
 			{
 				"item": "minecraft:green_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		],
 		[
 			{
@@ -5463,7 +5750,54 @@
 		[
 			{
 				"item": "minecraft:blue_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"regions_unexplored:green_bioshroom_stairs": [
@@ -5539,6 +5873,26 @@
 			{
 				"tag": "forge:crops/onion"
 			},
+			[
+				{
+					"tag": "forge:cooked_beef"
+				},
+				{
+					"tag": "forge:cooked_pork"
+				},
+				{
+					"tag": "forge:cooked_chicken"
+				},
+				{
+					"tag": "forge:cooked_mutton"
+				},
+				{
+					"tag": "forge:cooked_fishes"
+				},
+				{
+					"item": "minecraft:cooked_rabbit"
+				}
+			],
 			{
 				"item": "minecraft:stick"
 			}
@@ -6592,7 +6946,54 @@
 		[
 			{
 				"item": "minecraft:orange_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"create:deployer": [
@@ -6643,7 +7044,54 @@
 		[
 			{
 				"item": "minecraft:gray_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"farmersdelight:basket": [
@@ -7090,7 +7538,19 @@
 				"item": "minecraft:quartz_block"
 			}
 		],
-		[]
+		[
+			[
+				{
+					"item": "minecraft:chiseled_quartz_block"
+				},
+				{
+					"item": "minecraft:quartz_block"
+				},
+				{
+					"item": "minecraft:quartz_pillar"
+				}
+			]
+		]
 	],
 	"minecraft:brown_banner": [
 		[
@@ -7522,7 +7982,16 @@
 				"item": "minecraft:red_sandstone"
 			}
 		],
-		[]
+		[
+			[
+				{
+					"item": "minecraft:red_sandstone"
+				},
+				{
+					"item": "minecraft:chiseled_red_sandstone"
+				}
+			]
+		]
 	],
 	"regions_unexplored:stripped_willow_log": [
 		[
@@ -8263,7 +8732,21 @@
 			},
 			{
 				"tag": "forge:crops/onion"
-			}
+			},
+			[
+				{
+					"tag": "forge:raw_chicken"
+				},
+				{
+					"tag": "forge:raw_pork"
+				},
+				{
+					"tag": "forge:raw_beef"
+				},
+				{
+					"item": "minecraft:brown_mushroom"
+				}
+			]
 		]
 	],
 	"minecraft:purpur_stairs": [
@@ -8272,7 +8755,16 @@
 				"item": "minecraft:purpur_block"
 			}
 		],
-		[]
+		[
+			[
+				{
+					"item": "minecraft:purpur_block"
+				},
+				{
+					"item": "minecraft:purpur_pillar"
+				}
+			]
+		]
 	],
 	"minecraft:soul_lantern": [
 		[
@@ -8410,7 +8902,54 @@
 		[
 			{
 				"item": "minecraft:light_gray_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		],
 		[
 			{
@@ -9113,7 +9652,52 @@
 				"item": "crabbersdelight:can"
 			}
 		],
-		[],
+		[
+			[
+				{
+					"item": "minecraft:iron_pickaxe"
+				},
+				{
+					"item": "minecraft:iron_shovel"
+				},
+				{
+					"item": "minecraft:iron_axe"
+				},
+				{
+					"item": "minecraft:iron_hoe"
+				},
+				{
+					"item": "minecraft:iron_sword"
+				},
+				{
+					"item": "minecraft:iron_helmet"
+				},
+				{
+					"item": "minecraft:iron_chestplate"
+				},
+				{
+					"item": "minecraft:iron_leggings"
+				},
+				{
+					"item": "minecraft:iron_boots"
+				},
+				{
+					"item": "minecraft:iron_horse_armor"
+				},
+				{
+					"item": "minecraft:chainmail_helmet"
+				},
+				{
+					"item": "minecraft:chainmail_chestplate"
+				},
+				{
+					"item": "minecraft:chainmail_leggings"
+				},
+				{
+					"item": "minecraft:chainmail_boots"
+				}
+			]
+		],
 		[
 			{
 				"item": "minecraft:iron_ingot"
@@ -9129,7 +9713,52 @@
 				"item": "farmersdelight:iron_knife"
 			}
 		],
-		[],
+		[
+			[
+				{
+					"item": "minecraft:iron_pickaxe"
+				},
+				{
+					"item": "minecraft:iron_shovel"
+				},
+				{
+					"item": "minecraft:iron_axe"
+				},
+				{
+					"item": "minecraft:iron_hoe"
+				},
+				{
+					"item": "minecraft:iron_sword"
+				},
+				{
+					"item": "minecraft:iron_helmet"
+				},
+				{
+					"item": "minecraft:iron_chestplate"
+				},
+				{
+					"item": "minecraft:iron_leggings"
+				},
+				{
+					"item": "minecraft:iron_boots"
+				},
+				{
+					"item": "minecraft:iron_horse_armor"
+				},
+				{
+					"item": "minecraft:chainmail_helmet"
+				},
+				{
+					"item": "minecraft:chainmail_chestplate"
+				},
+				{
+					"item": "minecraft:chainmail_leggings"
+				},
+				{
+					"item": "minecraft:chainmail_boots"
+				}
+			]
+		],
 		[
 			{
 				"item": "farmersdelight:iron_knife"
@@ -9548,7 +10177,54 @@
 		[
 			{
 				"item": "minecraft:lime_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"minecraft:purple_banner": [
@@ -9754,7 +10430,54 @@
 		[
 			{
 				"item": "minecraft:red_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"create:purple_postbox": [
@@ -10457,7 +11180,54 @@
 		[
 			{
 				"item": "minecraft:blue_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"ubesdelight:ensaymada_ube_raw": [
@@ -10611,7 +11381,54 @@
 		[
 			{
 				"item": "minecraft:light_blue_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"minecraft:chiseled_polished_blackstone": [
@@ -11055,7 +11872,54 @@
 		[
 			{
 				"item": "minecraft:black_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"alexsmobs:frontier_cap": [
@@ -11113,7 +11977,54 @@
 		[
 			{
 				"item": "minecraft:magenta_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"regions_unexplored:redwood_wood": [
@@ -11365,7 +12276,15 @@
 		[
 			{
 				"tag": "forge:rods/wooden"
-			}
+			},
+			[
+				{
+					"item": "minecraft:coal"
+				},
+				{
+					"item": "minecraft:charcoal"
+				}
+			]
 		],
 		[
 			{
@@ -11925,7 +12844,54 @@
 		[
 			{
 				"item": "minecraft:orange_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"sophisticatedstorage:stack_upgrade_tier_2": [
@@ -13216,7 +14182,19 @@
 		]
 	],
 	"minecraft:red_sandstone_stairs": [
-		[],
+		[
+			[
+				{
+					"item": "minecraft:red_sandstone"
+				},
+				{
+					"item": "minecraft:chiseled_red_sandstone"
+				},
+				{
+					"item": "minecraft:cut_red_sandstone"
+				}
+			]
+		],
 		[
 			{
 				"item": "minecraft:red_sandstone"
@@ -13596,7 +14574,54 @@
 		[
 			{
 				"item": "minecraft:purple_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		],
 		[
 			{
@@ -13736,7 +14761,29 @@
 		]
 	],
 	"vegandelight:silken_tofu": [
-		[]
+		[
+			[
+				{
+					"item": "vegandelight:soymilk_bucket"
+				},
+				{
+					"item": "vegandelight:soymilk_bottle"
+				}
+			],
+			[
+				{
+					"tag": "forge:salts"
+				},
+				{
+					"tag": "forge:salt"
+				}
+			],
+			[
+				{
+					"item": "minecraft:water_bucket"
+				}
+			]
+		]
 	],
 	"minecraft:respawn_anchor": [
 		[
@@ -14089,7 +15136,19 @@
 		]
 	],
 	"minecraft:sandstone_stairs": [
-		[],
+		[
+			[
+				{
+					"item": "minecraft:sandstone"
+				},
+				{
+					"item": "minecraft:chiseled_sandstone"
+				},
+				{
+					"item": "minecraft:cut_sandstone"
+				}
+			]
+		],
 		[
 			{
 				"item": "minecraft:sandstone"
@@ -14749,7 +15808,54 @@
 		[
 			{
 				"item": "minecraft:brown_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		],
 		[
 			{
@@ -15769,7 +16875,54 @@
 		[
 			{
 				"item": "minecraft:light_gray_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"ubesdelight:ensaymada_ube": [
@@ -16391,7 +17544,54 @@
 		[
 			{
 				"item": "minecraft:green_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		],
 		[
 			{
@@ -16828,7 +18028,54 @@
 		[
 			{
 				"item": "minecraft:cyan_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"regions_unexplored:blue_bioshroom_sign": [
@@ -17269,7 +18516,54 @@
 		[
 			{
 				"item": "minecraft:orange_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"minecraft:spruce_chest_boat": [
@@ -17515,7 +18809,54 @@
 		[
 			{
 				"item": "minecraft:yellow_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"minecraft:magenta_carpet": [
@@ -17527,7 +18868,54 @@
 		[
 			{
 				"item": "minecraft:magenta_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"create:tiled_glass_pane": [
@@ -17875,7 +19263,54 @@
 		[
 			{
 				"item": "minecraft:lime_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"farmersdelight:mixed_salad": [
@@ -18523,7 +19958,54 @@
 		[
 			{
 				"item": "minecraft:gray_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		],
 		[
 			{
@@ -18976,7 +20458,54 @@
 		[
 			{
 				"item": "minecraft:red_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"farmersdelight:mushroom_rice": [
@@ -18989,7 +20518,15 @@
 			},
 			{
 				"tag": "forge:crops/rice"
-			}
+			},
+			[
+				{
+					"item": "minecraft:carrot"
+				},
+				{
+					"item": "minecraft:potato"
+				}
+			]
 		]
 	],
 	"minecraft:golden_shovel": [
@@ -19032,7 +20569,54 @@
 		[
 			{
 				"item": "minecraft:gray_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"minecraft:oak_pressure_plate": [
@@ -20115,7 +21699,54 @@
 		[
 			{
 				"item": "minecraft:light_gray_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"minecraft:weathered_cut_copper_slab": [
@@ -20274,7 +21905,54 @@
 		[
 			{
 				"item": "minecraft:white_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				}
+			]
 		]
 	],
 	"minecraft:mossy_cobblestone_stairs": [
@@ -20569,7 +22247,21 @@
 		[
 			{
 				"item": "create:railway_casing"
-			}
+			},
+			[
+				{
+					"item": "minecraft:stone_pressure_plate"
+				},
+				{
+					"item": "minecraft:polished_blackstone_pressure_plate"
+				},
+				{
+					"item": "minecraft:heavy_weighted_pressure_plate"
+				},
+				{
+					"item": "minecraft:light_weighted_pressure_plate"
+				}
+			]
 		]
 	],
 	"minecraft:acacia_pressure_plate": [
@@ -20591,7 +22283,54 @@
 		[
 			{
 				"item": "minecraft:lime_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"farmersdelight:rice": [
@@ -21302,7 +23041,54 @@
 		[
 			{
 				"item": "minecraft:blue_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		],
 		[
 			{
@@ -21881,7 +23667,54 @@
 		[
 			{
 				"item": "minecraft:cyan_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"sullysmod:lanternfish": [
@@ -23460,7 +25293,16 @@
 		]
 	],
 	"farmersdelight:tomato_seeds": [
-		[],
+		[
+			[
+				{
+					"item": "farmersdelight:tomato"
+				},
+				{
+					"item": "farmersdelight:rotten_tomato"
+				}
+			]
+		],
 		[
 			{
 				"item": "farmersdelight:wild_tomatoes"
@@ -23471,7 +25313,54 @@
 		[
 			{
 				"item": "minecraft:cyan_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"sophisticatedstorage:advanced_jukebox_upgrade": [
@@ -23629,7 +25518,54 @@
 		[
 			{
 				"item": "minecraft:green_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"sophisticatedbackpacks:diamond_backpack": [
@@ -23724,7 +25660,54 @@
 		[
 			{
 				"item": "minecraft:pink_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		],
 		[
 			{
@@ -23796,7 +25779,54 @@
 		[
 			{
 				"item": "minecraft:brown_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		],
 		[
 			{
@@ -24838,7 +26868,54 @@
 		[
 			{
 				"item": "minecraft:yellow_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"minecraft:beehive": [
@@ -25346,6 +27423,14 @@
 	],
 	"crabbersdelight:bisque": [
 		[
+			[
+				{
+					"tag": "crabbersdelight:cooked_seafood"
+				},
+				{
+					"tag": "crabbersdelight:raw_seafood"
+				}
+			],
 			{
 				"item": "farmersdelight:onion"
 			},
@@ -26022,7 +28107,54 @@
 		[
 			{
 				"item": "minecraft:brown_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"create:cut_granite_brick_slab": [
@@ -26508,7 +28640,54 @@
 		[
 			{
 				"item": "minecraft:black_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		],
 		[
 			{
@@ -27434,7 +29613,19 @@
 				"item": "minecraft:quartz_block"
 			}
 		],
-		[]
+		[
+			[
+				{
+					"item": "minecraft:chiseled_quartz_block"
+				},
+				{
+					"item": "minecraft:quartz_block"
+				},
+				{
+					"item": "minecraft:quartz_pillar"
+				}
+			]
+		]
 	],
 	"farmersdelight:yellow_hanging_canvas_sign": [
 		[
@@ -27812,7 +30003,54 @@
 		[
 			{
 				"item": "minecraft:red_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:yellow_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"regions_unexplored:willow_hanging_sign": [
@@ -29040,7 +31278,54 @@
 		[
 			{
 				"item": "minecraft:pink_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		]
 	],
 	"minecraft:stripped_warped_stem": [
@@ -30437,6 +32722,14 @@
 	],
 	"farmersdelight:horse_feed": [
 		[
+			[
+				{
+					"item": "minecraft:hay_block"
+				},
+				{
+					"item": "farmersdelight:rice_bale"
+				}
+			],
 			{
 				"item": "minecraft:apple"
 			},
@@ -30561,7 +32854,54 @@
 		[
 			{
 				"item": "minecraft:white_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:purple_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				}
+			]
 		]
 	],
 	"create:pink_valve_handle": [
@@ -30614,7 +32954,54 @@
 		[
 			{
 				"item": "minecraft:yellow_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_carpet"
+				},
+				{
+					"item": "minecraft:blue_carpet"
+				},
+				{
+					"item": "minecraft:brown_carpet"
+				},
+				{
+					"item": "minecraft:cyan_carpet"
+				},
+				{
+					"item": "minecraft:gray_carpet"
+				},
+				{
+					"item": "minecraft:green_carpet"
+				},
+				{
+					"item": "minecraft:light_blue_carpet"
+				},
+				{
+					"item": "minecraft:light_gray_carpet"
+				},
+				{
+					"item": "minecraft:lime_carpet"
+				},
+				{
+					"item": "minecraft:magenta_carpet"
+				},
+				{
+					"item": "minecraft:orange_carpet"
+				},
+				{
+					"item": "minecraft:pink_carpet"
+				},
+				{
+					"item": "minecraft:purple_carpet"
+				},
+				{
+					"item": "minecraft:red_carpet"
+				},
+				{
+					"item": "minecraft:white_carpet"
+				}
+			]
 		]
 	],
 	"create:layered_scoria": [
@@ -31261,7 +33648,54 @@
 		[
 			{
 				"item": "minecraft:purple_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_bed"
+				},
+				{
+					"item": "minecraft:blue_bed"
+				},
+				{
+					"item": "minecraft:brown_bed"
+				},
+				{
+					"item": "minecraft:cyan_bed"
+				},
+				{
+					"item": "minecraft:gray_bed"
+				},
+				{
+					"item": "minecraft:green_bed"
+				},
+				{
+					"item": "minecraft:light_blue_bed"
+				},
+				{
+					"item": "minecraft:light_gray_bed"
+				},
+				{
+					"item": "minecraft:lime_bed"
+				},
+				{
+					"item": "minecraft:magenta_bed"
+				},
+				{
+					"item": "minecraft:orange_bed"
+				},
+				{
+					"item": "minecraft:pink_bed"
+				},
+				{
+					"item": "minecraft:red_bed"
+				},
+				{
+					"item": "minecraft:yellow_bed"
+				},
+				{
+					"item": "minecraft:white_bed"
+				}
+			]
 		],
 		[
 			{
@@ -31406,7 +33840,15 @@
 			},
 			{
 				"tag": "minecraft:soul_fire_base_blocks"
-			}
+			},
+			[
+				{
+					"item": "minecraft:coal"
+				},
+				{
+					"item": "minecraft:charcoal"
+				}
+			]
 		]
 	],
 	"regions_unexplored:stripped_small_oak_log": [
@@ -32465,6 +34907,14 @@
 	],
 	"minecraft:tnt": [
 		[
+			[
+				{
+					"item": "minecraft:sand"
+				},
+				{
+					"item": "minecraft:red_sand"
+				}
+			],
 			{
 				"item": "minecraft:gunpowder"
 			}
@@ -32595,7 +35045,54 @@
 		[
 			{
 				"item": "minecraft:white_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				}
+			]
 		]
 	],
 	"regions_unexplored:willow_fence_gate": [
@@ -32612,7 +35109,54 @@
 		[
 			{
 				"item": "minecraft:light_blue_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"minecraft:light_blue_stained_glass_pane": [
@@ -32760,7 +35304,24 @@
 		]
 	],
 	"vegandelight:tofu": [
-		[]
+		[
+			[
+				{
+					"item": "vegandelight:soymilk_bucket"
+				},
+				{
+					"item": "vegandelight:soymilk_bottle"
+				}
+			],
+			[
+				{
+					"tag": "forge:salts"
+				},
+				{
+					"tag": "forge:salt"
+				}
+			]
+		]
 	],
 	"create:cut_deepslate_brick_wall": [
 		[
@@ -33471,7 +36032,21 @@
 		[
 			{
 				"tag": "forge:bones"
-			}
+			},
+			[
+				{
+					"item": "minecraft:glow_berries"
+				},
+				{
+					"tag": "forge:mushrooms"
+				},
+				{
+					"item": "minecraft:hanging_roots"
+				},
+				{
+					"item": "minecraft:glow_lichen"
+				}
+			]
 		]
 	],
 	"alexsmobs:straddlite_block": [
@@ -34091,7 +36666,16 @@
 		]
 	],
 	"minecraft:purpur_slab": [
-		[],
+		[
+			[
+				{
+					"item": "minecraft:purpur_block"
+				},
+				{
+					"item": "minecraft:purpur_pillar"
+				}
+			]
+		],
 		[
 			{
 				"item": "minecraft:purpur_block"
@@ -35631,6 +38215,23 @@
 			{
 				"tag": "minecraft:small_flowers"
 			},
+			[
+				{
+					"item": "minecraft:horn_coral"
+				},
+				{
+					"item": "minecraft:brain_coral"
+				},
+				{
+					"item": "minecraft:tube_coral"
+				},
+				{
+					"item": "minecraft:bubble_coral"
+				},
+				{
+					"item": "minecraft:fire_coral"
+				}
+			],
 			{
 				"item": "minecraft:bone_meal"
 			}
@@ -35981,7 +38582,54 @@
 		[
 			{
 				"item": "minecraft:black_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:purple_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"farmersdelight:lime_hanging_canvas_sign": [
@@ -36458,7 +39106,54 @@
 		[
 			{
 				"item": "minecraft:purple_dye"
-			}
+			},
+			[
+				{
+					"item": "minecraft:black_wool"
+				},
+				{
+					"item": "minecraft:blue_wool"
+				},
+				{
+					"item": "minecraft:brown_wool"
+				},
+				{
+					"item": "minecraft:cyan_wool"
+				},
+				{
+					"item": "minecraft:gray_wool"
+				},
+				{
+					"item": "minecraft:green_wool"
+				},
+				{
+					"item": "minecraft:light_blue_wool"
+				},
+				{
+					"item": "minecraft:light_gray_wool"
+				},
+				{
+					"item": "minecraft:lime_wool"
+				},
+				{
+					"item": "minecraft:magenta_wool"
+				},
+				{
+					"item": "minecraft:orange_wool"
+				},
+				{
+					"item": "minecraft:pink_wool"
+				},
+				{
+					"item": "minecraft:red_wool"
+				},
+				{
+					"item": "minecraft:yellow_wool"
+				},
+				{
+					"item": "minecraft:white_wool"
+				}
+			]
 		]
 	],
 	"regions_unexplored:redwood_sign": [
