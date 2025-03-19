@@ -2,9 +2,9 @@
 	"create:pink_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -59,10 +59,10 @@
 	"create:black_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -186,9 +186,9 @@
 	"create:yellow_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -196,9 +196,9 @@
 	"create:light_gray_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -295,10 +295,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:redstone_torch"
@@ -397,10 +397,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -503,10 +503,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:redstone_torch"
@@ -575,10 +575,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:redstone_torch"
@@ -647,10 +647,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:redstone_torch"
@@ -676,12 +676,12 @@
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			]
 		],
 		[
@@ -694,8 +694,8 @@
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		],
 		[
@@ -703,8 +703,8 @@
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -796,10 +796,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -817,8 +817,8 @@
 				"farmersdelight:pie_crust"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"minecraft:sugar"
@@ -834,8 +834,8 @@
 				"minecraft:pumpkin"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		],
 		[
@@ -843,8 +843,8 @@
 				"minecraft:pumpkin"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		],
 		[
@@ -871,10 +871,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -882,10 +882,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -912,13 +912,13 @@
 				"farmersdelight:tomato"
 			],
 			[
-				"farmersdelight:onion",
-				"ubesdelight:ginger",
-				"minecraft:potato",
-				"farmersdelight:tomato",
-				"ubesdelight:garlic",
 				"ubesdelight:lemongrass",
 				"minecraft:carrot",
+				"farmersdelight:onion",
+				"minecraft:potato",
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"farmersdelight:tomato",
 				"ubesdelight:ube"
 			],
 			[
@@ -929,20 +929,20 @@
 	"create:light_blue_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
 	"create:black_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -1022,10 +1022,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:redstone_torch"
@@ -1068,10 +1068,10 @@
 			],
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -1091,10 +1091,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -1128,9 +1128,9 @@
 				"minecraft:cyan_dye"
 			],
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -1138,11 +1138,11 @@
 	"ubesdelight:lumpia": [
 		[
 			[
-				"vegandelight:smoked_tofish",
-				"vegandelight:silken_tofu",
-				"minecraft:potato",
-				"vegandelight:applesauce",
 				"minecraft:carrot",
+				"vegandelight:smoked_tofish",
+				"vegandelight:applesauce",
+				"minecraft:potato",
+				"vegandelight:silken_tofu",
 				"ubesdelight:ube"
 			],
 			[
@@ -1168,10 +1168,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:advanced_magnet_upgrade"
@@ -1182,10 +1182,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -1218,9 +1218,9 @@
 	"create:yellow_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -1247,20 +1247,20 @@
 	"farmersdelight:blue_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
 	"farmersdelight:cyan_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			],
 			[
@@ -1272,10 +1272,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -1283,10 +1283,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:blasting_upgrade"
@@ -1336,19 +1336,19 @@
 	"ubesdelight:ube_cake": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"minecraft:wheat"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"ubesdelight:ube"
@@ -1356,12 +1356,12 @@
 		],
 		[
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"ubesdelight:ube"
@@ -1372,12 +1372,12 @@
 		],
 		[
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"ubesdelight:ube"
@@ -1411,8 +1411,8 @@
 				"farmersdelight:onion"
 			],
 			[
-				"vegandelight:cooked_smoked_tofish",
-				"vegandelight:cooked_tofish"
+				"vegandelight:cooked_tofish",
+				"vegandelight:cooked_smoked_tofish"
 			]
 		]
 	],
@@ -1426,8 +1426,8 @@
 	"farmersdelight:stuffed_potato": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -1442,10 +1442,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:magenta_dye"
@@ -1465,18 +1465,18 @@
 				"minecraft:cyan_dye"
 			],
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
 	"create:attribute_filter": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -1507,10 +1507,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -1530,10 +1530,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -1576,9 +1576,9 @@
 	"create:white_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -1587,10 +1587,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -1638,10 +1638,10 @@
 	"create:orange_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -1675,10 +1675,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:smoking_upgrade"
@@ -1733,8 +1733,8 @@
 	"minecraft:painting": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -1753,9 +1753,9 @@
 		],
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -1810,10 +1810,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:redstone_torch"
@@ -1871,9 +1871,9 @@
 	"create:red_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -1889,10 +1889,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:auto_blasting_upgrade"
@@ -1914,9 +1914,9 @@
 	"farmersdelight:light_blue_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -1962,8 +1962,8 @@
 	"farmersdelight:dumplings": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
 				"farmersdelight:cabbage"
@@ -1986,9 +1986,9 @@
 				"minecraft:cyan_dye"
 			],
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -2012,10 +2012,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -2084,8 +2084,8 @@
 	"crabbersdelight:fish_stick": [
 		[
 			[
-				"vegandelight:cooked_smoked_tofish",
-				"vegandelight:cooked_tofish"
+				"vegandelight:cooked_tofish",
+				"vegandelight:cooked_smoked_tofish"
 			]
 		]
 	],
@@ -2144,10 +2144,10 @@
 	"create:pink_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -2197,10 +2197,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:advanced_filter_upgrade"
@@ -2246,9 +2246,9 @@
 	"farmersdelight:red_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -2256,9 +2256,9 @@
 	"create:light_gray_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -2298,19 +2298,19 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"farmersdelight:gray_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -2340,18 +2340,18 @@
 	"create:purple_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
 	"delightful:matcha_latte": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -2366,10 +2366,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -2398,10 +2398,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -2436,8 +2436,8 @@
 	"create:package_filter": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -2453,10 +2453,10 @@
 	"create:copper_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -2471,10 +2471,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -2493,9 +2493,9 @@
 	"create:purple_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		],
@@ -2523,16 +2523,16 @@
 	"ubesdelight:ensaymada_ube_raw": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"ubesdelight:ube"
@@ -2540,16 +2540,16 @@
 		],
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"ubesdelight:ube"
@@ -2559,10 +2559,10 @@
 	"create:white_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -2684,8 +2684,8 @@
 		],
 		[
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"minecraft:wheat"
@@ -2747,9 +2747,9 @@
 	"create:light_blue_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -2757,9 +2757,9 @@
 	"create:black_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -2768,10 +2768,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_downgrade_tier_1"
@@ -2782,10 +2782,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -2811,10 +2811,10 @@
 	"create:wand_of_symmetry": [
 		[
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
@@ -2824,8 +2824,8 @@
 				"delightful:matcha_ice_cream"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -2840,10 +2840,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -2859,10 +2859,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -2873,10 +2873,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_upgrade_tier_2"
@@ -2886,9 +2886,9 @@
 	"farmersdelight:magenta_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			],
 			[
@@ -2900,10 +2900,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_upgrade_tier_3"
@@ -2914,10 +2914,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_upgrade_tier_4"
@@ -3069,20 +3069,20 @@
 		],
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			]
 		]
 	],
 	"ubesdelight:pandesal_raw": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"minecraft:bread"
@@ -3090,12 +3090,12 @@
 		],
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"minecraft:bread"
@@ -3106,10 +3106,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -3124,10 +3124,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stonecutter_upgrade"
@@ -3145,10 +3145,10 @@
 				"minecraft:cyan_dye"
 			],
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -3163,10 +3163,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -3188,10 +3188,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_downgrade_tier_3"
@@ -3202,10 +3202,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_downgrade_tier_2"
@@ -3252,10 +3252,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:crafting_upgrade"
@@ -3275,11 +3275,11 @@
 	"farmersdelight:purple_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
@@ -3300,12 +3300,12 @@
 	"ubesdelight:leche_flan": [
 		[
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"ubesdelight:condensed_milk_bottle"
@@ -3315,9 +3315,9 @@
 	"farmersdelight:brown_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -3325,19 +3325,19 @@
 	"create:yellow_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
 	"create:black_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -3346,10 +3346,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:advanced_void_upgrade"
@@ -3425,12 +3425,12 @@
 	"ubesdelight:hopia_ube_raw": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"ubesdelight:ube"
@@ -3438,12 +3438,12 @@
 		],
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"ubesdelight:ube"
@@ -3478,10 +3478,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_upgrade_omega_tier"
@@ -3495,8 +3495,8 @@
 				"farmersdelight:rice"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		]
 	],
@@ -3530,10 +3530,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -3541,19 +3541,19 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:white_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -3644,19 +3644,19 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:gray_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -3671,30 +3671,30 @@
 	"ubesdelight:ensaymada_raw": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		],
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -3715,10 +3715,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:compacting_upgrade"
@@ -3732,17 +3732,17 @@
 				"farmersdelight:rice"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			]
 		]
 	],
 	"create:brown_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		],
@@ -3777,8 +3777,8 @@
 				"minecraft:potato"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"farmersdelight:tomato"
@@ -3810,9 +3810,9 @@
 				"minecraft:magenta_dye"
 			],
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -3835,10 +3835,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -3909,9 +3909,9 @@
 				"minecraft:lime_dye"
 			],
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		],
@@ -3929,21 +3929,21 @@
 	"farmersdelight:red_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
 	"create:blue_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -4029,10 +4029,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:advanced_feeding_upgrade"
@@ -4048,10 +4048,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4070,9 +4070,9 @@
 	"create:orange_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -4081,10 +4081,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4228,8 +4228,8 @@
 				"ubesdelight:lemongrass"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -4241,9 +4241,9 @@
 		],
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -4329,8 +4329,8 @@
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:sugar"
@@ -4338,28 +4338,28 @@
 		],
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		],
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		]
 	],
@@ -4376,13 +4376,13 @@
 				"ubesdelight:lemongrass"
 			],
 			[
-				"farmersdelight:onion",
-				"ubesdelight:ginger",
-				"minecraft:potato",
-				"farmersdelight:tomato",
-				"ubesdelight:garlic",
 				"ubesdelight:lemongrass",
 				"minecraft:carrot",
+				"farmersdelight:onion",
+				"minecraft:potato",
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"farmersdelight:tomato",
 				"ubesdelight:ube"
 			]
 		]
@@ -4450,10 +4450,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4470,14 +4470,14 @@
 	"ubesdelight:condensed_milk_bottle": [
 		[
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		],
 		[
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		]
 	],
@@ -4492,10 +4492,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4512,11 +4512,11 @@
 	"farmersdelight:green_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
@@ -4524,19 +4524,19 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"farmersdelight:light_gray_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -4559,10 +4559,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:void_upgrade"
@@ -4583,10 +4583,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4594,10 +4594,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:magnet_upgrade"
@@ -4608,10 +4608,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -4655,10 +4655,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4675,9 +4675,9 @@
 				"minecraft:magenta_dye"
 			],
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -4686,10 +4686,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:filter_upgrade"
@@ -4702,20 +4702,20 @@
 				"minecraft:lime_dye"
 			],
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
 	"create:brown_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -4822,8 +4822,8 @@
 	"delightful:baklava": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
 				"minecraft:sugar"
@@ -4855,10 +4855,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4866,10 +4866,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4877,10 +4877,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -4985,10 +4985,10 @@
 			],
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -5006,10 +5006,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -5050,29 +5050,29 @@
 		],
 		[
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:sugar"
 			],
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			]
 		],
 		[
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
 				"minecraft:sugar"
@@ -5080,12 +5080,12 @@
 		],
 		[
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:wheat"
@@ -5093,12 +5093,12 @@
 		],
 		[
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:wheat"
@@ -5124,8 +5124,8 @@
 				"farmersdelight:rice"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		]
 	],
@@ -5158,11 +5158,11 @@
 	"farmersdelight:magenta_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			],
 			[
 				"minecraft:magenta_dye"
@@ -5188,10 +5188,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -5210,9 +5210,9 @@
 	"create:blue_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -5230,11 +5230,11 @@
 				"farmersdelight:cabbage"
 			],
 			[
-				"vegandelight:smoked_tofish",
-				"vegandelight:silken_tofu",
-				"minecraft:potato",
-				"vegandelight:applesauce",
 				"minecraft:carrot",
+				"vegandelight:smoked_tofish",
+				"vegandelight:applesauce",
+				"minecraft:potato",
+				"vegandelight:silken_tofu",
 				"ubesdelight:ube"
 			]
 		]
@@ -5242,8 +5242,8 @@
 	"ubesdelight:tocino": [
 		[
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"ubesdelight:ginger"
@@ -5253,9 +5253,9 @@
 	"create:pink_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -5304,8 +5304,8 @@
 	"create:white_sail": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -5322,10 +5322,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -5343,19 +5343,19 @@
 	"create:white_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
 	"create:light_blue_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -5372,8 +5372,8 @@
 				"delightful:salmonberries"
 			],
 			[
-				"farmersdelight:rice",
-				"minecraft:pumpkin_seeds"
+				"minecraft:pumpkin_seeds",
+				"farmersdelight:rice"
 			]
 		]
 	],
@@ -5403,10 +5403,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:stack_upgrade_starter_tier"
@@ -5424,10 +5424,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -5442,10 +5442,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:pickup_upgrade"
@@ -5454,10 +5454,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -5481,9 +5481,9 @@
 	"create:orange_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -5491,9 +5491,9 @@
 	"farmersdelight:orange_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -5508,8 +5508,8 @@
 	"crabbersdelight:stuffed_nautilus_shell": [
 		[
 			[
-				"vegandelight:cooked_smoked_tofish",
-				"vegandelight:cooked_tofish"
+				"vegandelight:cooked_tofish",
+				"vegandelight:cooked_smoked_tofish"
 			]
 		]
 	],
@@ -5542,9 +5542,9 @@
 		],
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -5574,10 +5574,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:auto_smelting_upgrade"
@@ -5608,10 +5608,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:advanced_jukebox_upgrade"
@@ -5634,10 +5634,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:jukebox_upgrade"
@@ -5698,10 +5698,10 @@
 			],
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -5730,8 +5730,8 @@
 	"delightful:ender_nectar": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -5746,10 +5746,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:auto_smoking_upgrade"
@@ -5781,10 +5781,10 @@
 	"create:purple_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -5798,9 +5798,9 @@
 	"create:gray_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -5844,12 +5844,12 @@
 	"ubesdelight:pandesal_ube_raw": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"minecraft:bread"
@@ -5860,12 +5860,12 @@
 		],
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"minecraft:bread"
@@ -5886,18 +5886,18 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:filter": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -5907,10 +5907,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -5950,10 +5950,10 @@
 	"create:green_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -5963,8 +5963,8 @@
 				"delightful:salmonberries"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:sugar"
@@ -5982,10 +5982,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -6001,20 +6001,20 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:green_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -6047,10 +6047,10 @@
 	"create:stock_ticker": [
 		[
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
@@ -6065,19 +6065,19 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6087,8 +6087,8 @@
 				"minecraft:bread"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"farmersdelight:cabbage"
@@ -6105,10 +6105,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:lime_dye"
@@ -6134,16 +6134,16 @@
 				"minecraft:carrot"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
 	"delightful:matcha_ice_cream": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:sugar"
@@ -6154,10 +6154,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6189,20 +6189,20 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:yellow_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -6216,11 +6216,11 @@
 	"farmersdelight:light_blue_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
@@ -6305,19 +6305,19 @@
 	"create:gray_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
 	"create:blue_table_cloth": [
 		[
 			[
+				"create:brown_table_cloth",
 				"create:lime_table_cloth",
 				"create:green_table_cloth",
-				"create:brown_table_cloth",
 				"create:purple_table_cloth"
 			]
 		]
@@ -6341,18 +6341,18 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:nozzle": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -6411,10 +6411,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6454,11 +6454,11 @@
 	"farmersdelight:cyan_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			],
 			[
 				"minecraft:cyan_dye"
@@ -6481,39 +6481,39 @@
 	"ubesdelight:rolling_pin_wood": [
 		[
 			[
+				"regions_unexplored:larch_fence",
 				"minecraft:acacia_fence",
-				"regions_unexplored:baobab_fence",
-				"regions_unexplored:cypress_fence",
-				"regions_unexplored:green_bioshroom_fence",
-				"regions_unexplored:joshua_fence",
-				"regions_unexplored:kapok_fence",
-				"regions_unexplored:magnolia_fence",
-				"minecraft:oak_fence",
 				"regions_unexplored:brimwood_fence",
-				"regions_unexplored:blackwood_fence",
-				"regions_unexplored:yellow_bioshroom_fence",
-				"regions_unexplored:redwood_fence",
-				"regions_unexplored:maple_fence",
 				"minecraft:bamboo_fence",
-				"minecraft:birch_fence",
-				"minecraft:mangrove_fence",
+				"regions_unexplored:kapok_fence",
+				"minecraft:crimson_fence",
+				"regions_unexplored:redwood_fence",
+				"regions_unexplored:socotra_fence",
+				"regions_unexplored:pink_bioshroom_fence",
+				"regions_unexplored:joshua_fence",
+				"regions_unexplored:baobab_fence",
 				"regions_unexplored:mauve_fence",
 				"minecraft:warped_fence",
-				"regions_unexplored:eucalyptus_fence",
-				"regions_unexplored:pine_fence",
 				"minecraft:jungle_fence",
-				"regions_unexplored:socotra_fence",
-				"regions_unexplored:palm_fence",
-				"regions_unexplored:willow_fence",
-				"regions_unexplored:dead_fence",
-				"minecraft:spruce_fence",
-				"regions_unexplored:larch_fence",
+				"regions_unexplored:eucalyptus_fence",
+				"regions_unexplored:maple_fence",
+				"regions_unexplored:yellow_bioshroom_fence",
 				"minecraft:cherry_fence",
+				"regions_unexplored:green_bioshroom_fence",
+				"regions_unexplored:willow_fence",
+				"minecraft:oak_fence",
+				"minecraft:mangrove_fence",
+				"regions_unexplored:palm_fence",
 				"regions_unexplored:cobalt_fence",
-				"minecraft:crimson_fence",
+				"regions_unexplored:pine_fence",
+				"minecraft:birch_fence",
 				"regions_unexplored:blue_bioshroom_fence",
-				"regions_unexplored:pink_bioshroom_fence",
-				"minecraft:dark_oak_fence"
+				"regions_unexplored:magnolia_fence",
+				"minecraft:dark_oak_fence",
+				"regions_unexplored:cypress_fence",
+				"regions_unexplored:blackwood_fence",
+				"minecraft:spruce_fence",
+				"regions_unexplored:dead_fence"
 			]
 		]
 	],
@@ -6566,9 +6566,9 @@
 	"farmersdelight:yellow_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -6596,10 +6596,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:smelting_upgrade"
@@ -6609,10 +6609,10 @@
 	"create:gray_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -6620,18 +6620,18 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"farmersdelight:hot_cocoa": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:sugar"
@@ -6641,8 +6641,8 @@
 	"ubesdelight:halo_halo_feast": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -6673,10 +6673,10 @@
 	"create:light_blue_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -6691,10 +6691,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:cyan_dye"
@@ -6707,10 +6707,10 @@
 				"sophisticatedbackpacks:upgrade_base"
 			],
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
@@ -6723,8 +6723,8 @@
 				"minecraft:potato"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -6760,10 +6760,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6796,13 +6796,13 @@
 				"farmersdelight:onion"
 			],
 			[
-				"farmersdelight:onion",
-				"ubesdelight:ginger",
-				"minecraft:potato",
-				"farmersdelight:tomato",
-				"ubesdelight:garlic",
 				"ubesdelight:lemongrass",
 				"minecraft:carrot",
+				"farmersdelight:onion",
+				"minecraft:potato",
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"farmersdelight:tomato",
 				"ubesdelight:ube"
 			]
 		]
@@ -6818,10 +6818,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6846,10 +6846,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6857,10 +6857,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6889,11 +6889,11 @@
 	"farmersdelight:gray_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
@@ -6908,10 +6908,10 @@
 				"minecraft:lime_dye"
 			],
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -6933,10 +6933,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -6953,8 +6953,8 @@
 				"farmersdelight:rice"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"minecraft:carrot"
@@ -6970,13 +6970,13 @@
 				"farmersdelight:rice"
 			],
 			[
-				"farmersdelight:onion",
-				"ubesdelight:ginger",
-				"minecraft:potato",
-				"farmersdelight:tomato",
-				"ubesdelight:garlic",
 				"ubesdelight:lemongrass",
 				"minecraft:carrot",
+				"farmersdelight:onion",
+				"minecraft:potato",
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"farmersdelight:tomato",
 				"ubesdelight:ube"
 			],
 			[
@@ -7015,9 +7015,9 @@
 				"minecraft:lime_dye"
 			],
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -7059,9 +7059,9 @@
 		],
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -7069,9 +7069,9 @@
 	"farmersdelight:black_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -7080,10 +7080,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -7099,10 +7099,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -7157,10 +7157,10 @@
 	"regions_unexplored:prismaglass": [
 		[
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
@@ -7182,10 +7182,10 @@
 	"create:brown_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -7221,9 +7221,9 @@
 	"farmersdelight:white_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -7234,8 +7234,8 @@
 				"ubesdelight:ube"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"ubesdelight:condensed_milk_bottle"
@@ -7246,8 +7246,8 @@
 				"ubesdelight:ube"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"ubesdelight:condensed_milk_bottle"
@@ -7258,19 +7258,19 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"farmersdelight:blue_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -7309,18 +7309,18 @@
 	"create:goggles": [
 		[
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
 	"create:rope_pulley": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -7330,10 +7330,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -7350,18 +7350,18 @@
 				"ubesdelight:lemongrass"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		]
 	],
 	"create:red_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -7369,10 +7369,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -7380,9 +7380,9 @@
 		[
 			[
 				"minecraft:green_terracotta",
-				"minecraft:brown_terracotta",
+				"minecraft:purple_terracotta",
 				"minecraft:lime_terracotta",
-				"minecraft:purple_terracotta"
+				"minecraft:brown_terracotta"
 			],
 			[
 				"minecraft:campfire"
@@ -7392,9 +7392,9 @@
 	"farmersdelight:pink_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -7402,12 +7402,12 @@
 	"farmersdelight:glow_berry_custard": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"minecraft:sugar"
@@ -7417,9 +7417,9 @@
 	"create:red_seat": [
 		[
 			[
-				"create:lime_seat",
-				"create:purple_seat",
 				"create:green_seat",
+				"create:purple_seat",
+				"create:lime_seat",
 				"create:brown_seat"
 			]
 		]
@@ -7427,21 +7427,21 @@
 	"farmersdelight:yellow_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
 	"create:light_gray_postbox": [
 		[
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		]
 	],
@@ -7458,11 +7458,11 @@
 	"farmersdelight:lime_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			],
 			[
 				"minecraft:lime_dye"
@@ -7510,9 +7510,9 @@
 	"farmersdelight:green_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -7540,10 +7540,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"minecraft:book"
@@ -7561,10 +7561,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		],
 		[
@@ -7579,10 +7579,10 @@
 	"create:pink_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -7610,10 +7610,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:advanced_compacting_upgrade"
@@ -7623,10 +7623,10 @@
 	"alexsmobs:rainbow_glass": [
 		[
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
@@ -7636,8 +7636,8 @@
 				"delightful:salmonberry_ice_cream"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -7727,8 +7727,8 @@
 				"ubesdelight:milk_tea_ube"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		]
 	],
@@ -7746,10 +7746,10 @@
 			],
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -7759,8 +7759,8 @@
 				"minecraft:bread"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"farmersdelight:cabbage"
@@ -7804,22 +7804,22 @@
 	"ubesdelight:hopia_munggo_raw": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		],
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		]
 	],
@@ -7833,8 +7833,8 @@
 	"delightful:nut_dough": [
 		[
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"delightful:nut_butter_bottle"
@@ -7844,22 +7844,22 @@
 	"farmersdelight:orange_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
 	"farmersdelight:brown_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
@@ -7938,10 +7938,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -7977,10 +7977,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -8032,10 +8032,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -8043,20 +8043,20 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:blue_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -8066,10 +8066,10 @@
 				"minecraft:magenta_dye"
 			],
 			[
-				"create:purple_postbox",
-				"create:lime_postbox",
+				"create:brown_postbox",
 				"create:green_postbox",
-				"create:brown_postbox"
+				"create:lime_postbox",
+				"create:purple_postbox"
 			]
 		],
 		[
@@ -8088,10 +8088,10 @@
 	"create:red_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -8099,10 +8099,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:advanced_pickup_upgrade"
@@ -8142,10 +8142,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -8156,8 +8156,8 @@
 				"farmersdelight:rice"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"farmersdelight:rice"
@@ -8168,20 +8168,20 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"create:orange_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -8215,10 +8215,10 @@
 				"sophisticatedbackpacks:upgrade_base"
 			],
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
@@ -8232,10 +8232,10 @@
 	"create:light_gray_valve_handle": [
 		[
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
@@ -8243,10 +8243,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -8263,29 +8263,29 @@
 				"minecraft:magenta_dye"
 			],
 			[
+				"create:green_valve_handle",
 				"create:purple_valve_handle",
-				"create:brown_valve_handle",
 				"create:lime_valve_handle",
-				"create:green_valve_handle"
+				"create:brown_valve_handle"
 			]
 		]
 	],
 	"delightful:cantaloupe_bread": [
 		[
 			[
-				"delightful:nut_dough",
-				"farmersdelight:wheat_dough"
+				"farmersdelight:wheat_dough",
+				"delightful:nut_dough"
 			]
 		]
 	],
 	"farmersdelight:light_gray_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
@@ -8339,10 +8339,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -8350,10 +8350,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -8368,31 +8368,31 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
 	"farmersdelight:white_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
 	"create:copper_diving_helmet": [
 		[
 			[
-				"minecraft:purple_stained_glass",
 				"minecraft:green_stained_glass",
-				"minecraft:brown_stained_glass",
-				"minecraft:lime_stained_glass"
+				"minecraft:lime_stained_glass",
+				"minecraft:purple_stained_glass",
+				"minecraft:brown_stained_glass"
 			]
 		]
 	],
@@ -8444,8 +8444,8 @@
 	"sophisticatedstorage:paintbrush": [
 		[
 			[
-				"minecraft:lime_wool",
 				"minecraft:purple_wool",
+				"minecraft:lime_wool",
 				"minecraft:green_wool",
 				"minecraft:brown_wool"
 			]
@@ -8464,8 +8464,8 @@
 				"minecraft:wheat"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		],
 		[
@@ -8473,14 +8473,14 @@
 				"minecraft:wheat"
 			],
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			]
 		],
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"minecraft:wheat"
@@ -8496,8 +8496,8 @@
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		],
 		[
@@ -8508,8 +8508,8 @@
 				"farmersdelight:pie_crust"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			]
 		],
 		[
@@ -8550,8 +8550,8 @@
 				"farmersdelight:rice"
 			],
 			[
-				"ubesdelight:sugar_brown",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"ubesdelight:sugar_brown"
 			],
 			[
 				"ubesdelight:ube"
@@ -8596,8 +8596,8 @@
 	"farmersdelight:shepherds_pie_block": [
 		[
 			[
-				"ubesdelight:condensed_milk_bottle",
-				"vegandelight:soymilk_bottle"
+				"vegandelight:soymilk_bottle",
+				"ubesdelight:condensed_milk_bottle"
 			],
 			[
 				"farmersdelight:onion"
@@ -8645,10 +8645,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			],
 			[
 				"sophisticatedbackpacks:feeding_upgrade"
@@ -8726,9 +8726,9 @@
 	"farmersdelight:lime_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			],
 			[
@@ -8739,20 +8739,20 @@
 	"farmersdelight:black_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
 	"farmersdelight:purple_hanging_canvas_sign": [
 		[
 			[
-				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:purple_hanging_canvas_sign",
 				"farmersdelight:lime_hanging_canvas_sign",
+				"farmersdelight:brown_hanging_canvas_sign",
 				"farmersdelight:green_hanging_canvas_sign"
 			]
 		]
@@ -8760,11 +8760,11 @@
 	"farmersdelight:pink_canvas_sign": [
 		[
 			[
-				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:purple_canvas_sign",
-				"farmersdelight:brown_canvas_sign",
+				"farmersdelight:lime_canvas_sign",
 				"farmersdelight:canvas_sign",
-				"farmersdelight:green_canvas_sign"
+				"farmersdelight:green_canvas_sign",
+				"farmersdelight:brown_canvas_sign"
 			]
 		]
 	],
@@ -8782,10 +8782,10 @@
 		[
 			[
 				"regions_unexplored:brown_painted_planks",
-				"regions_unexplored:lime_painted_planks",
 				"regions_unexplored:purple_painted_planks",
-				"regions_unexplored:green_painted_planks",
-				"minecraft:bamboo_planks"
+				"regions_unexplored:lime_painted_planks",
+				"minecraft:bamboo_planks",
+				"regions_unexplored:green_painted_planks"
 			]
 		]
 	],
@@ -8809,8 +8809,8 @@
 				"farmersdelight:onion"
 			],
 			[
-				"vegandelight:applesauce",
-				"vegandelight:silken_tofu"
+				"vegandelight:silken_tofu",
+				"vegandelight:applesauce"
 			],
 			[
 				"minecraft:bread"
@@ -8840,13 +8840,13 @@
 				"ubesdelight:lemongrass"
 			],
 			[
-				"farmersdelight:onion",
-				"ubesdelight:ginger",
-				"minecraft:potato",
-				"farmersdelight:tomato",
-				"ubesdelight:garlic",
 				"ubesdelight:lemongrass",
 				"minecraft:carrot",
+				"farmersdelight:onion",
+				"minecraft:potato",
+				"ubesdelight:garlic",
+				"ubesdelight:ginger",
+				"farmersdelight:tomato",
 				"ubesdelight:ube"
 			]
 		]

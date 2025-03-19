@@ -4,10 +4,15 @@ const recipeHandler = (event) => {
   FfbMarketRecipes.generateRecipes(event)
 
   if (DebugMode.recipeTreeAnalysis) {
-    CookingIngCalcTreeGen.searchForTargetOutputsUsingBaseIngs(
+    let dishes = CollectCaches.categoryLists['cooking']
+    let recipeTree = CookingIngCalcTreeGen.searchForTargetOutputsUsingBaseIngs(
       event,
-      CollectCaches.categoryLists['cooking'],
+      dishes,
       CollectLists.flora.subCollections.crops.list
     )
+    let baseIngTree = CookingIngCalcTreeAnalysis.analyzeTree(
+      recipeTree, dishes
+    )
+    CacheHelperConst.cacheObject('base_ing_tree', baseIngTree)
   }
 }

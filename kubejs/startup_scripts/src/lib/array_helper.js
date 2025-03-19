@@ -79,4 +79,14 @@ const ArrayHelper = {
     let stringifyObj = `${obj}`
     return stringifyObj.includes(']') && stringifyObj.includes('[')
   }
+  // isArray(obj) {
+  //   let stringifyObj = `${obj}`
+  //   if (stringifyObj.substring(0, 1) !== '[') {
+  //     return false
+  //   } else if (stringifyObj.substring(stringifyObj.length - 1) !== ']') {
+  //     return false
+  //   } else {
+  //     return true
+  //   }
+  // }
 }

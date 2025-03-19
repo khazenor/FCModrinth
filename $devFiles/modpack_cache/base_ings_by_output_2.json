@@ -265,8 +265,8 @@
 	"ubesdelight:lumpia": [
 		[
 			[
-				"vegandelight:smoked_tofish",
 				"vegandelight:tofish",
+				"vegandelight:smoked_tofish",
 				"vegandelight:applesauce"
 			],
 			[
@@ -2375,8 +2375,8 @@
 				"farmersdelight:cabbage_leaf"
 			],
 			[
-				"vegandelight:smoked_tofish",
 				"vegandelight:tofish",
+				"vegandelight:smoked_tofish",
 				"vegandelight:applesauce"
 			]
 		]
@@ -2425,8 +2425,8 @@
 	"delightful:stuffed_cantaloupe_block": [
 		[
 			[
-				"delightful:salmonberry_pips",
 				"minecraft:pumpkin_seeds",
+				"delightful:salmonberry_pips",
 				"farmersdelight:tomato_seeds",
 				"ubesdelight:lemongrass_seeds"
 			]
