@@ -1,1 +1,6 @@
-const debugMode = false
+const DebugMode = {
+  createModpackConfigs: false,
+  cacheEnchantments: false,
+  recipeTreeAnalysis: false,
+  recipeTreeAnalysisLogging: false
+}

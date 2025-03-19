@@ -3,7 +3,7 @@ const RecipeHelpers = {
     let number = StrHelper.cleanFloor(resultNum)
     event.shapeless(`${number}x ${resultId}`, ingList)
 
-    if (debugMode) {
+    if (DebugMode.recipeTreeAnalysis) {
       let recipeIngList = []
       let duplicateCache = []
       for (let ing of ingList) {

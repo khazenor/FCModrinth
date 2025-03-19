@@ -74,7 +74,7 @@ const CookingIngCalcRecipes = {
         pushIng(ing.tag, 'tag')
       } else if (ArrayHelper.isArray(ing)) {
         ings.push(ing)
-      } else {
+      } else if (DebugMode.recipeTreeAnalysisLogging) {
         FcLogger.log('Error processing ingredient: CookingIngCalcRecipes')
         console.log(ing)
       }

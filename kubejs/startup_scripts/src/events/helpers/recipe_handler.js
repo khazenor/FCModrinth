@@ -3,7 +3,7 @@ const recipeHandler = (event) => {
   CollectRecipes.addRecipes(event)
   FfbMarketRecipes.generateRecipes(event)
 
-  if (debugMode) {
+  if (DebugMode.recipeTreeAnalysis) {
     CookingIngCalcTreeGen.searchForTargetOutputsUsingBaseIngs(
       event,
       CollectCaches.categoryLists['cooking'],

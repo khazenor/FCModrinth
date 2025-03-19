@@ -1,6 +1,6 @@
 // priority: -1
-StartupEvents.postInit(event => {
-  if (debugMode) {
-    runDebugProcess()
+StartupEvents.postInit(_event => {
+  if (DebugMode.createModpackConfigs) {
+    createModpackConfigs()
   }
 })

@@ -1,4 +1,4 @@
-const runDebugProcess = () => {
+const createModpackConfigs = () => {
   CollectListHelper.writeAllTranslations()
 
   FfbMarketTransHelper.exportFfbMarketTrans()

@@ -87,7 +87,7 @@ const CookingIngCalcTreeGen = {
       for (let ingArrayObj of ingObj) {
         this.addBaseIngs(ingOptions, ingArrayObj, baseIngs)
       }
-    } else {
+    } else if (DebugMode.recipeTreeAnalysisLogging) {
       FcLogger.log('Error processing ingredient: CookingIngCalcTreeGen._getIngOptions')
       console.log(ingObj)
     }
@@ -108,7 +108,7 @@ const CookingIngCalcTreeGen = {
         ingObj.item,
         baseIngs
       )
-    } else {
+    } else if (DebugMode.recipeTreeAnalysisLogging) {
       FcLogger.log('Error processing ingredient: CookingIngCalcTreeGen.addBaseIngs')
       console.log(ingObj)
     }

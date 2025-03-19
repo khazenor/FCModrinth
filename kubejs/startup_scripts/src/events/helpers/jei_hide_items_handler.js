@@ -1,5 +1,5 @@
 const jeiHideItemsHandler = (event) => {
-  if (debugMode) {
+  if (DebugMode.cacheEnchantments) {
     let enchants = {};
     event.getAllIngredients().forEach(e => {
       let item = Item.of(e);
