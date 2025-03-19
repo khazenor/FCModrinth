@@ -1,6 +1,6 @@
 const DebugMode = {
   createModpackConfigs: false,
   cacheEnchantments: false,
-  recipeTreeAnalysis: true,
+  recipeTreeAnalysis: false,
   recipeTreeAnalysisLogging: false
 }
