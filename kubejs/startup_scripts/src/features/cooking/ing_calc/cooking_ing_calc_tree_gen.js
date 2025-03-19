@@ -22,10 +22,8 @@ const CookingIngCalcTreeGen = {
     )
     console.log(`missingOutputLen: ${missingOutput.length}`)
     let tries = 1
-    let prevMissingLen
     while (missingOutput.length > 0 && tries <= this._maxSearchTries) {
       tries ++
-      prevMissingLen = missingOutput.length
       let newBaseIngs = Object.keys(baseIngListsByOutput)
       baseIngListsByOutput = this.baseIngListsByOutput(
         newBaseIngs,
@@ -42,6 +40,7 @@ const CookingIngCalcTreeGen = {
     }
     console.log(`missingOutput`)
     console.log(missingOutput)
+    return allBaseIngListsByOutput
   },
   baseIngsByOutputFilename (tries) {
     return `base_ings_by_output_${tries}`
