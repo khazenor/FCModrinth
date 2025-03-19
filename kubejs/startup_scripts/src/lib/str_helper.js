@@ -32,5 +32,15 @@ const StrHelper = {
   },
   objToMinecraftStr(obj) {
     return JSON.stringify(obj)
+  },
+  isStr(obj) {
+    let stringifyObj = `${obj}`
+    let badIds = ['{', '}', '[', ']']
+    for (let badId of badIds) {
+      if (stringifyObj.includes(badId)) {
+        return false
+      }
+    }
+    return true
   }
 }

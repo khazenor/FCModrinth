@@ -23,17 +23,21 @@ const CookingIngCalcRecipes = {
     return ingsByOutput
   },
   _outputs(recipe) {
+    let outputs = []
     if (recipe.result) {
-      if (typeof recipe.result === 'string') {
-        return [recipe.result]
+      if (StrHelper.isStr(recipe.result)) {
+        outputs.push(recipe.result)
+        return outputs
       } else if (recipe.result.item) {
-        return [recipe.result.item]
-      } else {
-        let outputs = []
+        outputs.push(recipe.result.item)
+        return outputs
+      } else if (ArrayHelper.isArray(recipe.result)) {
         for (let resultObj of recipe.result) {
           outputs.push(resultObj.item)
         }
         return outputs
+      } else {
+        FcLogger.log(`Error parsing recipe result: ${recipe.result}`)
       }
     } else {
       return null
