@@ -10,7 +10,7 @@ const CookingIngCalcTreeGen = {
     return baseIngTree
   },
   generateBaseIngTree(event, targetOutputs, baseIngs) {
-    RecipeCacheHelper.cacheAllRecipes(event)
+    RecipeEventHelperCacheRecipes(event)
     
     let allIngsByOutput = CookingIngCalcRecipes.allIngsByOutput
     CacheHelperConst.cacheObject('all_ings_by_output', allIngsByOutput)

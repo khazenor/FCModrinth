@@ -3,11 +3,11 @@ const CookingIngCalcRecipes = {
     let existingIngsByOutput = this.ingsByOutput
     return ArrayHelper.mergeObjectArrays(
       existingIngsByOutput,
-      RecipeCacheHelper.modpackDefinedIngsByOutput
+      RecipeEventHelper.modpackDefinedIngsByOutput
     )
   },
   get ingsByOutput () {
-    let recipes = RecipeCacheHelper.allRecipes
+    let recipes = RecipeEventHelper.allRecipes
     let ingsByOutput = {}
     for (let recipe of recipes) {
       let outputs = this._outputs(recipe)
@@ -66,7 +66,7 @@ const CookingIngCalcRecipes = {
     for (let ing of rawIngredients) {
       let repeatCache = []
       let pushIng = (ing, key) => {
-        RecipeCacheHelper.pushNonRepeatIngs(ings, repeatCache, ing, key)
+        RecipeEventHelper.pushNonRepeatIngs(ings, repeatCache, ing, key)
       }
       if (ing.item) {
         pushIng(ing.item, 'item')

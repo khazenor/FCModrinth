@@ -16,7 +16,7 @@ const RecipeHelpers = {
           ingName = ing
           ingType = 'item'
         }
-        RecipeCacheHelper.pushNonRepeatIngs(
+        RecipeEventHelper.pushNonRepeatIngs(
           recipeIngList,
           duplicateCache,
           ingName,
@@ -24,7 +24,7 @@ const RecipeHelpers = {
         )
       }
       ArrayHelper.addToObjectArray(
-        RecipeCacheHelper.modpackDefinedIngsByOutput,
+        RecipeEventHelper.modpackDefinedIngsByOutput,
         resultId,
         recipeIngList
       )
