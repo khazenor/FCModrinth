@@ -30,25 +30,18 @@ const CookingIngCalcTreeAnalysis = {
         
       }
     } else if (!baseIngs.includes(ingObj)) {
-      let newIngs = this._lookUpHighestLevelIngForOutput(ingObj, recipeTree)
+      let newIngs = this.lookUpHighestLevelIngForOutput(ingObj, recipeTree)
       if (newIngs) {
         ArrayHelper.addToObjectArray(this.baseIngTree, ingVal, newIngs)
       }
     }
   },
-  _lookUpHighestLevelIngForOutput(output, recipeTree) {
+  lookUpHighestLevelIngForOutput(output, recipeTree) {
     for (let i = recipeTree.length - 1; i >= 0; i --) {
       let curRecipeTreeLayer = recipeTree[i]
       for (let recipeOutput in curRecipeTreeLayer) {
-        console.log('output')
-        console.log(output)
-        console.log('recipeOutput')
-        console.log(recipeOutput)
         let ings = curRecipeTreeLayer[recipeOutput]
         if (recipeOutput === output) {
-          console.log('recipeOutput === output')
-          console.log(output)
-          console.log(ings)
           return ings
         }
       }
