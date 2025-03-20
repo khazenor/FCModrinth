@@ -1,18 +1,27 @@
 const CookingIngCalcTreeGen = {
   _maxSearchTries: 10,
-  searchForTargetOutputsUsingBaseIngs(event, targetOutputs, baseIngs) {
+  loadBaseIngTreeFromCache(finalTryIdx) {
+    let baseIngTree = []
+    for (let tryIdx = 1; tryIdx <= finalTryIdx; tryIdx ++) {
+      baseIngTree.push(CacheHelperConst.loadCache(
+        this.baseIngsByOutputFilename(tryIdx)
+      ))
+    }
+    return baseIngTree
+  },
+  generateBaseIngTree(event, targetOutputs, baseIngs) {
     RecipeCacheHelper.cacheAllRecipes(event)
     
     let allIngsByOutput = CookingIngCalcRecipes.allIngsByOutput
     CacheHelperConst.cacheObject('all_ings_by_output', allIngsByOutput)
     
-    let allBaseIngListsByOutput = []
+    let baseIngTree = []
 
     let baseIngListsByOutput = this.baseIngListsByOutput(
       baseIngs,
       allIngsByOutput
     )
-    allBaseIngListsByOutput.push(baseIngListsByOutput)
+    baseIngTree.push(baseIngListsByOutput)
 
     CacheHelperConst.cacheObject(this.baseIngsByOutputFilename(1), baseIngListsByOutput)
     console.log('missingOutputs')
@@ -29,7 +38,7 @@ const CookingIngCalcTreeGen = {
         newBaseIngs,
         allIngsByOutput
       )
-      allBaseIngListsByOutput.push(baseIngListsByOutput)
+      baseIngTree.push(baseIngListsByOutput)
       CacheHelperConst.cacheObject(this.baseIngsByOutputFilename(tries), baseIngListsByOutput)
       console.log(`missingOutputs${tries}`)
       missingOutput = this.missingOutputs(
@@ -40,7 +49,7 @@ const CookingIngCalcTreeGen = {
     }
     console.log(`missingOutput`)
     console.log(missingOutput)
-    return allBaseIngListsByOutput
+    return baseIngTree
   },
   baseIngsByOutputFilename (tries) {
     return `base_ings_by_output_${tries}`

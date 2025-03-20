@@ -7,5 +7,8 @@ const CacheHelperConst = {
       this.cacheFileDir(filename),
       object
     )
+  },
+  loadCache (filename) {
+    return IoHelper.readObj(this.cacheFileDir(filename))
   }
 }
