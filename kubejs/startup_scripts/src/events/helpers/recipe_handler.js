@@ -11,7 +11,7 @@ const recipeHandler = (event) => {
     let dishes = CollectCaches.categoryLists['cooking']
     let crops = CollectLists.flora.subCollections.crops.list
     let recipeTree = CookingIngCalcTreeGen.generateBaseIngTree(
-      allIngsByOutput, dishes, crops
+      allIngsByOutput, dishes, crops, true
     )
     // let baseIngTree = CookingIngCalcTreeAnalysis.analyzeTree(
     //   recipeTree, dishes
