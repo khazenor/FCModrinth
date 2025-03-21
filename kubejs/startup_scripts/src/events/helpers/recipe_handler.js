@@ -13,6 +13,12 @@ const recipeHandler = (event) => {
     let recipeTree = CookingIngCalcTreeGen.generateBaseIngTree(
       allIngsByOutput, dishes, crops, true
     )
+    let firstPassTree = CookingIngCalcTreeAnalysis.firstPassTree(
+      allIngsByOutput, dishes, true
+    )
+    let nextPassTree = CookingIngCalcTreeAnalysis.nextPassTree(
+      firstPassTree, crops, recipeTree, true, 2
+    )
     // let baseIngTree = CookingIngCalcTreeAnalysis.analyzeTree(
     //   recipeTree, dishes
     // )

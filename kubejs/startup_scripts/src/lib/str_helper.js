@@ -35,7 +35,7 @@ const StrHelper = {
   },
   isStr(obj) {
     let stringifyObj = `${obj}`
-    let badIds = ['{', '}', '[', ']']
+    let badIds = ['{', '}', '[', ']', ',']
     for (let badId of badIds) {
       if (stringifyObj.includes(badId)) {
         return false
