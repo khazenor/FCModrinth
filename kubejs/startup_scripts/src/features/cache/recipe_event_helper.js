@@ -1,6 +1,11 @@
 const RecipeEventHelper = {
   get allRecipesFromCache () {
-    return IoHelper.readObj(this.allRecipeFileDir).recipes
+    return CacheHelperConst.loadCache(this.allRecipeFilename)
+  },
+  cacheAllRecipes (event) {
+    let recipes = this.allRecipes(event)
+    CacheHelperConst.cacheObject(this.allRecipeFilename, recipes)
+    return recipes
   },
   allRecipes (event) {
     let recipes = []
@@ -11,7 +16,7 @@ const RecipeEventHelper = {
     return recipes
   },
   modpackDefinedIngsByOutput: {},
-  allRecipeFileDir: CacheHelperConst.cacheFileDir('all_recipes'),
+  allRecipeFilename: 'all_recipes',
   pushNonRepeatIngs (ingArray, repeatCache, ing, ingType) {
     if (!repeatCache.includes(ing)) {
       repeatCache.push(ing)
