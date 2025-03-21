@@ -9,20 +9,15 @@ const CookingIngCalcTreeGen = {
     }
     return baseIngTree
   },
-  generateBaseIngTree(event, targetOutputs, baseIngs) {
-    RecipeEventHelperCacheRecipes(event)
-    
-    let allIngsByOutput = CookingIngCalcRecipes.allIngsByOutput
-    CacheHelperConst.cacheObject('all_ings_by_output', allIngsByOutput)
-    
+  generateBaseIngTree(allIngsByOutput, targetOutputs, baseIngs) {
     let baseIngTree = []
 
+    // try 1
     let baseIngListsByOutput = this.baseIngListsByOutput(
       baseIngs,
       allIngsByOutput
     )
     baseIngTree.push(baseIngListsByOutput)
-
     CacheHelperConst.cacheObject(this.baseIngsByOutputFilename(1), baseIngListsByOutput)
     console.log('missingOutputs')
     let missingOutput = this.missingOutputs(
@@ -30,6 +25,8 @@ const CookingIngCalcTreeGen = {
       targetOutputs
     )
     console.log(`missingOutputLen: ${missingOutput.length}`)
+
+    // tries > 1
     let tries = 1
     while (missingOutput.length > 0 && tries <= this._maxSearchTries) {
       tries ++
@@ -69,56 +66,31 @@ const CookingIngCalcTreeGen = {
       for (let ingList of allIngsByOutput[output]) {
         let baseIngList = []
         for (let ingObj of ingList) {
-          let ingOptions = this._getIngOptions(ingObj, baseIngs)
-          ArrayHelper.pushNewNonEmptyArrayToArrayList(
-            baseIngList, ingOptions
-          )
+          if (typeof ingObj === 'string') {
+            if (baseIngs.includes(ingObj)) {
+              baseIngList.push(ingObj)
+            }
+          } else if (typeof ingObj === 'object') { // array
+            let baseIngOptions = []
+            for (let ingOption of ingObj) {
+              if (baseIngs.includes(ingOption)) {
+                baseIngOptions.push(ingOption)
+              }
+            }
+            if (baseIngOptions.length > 0) {
+              baseIngList.push(baseIngOptions)
+            }
+          } else {
+            console.log('ingObj')
+            console.log(ingObj)
+          }
         }
+        
         if (baseIngList.length > 0) {
-          ArrayHelper.addToObjectArrayListNoRepeat(
-            baseIngListsByOutput,
-            output,
-            baseIngList
-          )
+          baseIngListsByOutput[output] = baseIngList
         }
       }
     }
     return baseIngListsByOutput
-  },
-  _getIngOptions (ingObj, baseIngs) {
-    let ingOptions = []
-    if (ingObj.item || ingObj.tag) {
-      this.addBaseIngs(ingOptions, ingObj, baseIngs)
-    } else if (
-      ArrayHelper.isArray(ingObj)
-    ) {
-      for (let ingArrayObj of ingObj) {
-        this.addBaseIngs(ingOptions, ingArrayObj, baseIngs)
-      }
-    } else if (DebugMode.recipeTreeAnalysisLogging) {
-      FcLogger.log('Error processing ingredient: CookingIngCalcTreeGen._getIngOptions')
-      console.log(ingObj)
-    }
-    return ingOptions
-  },
-  addBaseIngs (ingOptions, ingObj, baseIngs) {
-    if (ingObj.tag) {
-      Ingredient.of(`#${ingObj.tag}`).stacks.forEach(stack => {
-        ArrayHelper.pushElementIfInProvided(
-          ingOptions,
-          stack.id,
-          baseIngs
-        )
-      })
-    } else if (ingObj.item) {
-      ArrayHelper.pushElementIfInProvided(
-        ingOptions,
-        ingObj.item,
-        baseIngs
-      )
-    } else if (DebugMode.recipeTreeAnalysisLogging) {
-      FcLogger.log('Error processing ingredient: CookingIngCalcTreeGen.addBaseIngs')
-      console.log(ingObj)
-    }
   }
 }

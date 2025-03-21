@@ -5,14 +5,14 @@ const recipeHandler = (event) => {
 
 
   if (DebugMode.recipeTreeAnalysis) {
-    let recipes = RecipeEventHelper.allRecipes(event)
-    CookingIngCalcRecipes.cacheAllIngsByOutput(recipes)
-    // let dishes = CollectCaches.categoryLists['cooking']
-    // let recipeTree = CookingIngCalcTreeGen.generateBaseIngTree(
-    //   event,
-    //   dishes,
-    //   CollectLists.flora.subCollections.crops.list
-    // )
+    let recipes = RecipeEventHelper.cacheAllRecipes(event)
+    let allIngsByOutput = CookingIngCalcRecipes.cacheAllIngsByOutput(recipes)
+
+    let dishes = CollectCaches.categoryLists['cooking']
+    let crops = CollectLists.flora.subCollections.crops.list
+    let recipeTree = CookingIngCalcTreeGen.generateBaseIngTree(
+      allIngsByOutput, dishes, crops
+    )
     // let baseIngTree = CookingIngCalcTreeAnalysis.analyzeTree(
     //   recipeTree, dishes
     // )
