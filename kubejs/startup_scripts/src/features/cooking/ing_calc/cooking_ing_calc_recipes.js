@@ -64,23 +64,35 @@ const CookingIngCalcRecipes = {
         rawIngredients.push(rawKeys[rawKey])
       }
     }
-
     for (let ing of rawIngredients) {
-      let repeatCache = []
-      let pushIng = (ing, key) => {
-        RecipeEventHelper.pushNonRepeatIngs(ings, repeatCache, ing, key)
-      }
-      if (ing.item) {
-        pushIng(ing.item, 'item')
+      if (ing.item && StrHelper.isStr(ing.item)) {
+        ings.push(`${ing.item}`)
       } else if (ing.tag) {
-        pushIng(ing.tag, 'tag')
-      } else if (ArrayHelper.isArray(ing)) {
-        ings.push(ing)
+        ings.push(this._tagItems(ing.tag))
+      } else if (ing[0]) {
+        let ingOptions = []
+        for (let arrayIngObj of ing) {
+          if (arrayIngObj.item) {
+            ingOptions.push(`${arrayIngObj.item}`)
+          } else if (arrayIngObj.tag) {
+            ingOptions.push(this._tagItems(arrayIngObj.tag))
+          } else if (DebugMode.recipeTreeAnalysisLogging) {
+            FcLogger.log('Error processing ingredient: CookingIngCalcRecipes: for (let arrayIngObj of ing)')
+            console.log(ing)
+          }
+        }
       } else if (DebugMode.recipeTreeAnalysisLogging) {
         FcLogger.log('Error processing ingredient: CookingIngCalcRecipes')
         console.log(ing)
       }
     }
     return ings
+  },
+  _tagItems (tag) {
+    let tagItems = []
+    Ingredient.of(`#${tag}`).stacks.forEach(stack => {
+      tagItems.push(stack.id)
+    })
+    return tagItems
   }
 }
