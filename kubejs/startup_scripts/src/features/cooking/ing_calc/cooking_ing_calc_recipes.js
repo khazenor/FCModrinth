@@ -1,6 +1,8 @@
 const CookingIngCalcRecipes = {
   cacheAllIngsByOutput(recipes) {
+    let allIngsByOutput = this.allIngsByOutput(recipes)
     CacheHelperConst.cacheObject('all_ings_by_output', this.allIngsByOutput(recipes))
+    return allIngsByOutput
   },
   allIngsByOutput (recipes) {
     let existingIngsByOutput = this.ingsByOutput(recipes)
@@ -81,6 +83,7 @@ const CookingIngCalcRecipes = {
             console.log(ing)
           }
         }
+        ings.push(ingOptions)
       } else if (DebugMode.recipeTreeAnalysisLogging) {
         FcLogger.log('Error processing ingredient: CookingIngCalcRecipes')
         console.log(ing)
