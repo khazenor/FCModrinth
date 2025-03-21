@@ -1,13 +1,15 @@
 const CookingIngCalcRecipes = {
-  get allIngsByOutput () {
-    let existingIngsByOutput = this.ingsByOutput
+  cacheAllIngsByOutput(recipes) {
+    CacheHelperConst.cacheObject('all_ings_by_output', this.allIngsByOutput(recipes))
+  },
+  allIngsByOutput (recipes) {
+    let existingIngsByOutput = this.ingsByOutput(recipes)
     return ArrayHelper.mergeObjectArrays(
       existingIngsByOutput,
       RecipeEventHelper.modpackDefinedIngsByOutput
     )
   },
-  get ingsByOutput () {
-    let recipes = RecipeEventHelper.allRecipes
+  ingsByOutput (recipes) {
     let ingsByOutput = {}
     for (let recipe of recipes) {
       let outputs = this._outputs(recipe)
