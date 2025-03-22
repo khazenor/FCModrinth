@@ -6,6 +6,13 @@ const ArrayHelper = {
     }
     return list
   },
+  toArray(objArray) {
+    let list = []
+    for (let val of objArray) {
+      list.push(val)
+    }
+    return list
+  },
   addToObjectArray (objArray, key, value) {
     if (objArray[key]) {
       objArray[key].push(value)

@@ -44,15 +44,19 @@ const StrHelper = {
     return true
   },
   isStrRobust(ingObj) {
-    return (
-      typeof ingObj === 'string' ||
-      this.isStr(ingObj) ||
-      (
-        typeof ingObj === 'object' &&
-        ingObj[0] &&
-        ingObj[0].length === 1 &&
-        typeof ingObj[0] === 'string'
+    if (typeof ingObj === 'string') {
+      return true
+    }
+    if (typeof ingObj === 'object') {
+      if (!this.isStr(ingObj)) {
+        return false
+      }
+      let ingArray = ArrayHelper.toArray(ingObj)
+      return (
+        ingArray[0] &&
+        ingArray[0].length === 1 &&
+        typeof ingArray[0] === 'string'
       )
-    )
+    }
   }
 }
