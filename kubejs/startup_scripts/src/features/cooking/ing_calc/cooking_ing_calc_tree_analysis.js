@@ -12,7 +12,7 @@ const CookingIngCalcTreeAnalysis = {
     return true
   },
   _ingsOnlyBaseIngsRecur (ingObj, baseIngs) {
-    if (this.isStr(ingObj)) {
+    if (StrHelper.isStrRobust(ingObj)) {
       return baseIngs.includes(`${ingObj}`)
     } else {
       let returnBoolean = true
@@ -45,7 +45,7 @@ const CookingIngCalcTreeAnalysis = {
     return nextPassTree
   },
   _nextPassIngsRecur (ingObj, baseIngs, recipeTree) {
-    if (this.isStr(ingObj)) {
+    if (StrHelper.isStrRobust(ingObj)) {
       if (baseIngs.includes(`${ingObj}`)) {
         return `${ingObj}`
       } else {
@@ -77,16 +77,5 @@ const CookingIngCalcTreeAnalysis = {
       }
     }
     return ingsOptions
-  },
-  isStr(ingObj) {
-    return (
-      typeof ingObj === 'string' ||
-      StrHelper.isStr(ingObj) ||
-      (
-        typeof ingObj === 'object' &&
-        ingObj[0].length === 1 &&
-        typeof ingObj[0] === 'string'
-      )
-    )
   }
 }

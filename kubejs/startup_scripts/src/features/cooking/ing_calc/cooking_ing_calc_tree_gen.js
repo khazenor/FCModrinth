@@ -70,11 +70,14 @@ const CookingIngCalcTreeGen = {
       for (let ingList of allIngsByOutput[output]) {
         let baseIngList = []
         for (let ingObj of ingList) {
-          if (typeof ingObj === 'string') {
+          if (StrHelper.isStrRobust(ingObj)) {
             if (baseIngs.includes(ingObj)) {
               baseIngList.push(ingObj)
             }
-          } else if (typeof ingObj === 'object') { // array
+          } else if (
+            typeof ingObj === 'object' &&
+            ingObj[0]
+          ) { // array
             let baseIngOptions = []
             for (let ingOption of ingObj) {
               if (baseIngs.includes(ingOption)) {
@@ -84,9 +87,6 @@ const CookingIngCalcTreeGen = {
             if (baseIngOptions.length > 0) {
               baseIngList.push(baseIngOptions)
             }
-          } else {
-            console.log('ingObj')
-            console.log(ingObj)
           }
         }
         

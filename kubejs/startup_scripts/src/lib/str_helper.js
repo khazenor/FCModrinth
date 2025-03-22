@@ -42,5 +42,17 @@ const StrHelper = {
       }
     }
     return true
+  },
+  isStrRobust(ingObj) {
+    return (
+      typeof ingObj === 'string' ||
+      this.isStr(ingObj) ||
+      (
+        typeof ingObj === 'object' &&
+        ingObj[0] &&
+        ingObj[0].length === 1 &&
+        typeof ingObj[0] === 'string'
+      )
+    )
   }
 }
