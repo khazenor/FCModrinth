@@ -20,9 +20,13 @@ const CookingIngCalcMain = {
     IoHelper.writeObj(this._cacheFileDir, cleanedBaseIngTree)
     return cleanedBaseIngTree
   },
-  loadCropReqForMealsFromCache () {
-    return IoHelper.readObj(this._cacheFileDir)
+  get cropReqForMeals () {
+    if (!this._cropReqForMeals) {
+      this._cropReqForMeals = IoHelper.readObj(this._cacheFileDir)
+    }
+    return this._cropReqForMeals
   },
+  _cropReqForMeals: null,
   _cacheFolder: 'kubejs/startup_scripts/src/features/cooking/ing_calc/cache/',
   get _cacheFileDir () {
     return `${this._cacheFolder}crop_req_for_meals.json`
