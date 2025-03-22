@@ -16,5 +16,8 @@ const recipeHandler = (event) => {
     let baseIngTreeByOutputs = CookingIngCalcTreeAnalysis.getBaseIngTreeByOutputs(
       allIngsByOutput, recipeTree, dishes, crops, true
     )
+    let cleanedBaseIngTree = CookingIngCalcTreeCleaning.cleanRawBaseIngTreeByOutputs(
+      baseIngTreeByOutputs, true
+    )
   }
 }
