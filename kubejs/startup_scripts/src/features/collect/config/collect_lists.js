@@ -417,7 +417,6 @@ const CollectLists = {
       crops: {
         name: 'Crops',
         list: [
-          "minecraft:bamboo",
           "minecraft:beetroot_seeds",
           "minecraft:cactus",
           "minecraft:carrot",
@@ -497,7 +496,8 @@ const CollectLists = {
           "minecraft:spore_blossom",
           "minecraft:big_dripleaf",
           "minecraft:sea_pickle",
-          "minecraft:lily_pad"
+          "minecraft:lily_pad",
+          "minecraft:bamboo"
         ]
       },
       mapleSaplings: {
