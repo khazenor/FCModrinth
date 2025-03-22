@@ -49,9 +49,9 @@ const CookingIngCalcTreeAnalysis = {
       if (baseIngs.includes(`${ingObj}`)) {
         return `${ingObj}`
       } else {
-        let ingsOptions = this._ingsOptionsForOutput(ingObj, recipeTree)
-        if (ingsOptions.length > 0) {
-          return ingsOptions
+        let lowestIngsForOutput = this._lowestIngsForOutput(ingObj, recipeTree)
+        if (lowestIngsForOutput) {
+          return lowestIngsForOutput
         }
       }
     } else { // array
@@ -65,17 +65,16 @@ const CookingIngCalcTreeAnalysis = {
       return returnList
     }
   },
-  _ingsOptionsForOutput(output, recipeTree) {
-    let ingsOptions = []
+  _lowestIngsForOutput(output, recipeTree) {
     for (let i = 0; i < recipeTree.length; i ++) {
       let curRecipeTreeLayer = recipeTree[i]
       for (let recipeOutput in curRecipeTreeLayer) {
         let ings = curRecipeTreeLayer[recipeOutput]
         if (recipeOutput === output) {
-          ingsOptions.push(ings)
+          return ings
         }
       }
     }
-    return ingsOptions
+    return null
   }
 }
