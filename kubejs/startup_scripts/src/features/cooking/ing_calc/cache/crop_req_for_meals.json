@@ -1,0 +1,699 @@
+{
+	"farmersdelight:apple_pie": [
+		"minecraft:apple",
+		"minecraft:wheat",
+		"minecraft:milk_bucket",
+		"minecraft:honey_bottle",
+		[
+			"minecraft:wheat",
+			"minecraft:apple"
+		]
+	],
+	"farmersdelight:sweet_berry_cheesecake": [
+		"minecraft:milk_bucket",
+		"minecraft:wheat",
+		"vegandelight:soybean",
+		"minecraft:sweet_berries",
+		"minecraft:apple"
+	],
+	"farmersdelight:chocolate_pie": [
+		"minecraft:milk_bucket",
+		"minecraft:cocoa_beans",
+		"minecraft:wheat",
+		"vegandelight:soybean",
+		"minecraft:honey_bottle"
+	],
+	"farmersdelight:sweet_berry_cookie": [
+		[
+			"minecraft:sweet_berries",
+			"minecraft:wheat",
+			"minecraft:wheat"
+		],
+		[
+			"minecraft:sweet_berries",
+			"minecraft:wheat",
+			"minecraft:wheat"
+		],
+		"minecraft:sweet_berries",
+		"minecraft:wheat"
+	],
+	"farmersdelight:honey_cookie": [
+		[
+			"minecraft:honey_bottle",
+			"minecraft:wheat",
+			"minecraft:wheat"
+		],
+		[
+			"minecraft:honey_bottle",
+			"minecraft:wheat",
+			"minecraft:wheat"
+		],
+		[
+			"minecraft:honey_bottle",
+			"minecraft:wheat",
+			"minecraft:wheat"
+		]
+	],
+	"farmersdelight:melon_popsicle": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"minecraft:melon_slice"
+	],
+	"farmersdelight:glow_berry_custard": [
+		"minecraft:glow_berries",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket",
+		"minecraft:apple",
+		"minecraft:honey_bottle"
+	],
+	"ubesdelight:ube_cake": [
+		"vegandelight:soybean",
+		"minecraft:milk_bucket",
+		"minecraft:honey_bottle",
+		"minecraft:wheat",
+		"minecraft:apple",
+		"ubesdelight:ube"
+	],
+	"ubesdelight:leche_flan_feast": [
+		"minecraft:apple",
+		"minecraft:honey_bottle",
+		"minecraft:milk_bucket"
+	],
+	"ubesdelight:halo_halo_feast": [
+		"ubesdelight:ube",
+		"minecraft:sweet_berries",
+		"minecraft:glow_berries",
+		"minecraft:melon_slice",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket"
+	],
+	"ubesdelight:milk_tea_ube_feast": [
+		"ubesdelight:ube",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket"
+	],
+	"ubesdelight:milk_tea_ube": [
+		"ubesdelight:ube",
+		"minecraft:honey_bottle",
+		"minecraft:milk_bucket"
+	],
+	"ubesdelight:halo_halo": [
+		"ubesdelight:ube",
+		"minecraft:apple",
+		"minecraft:honey_bottle",
+		"minecraft:milk_bucket",
+		"minecraft:sweet_berries",
+		"minecraft:glow_berries",
+		"minecraft:melon_slice"
+	],
+	"ubesdelight:cookie_ube": [
+		"ubesdelight:ube",
+		"minecraft:wheat"
+	],
+	"ubesdelight:cookie_ginger": [
+		"ubesdelight:ginger",
+		"minecraft:wheat"
+	],
+	"farmersdelight:fruit_salad": [
+		"minecraft:apple",
+		"minecraft:melon_slice",
+		"minecraft:pumpkin",
+		[
+			"minecraft:sweet_berries",
+			"delightful:salmonberries",
+			"minecraft:glow_berries",
+			"minecraft:apple",
+			"minecraft:melon_slice"
+		],
+		[
+			"minecraft:sweet_berries",
+			"minecraft:glow_berries",
+			"delightful:salmonberries"
+		],
+		[
+			"minecraft:sweet_berries",
+			"minecraft:glow_berries",
+			"delightful:salmonberries"
+		],
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube"
+	],
+	"farmersdelight:mixed_salad": [
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:tomato",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube"
+	],
+	"farmersdelight:nether_salad": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube"
+	],
+	"farmersdelight:hamburger": [
+		"minecraft:wheat",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:tomato",
+		"farmersdelight:onion"
+	],
+	"delightfulburgers:bacon_burger": [
+		"minecraft:wheat",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:tomato",
+		"farmersdelight:onion"
+	],
+	"delightfulburgers:chicken_burger": [
+		"minecraft:wheat",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:tomato",
+		"farmersdelight:onion"
+	],
+	"delightfulburgers:double_patty_burger": [
+		"farmersdelight:cabbage",
+		"farmersdelight:tomato",
+		"farmersdelight:onion"
+	],
+	"delightfulburgers:basic_burger": [
+		"minecraft:wheat"
+	],
+	"farmersdelight:egg_sandwich": [
+		"minecraft:wheat"
+	],
+	"farmersdelight:chicken_sandwich": [
+		"minecraft:wheat",
+		"vegandelight:soybean",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"minecraft:carrot"
+	],
+	"farmersdelight:bacon_sandwich": [
+		"minecraft:wheat",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:tomato"
+	],
+	"delightfulsandwich:ham_sandwich": [
+		"minecraft:wheat"
+	],
+	"delightfulsandwich:bacon_and_egg_sandwich": [
+		"minecraft:wheat"
+	],
+	"delightfulsandwich:cooked_salmon_sandwich": [
+		"minecraft:wheat",
+		"minecraft:kelp"
+	],
+	"delightfulsandwich:tomato_and_lettuce_sandwich": [
+		"minecraft:wheat",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:tomato"
+	],
+	"delightfulsandwich:cooked_cod_sandwich": [
+		"minecraft:wheat",
+		"minecraft:kelp"
+	],
+	"delightfulsandwich:mutton_sandwich": [
+		"vegandelight:soybean",
+		"minecraft:wheat"
+	],
+	"farmersdelight:beef_stew": [
+		"vegandelight:soybean",
+		"minecraft:carrot",
+		"minecraft:potato"
+	],
+	"farmersdelight:bone_broth": [
+		"minecraft:glow_berries",
+		[
+			"minecraft:brown_mushroom",
+			"minecraft:red_mushroom"
+		]
+	],
+	"farmersdelight:chicken_soup": [
+		"vegandelight:soybean",
+		"minecraft:carrot",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:onion",
+		"ubesdelight:garlic",
+		"ubesdelight:ube",
+		"ubesdelight:ginger",
+		"minecraft:potato",
+		"farmersdelight:tomato"
+	],
+	"farmersdelight:vegetable_soup": [
+		"minecraft:carrot",
+		"minecraft:potato",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass"
+	],
+	"farmersdelight:fish_stew": [
+		"minecraft:kelp",
+		"farmersdelight:tomato",
+		"farmersdelight:onion"
+	],
+	"farmersdelight:pumpkin_soup": [
+		"minecraft:pumpkin",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket"
+	],
+	"farmersdelight:baked_cod_stew": [
+		"minecraft:kelp",
+		"minecraft:potato",
+		"minecraft:apple",
+		"vegandelight:soybean",
+		"farmersdelight:tomato"
+	],
+	"crabbersdelight:crab_cakes": [
+		"minecraft:wheat",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket",
+		"farmersdelight:onion"
+	],
+	"crabbersdelight:fish_stick": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"minecraft:kelp"
+	],
+	"crabbersdelight:surf_and_turf": [
+		"minecraft:potato"
+	],
+	"crabbersdelight:shrimp_skewer": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"farmersdelight:tomato"
+	],
+	"crabbersdelight:clam_bake": [
+		[
+			"minecraft:carrot",
+			"farmersdelight:onion"
+		]
+	],
+	"crabbersdelight:stuffed_nautilus_shell": [
+		"minecraft:kelp"
+	],
+	"crabbersdelight:squid_kebob": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"farmersdelight:onion",
+		"farmersdelight:tomato"
+	],
+	"crabbersdelight:frog_leg_kebob": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"farmersdelight:onion",
+		"minecraft:brown_mushroom",
+		"minecraft:carrot"
+	],
+	"crabbersdelight:jar_of_pickles": [
+		"minecraft:sea_pickle"
+	],
+	"crabbersdelight:kelp_shake": [
+		"minecraft:honey_bottle",
+		"minecraft:kelp"
+	],
+	"crabbersdelight:sea_pickle_juice": [
+		"minecraft:sea_pickle",
+		"minecraft:honey_bottle"
+	],
+	"crabbersdelight:bisque": [
+		"farmersdelight:onion",
+		"farmersdelight:rice",
+		"minecraft:carrot",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket"
+	],
+	"crabbersdelight:seafood_gumbo": [
+		[
+			"farmersdelight:onion",
+			"farmersdelight:rice"
+		]
+	],
+	"crabbersdelight:clam_chowder": [
+		"farmersdelight:onion",
+		"minecraft:potato",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket"
+	],
+	"crabbersdelight:shrimp_fried_rice": [
+		"farmersdelight:rice",
+		"farmersdelight:onion",
+		"minecraft:carrot"
+	],
+	"crabbersdelight:coral_crunch": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"minecraft:milk_bucket"
+	],
+	"farmersdelight:dumplings": [
+		"minecraft:wheat",
+		"minecraft:apple",
+		"farmersdelight:cabbage",
+		"farmersdelight:onion",
+		"vegandelight:soybean",
+		"minecraft:brown_mushroom"
+	],
+	"farmersdelight:fried_rice": [
+		"farmersdelight:rice",
+		"minecraft:apple",
+		"vegandelight:soybean",
+		"minecraft:carrot",
+		"farmersdelight:onion"
+	],
+	"farmersdelight:cabbage_rolls": [
+		"farmersdelight:cabbage",
+		"minecraft:apple",
+		"vegandelight:soybean",
+		"minecraft:carrot",
+		"ubesdelight:ube",
+		"minecraft:potato",
+		"minecraft:kelp",
+		"minecraft:brown_mushroom",
+		"minecraft:red_mushroom"
+	],
+	"farmersdelight:kelp_roll": [
+		"minecraft:kelp",
+		"farmersdelight:rice",
+		"minecraft:carrot"
+	],
+	"farmersdelight:cod_roll": [
+		"farmersdelight:rice"
+	],
+	"farmersdelight:salmon_roll": [
+		"farmersdelight:rice"
+	],
+	"vegandelight:tofish_roll": [
+		"minecraft:kelp",
+		"farmersdelight:rice"
+	],
+	"vegandelight:smoked_tofish_roll": [
+		"minecraft:kelp",
+		"farmersdelight:rice"
+	],
+	"farmersdelight:rice_roll_medley_block": [
+		"minecraft:carrot",
+		"farmersdelight:rice",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"minecraft:kelp"
+	],
+	"ubesdelight:sinangag": [
+		"farmersdelight:rice",
+		"ubesdelight:garlic"
+	],
+	"ubesdelight:kinilaw": [
+		"farmersdelight:onion",
+		"ubesdelight:garlic",
+		"ubesdelight:ginger",
+		"ubesdelight:lemongrass",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"minecraft:kelp"
+	],
+	"ubesdelight:lumpia": [
+		"minecraft:apple",
+		"vegandelight:soybean",
+		"minecraft:carrot",
+		"ubesdelight:ube",
+		"minecraft:potato",
+		"minecraft:kelp",
+		"minecraft:brown_mushroom",
+		"minecraft:red_mushroom",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		[
+			"farmersdelight:rice",
+			"minecraft:wheat"
+		]
+	],
+	"ubesdelight:tosilog": [
+		"ubesdelight:ginger",
+		"farmersdelight:rice",
+		"ubesdelight:garlic"
+	],
+	"ubesdelight:bangsilog": [
+		"farmersdelight:rice",
+		"ubesdelight:garlic",
+		"minecraft:kelp"
+	],
+	"ubesdelight:sisig": [
+		"vegandelight:soybean",
+		"farmersdelight:onion",
+		"ubesdelight:garlic",
+		"minecraft:kelp"
+	],
+	"ubesdelight:bulalo": [
+		"vegandelight:soybean",
+		"farmersdelight:onion",
+		"farmersdelight:cabbage",
+		"minecraft:kelp",
+		"ubesdelight:lemongrass"
+	],
+	"ubesdelight:arroz_caldo": [
+		"vegandelight:soybean",
+		[
+			"farmersdelight:rice",
+			"minecraft:wheat"
+		],
+		"ubesdelight:garlic",
+		"ubesdelight:ginger",
+		"ubesdelight:lemongrass",
+		"minecraft:kelp"
+	],
+	"ubesdelight:mechado": [
+		"vegandelight:soybean",
+		"farmersdelight:onion",
+		"ubesdelight:garlic",
+		"farmersdelight:tomato",
+		"ubesdelight:ube",
+		"ubesdelight:ginger",
+		"ubesdelight:lemongrass",
+		"minecraft:potato",
+		"minecraft:carrot",
+		"minecraft:kelp"
+	],
+	"ubesdelight:lumpia_feast": [
+		[
+			"minecraft:carrot",
+			"ubesdelight:ube",
+			"minecraft:potato",
+			"minecraft:brown_mushroom",
+			"minecraft:red_mushroom"
+		],
+		[
+			"farmersdelight:cabbage",
+			"ubesdelight:lemongrass"
+		],
+		"ubesdelight:lemongrass"
+	],
+	"ubesdelight:leaf_feast_ensaymada": [
+		"minecraft:milk_bucket"
+	],
+	"ubesdelight:leaf_feast_pandesal": [
+		"minecraft:wheat",
+		"minecraft:honey_bottle"
+	],
+	"ubesdelight:leaf_feast_pandesal_ube": [
+		"ubesdelight:ube"
+	],
+	"ubesdelight:leaf_feast_hopia_munggo": [
+		"minecraft:cocoa_beans"
+	],
+	"ubesdelight:leaf_feast_hopia_ube": [
+		"ubesdelight:ube"
+	],
+	"ubesdelight:leaf_feast_cooked_rice": [
+		"farmersdelight:rice"
+	],
+	"ubesdelight:leaf_feast_fried_rice": [
+		"farmersdelight:rice",
+		"minecraft:carrot",
+		"farmersdelight:onion"
+	],
+	"ubesdelight:leaf_feast_sinangag": [
+		"farmersdelight:rice",
+		"ubesdelight:garlic"
+	],
+	"farmersdelight:steak_and_potatoes": [
+		"minecraft:potato",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"farmersdelight:onion",
+		"farmersdelight:rice"
+	],
+	"farmersdelight:mutton_wrap": [
+		"minecraft:wheat",
+		"vegandelight:soybean",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:onion"
+	],
+	"farmersdelight:bacon_and_eggs": [
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube"
+	],
+	"farmersdelight:stuffed_potato": [
+		"minecraft:potato",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket"
+	],
+	"farmersdelight:mushroom_rice": [
+		"minecraft:brown_mushroom",
+		"minecraft:red_mushroom",
+		"farmersdelight:rice",
+		[
+			"minecraft:carrot",
+			"minecraft:potato"
+		]
+	],
+	"farmersdelight:ratatouille": [
+		"farmersdelight:tomato",
+		"farmersdelight:onion",
+		"ubesdelight:garlic",
+		"ubesdelight:ube",
+		"ubesdelight:ginger",
+		"ubesdelight:lemongrass",
+		"minecraft:potato",
+		"minecraft:carrot"
+	],
+	"farmersdelight:pasta_with_meatballs": [
+		"vegandelight:soybean",
+		"minecraft:wheat",
+		"farmersdelight:tomato"
+	],
+	"farmersdelight:pasta_with_mutton_chop": [
+		"vegandelight:soybean",
+		"minecraft:wheat",
+		"farmersdelight:tomato"
+	],
+	"farmersdelight:vegetable_noodles": [
+		"minecraft:carrot",
+		"minecraft:brown_mushroom",
+		"minecraft:wheat",
+		"farmersdelight:cabbage",
+		"ubesdelight:lemongrass",
+		"farmersdelight:onion",
+		"ubesdelight:garlic",
+		"ubesdelight:ube",
+		"ubesdelight:ginger",
+		"minecraft:potato",
+		"farmersdelight:tomato"
+	],
+	"farmersdelight:squid_ink_pasta": [
+		"minecraft:kelp",
+		"minecraft:wheat",
+		"farmersdelight:tomato"
+	],
+	"farmersdelight:noodle_soup": [
+		"minecraft:wheat",
+		"minecraft:kelp",
+		"vegandelight:soybean"
+	],
+	"farmersdelight:barbecue_stick": [
+		"farmersdelight:tomato",
+		"farmersdelight:onion",
+		"vegandelight:soybean",
+		"minecraft:kelp",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube"
+	],
+	"farmersdelight:grilled_salmon": [
+		"minecraft:kelp",
+		"minecraft:sweet_berries",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"farmersdelight:cabbage",
+		"farmersdelight:onion"
+	],
+	"farmersdelight:roasted_mutton_chops": [
+		"vegandelight:soybean",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"farmersdelight:rice",
+		"farmersdelight:tomato"
+	],
+	"farmersdelight:roast_chicken_block": [
+		"farmersdelight:onion",
+		"minecraft:apple",
+		"vegandelight:soybean",
+		"minecraft:wheat",
+		"minecraft:carrot",
+		"minecraft:potato",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube"
+	],
+	"farmersdelight:stuffed_pumpkin_block": [
+		"farmersdelight:rice",
+		"farmersdelight:onion",
+		"ubesdelight:garlic",
+		"ubesdelight:ube",
+		"ubesdelight:ginger",
+		"ubesdelight:lemongrass",
+		"minecraft:potato",
+		"minecraft:carrot",
+		"farmersdelight:tomato",
+		"minecraft:brown_mushroom",
+		[
+			"minecraft:sweet_berries",
+			"minecraft:glow_berries",
+			"delightful:salmonberries"
+		]
+	],
+	"farmersdelight:honey_glazed_ham_block": [
+		"minecraft:sweet_berries",
+		"minecraft:honey_bottle",
+		"farmersdelight:rice",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube",
+		"vegandelight:soybean"
+	],
+	"farmersdelight:shepherds_pie_block": [
+		"minecraft:potato",
+		"vegandelight:soybean",
+		"minecraft:milk_bucket",
+		"farmersdelight:onion",
+		"minecraft:cactus",
+		"minecraft:cocoa_beans",
+		"minecraft:sea_pickle",
+		"ubesdelight:ube"
+	]
+}

@@ -1,18 +1,14 @@
 const RecipeEventHelper = {
-  get allRecipesFromCache () {
-    return CacheHelperConst.loadCache(this.allRecipeFilename)
-  },
-  cacheAllRecipes (event) {
-    let recipes = this.allRecipes(event)
-    CacheHelperConst.cacheObject(this.allRecipeFilename, recipes)
-    return recipes
-  },
-  allRecipes (event) {
+  allRecipes (event, doCache) {
     let recipes = []
     event.forEachRecipe({}, recipe => {
       let recipeObj = JSON.parse(recipe.json)
       recipes.push(recipeObj)
     })
+
+    if (doCache) {
+      CacheHelperConst.cacheObject(this.allRecipeFilename, recipes)
+    }
     return recipes
   },
   modpackDefinedIngsByOutput: {},
