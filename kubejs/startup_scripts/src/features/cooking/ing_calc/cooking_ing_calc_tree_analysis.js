@@ -3,6 +3,26 @@ const CookingIngCalcTreeAnalysis = {
   cacheFileName (level) {
     return `tree_analysis_lv_${level}`
   },
+  isTreeOnlyBaseIngs (analyzeTree, baseIngs) {
+    for (let output in analyzeTree) {
+      if (!this._ingsOnlyBaseIngsRecur(analyzeTree[output], baseIngs)) {
+        return false
+      }
+    }
+    return true
+  },
+  _ingsOnlyBaseIngsRecur (ingObj, baseIngs) {
+    if (this.isStr(ingObj)) {
+      return baseIngs.includes(`${ingObj}`)
+    } else {
+      let returnBoolean = true
+      for (let ingObjChild of ingObj) {
+        let recurVal = this._ingsOnlyBaseIngsRecur(ingObjChild, baseIngs)
+        returnBoolean = recurVal && returnBoolean
+      }
+      return returnBoolean
+    }
+  },
   firstPassTree(allIngsByOutput, targetOutputs, toCache) {
     let firstPassTree = {}
     for (let output of targetOutputs) {
@@ -24,6 +44,7 @@ const CookingIngCalcTreeAnalysis = {
     if (toCache) {
       CacheHelperConst.cacheObject(this.cacheFileName(level), nextPassTree)
     }
+    return nextPassTree
   },
   nextPassIngsRecur (ingObj, baseIngs, recipeTree, doLog) {
     if (doLog) {
@@ -31,14 +52,7 @@ const CookingIngCalcTreeAnalysis = {
       console.log(typeof ingObj)
       console.log(ingObj)
     }
-    if (
-      typeof ingObj === 'string' ||
-      StrHelper.isStr(ingObj) ||
-      (
-        typeof ingObj === 'object' &&
-        ingObj[0].length === 1
-      )
-    ) {
+    if (this.isStr(ingObj)) {
       if (doLog) {
         console.log(`isStr:${ingObj}`)
       }
@@ -82,6 +96,16 @@ const CookingIngCalcTreeAnalysis = {
       console.log(ingsOptions)
     }
     return ingsOptions
+  },
+  isStr(ingObj) {
+    return (
+      typeof ingObj === 'string' ||
+      StrHelper.isStr(ingObj) ||
+      (
+        typeof ingObj === 'object' &&
+        ingObj[0].length === 1
+      )
+    )
   }
   // analyzeTree (recipeTree, targetOutputs, baseIngs) {
   //   this.baseIngTree = this._firstPassForTargetOutputs(recipeTree, targetOutputs)
