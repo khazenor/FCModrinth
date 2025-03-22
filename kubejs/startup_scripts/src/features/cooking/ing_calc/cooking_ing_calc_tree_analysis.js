@@ -1,9 +1,33 @@
 const CookingIngCalcTreeAnalysis = {
-  baseIngTree: {},
-  cacheFileName (level) {
-    return `tree_analysis_lv_${level}`
+  _maxTries: 10,
+  getBaseIngTreeByOutputs (allIngsByOutput, recipeTree, targetOutputs, baseIngs, doCache) {
+    // first pass
+    let firstPassTree = this._firstPassTree(
+      allIngsByOutput, targetOutputs, doCache
+    )
+    let numNoneBaseIngsOutputs = this._numNoneBaseIngsOutputs(
+      firstPassTree, baseIngs
+    )
+    console.log('numNoneBaseIngsOutputs')
+    console.log(numNoneBaseIngsOutputs)
+
+    let level = 1
+    let nextPassTree = firstPassTree
+    while (numNoneBaseIngsOutputs > 0 && level < this._maxTries) {
+      level ++
+      nextPassTree = this._nextPassTree(
+        nextPassTree, baseIngs, recipeTree, doCache, level
+      )
+      numNoneBaseIngsOutputs = this._numNoneBaseIngsOutputs(
+        nextPassTree, baseIngs
+      )
+      console.log(`nextPassTree: level ${level}`)
+      console.log('numNoneBaseIngsOutputs')
+      console.log(numNoneBaseIngsOutputs)
+    }
+    return nextPassTree
   },
-  numNoneBaseIngsOutputs (analyzeTree, baseIngs) {
+  _numNoneBaseIngsOutputs (analyzeTree, baseIngs) {
     let numNoneBaseIngsOutputs = 0
     for (let output in analyzeTree) {
       if (!this._ingsOnlyBaseIngsRecur(analyzeTree[output], baseIngs)) {
@@ -24,24 +48,24 @@ const CookingIngCalcTreeAnalysis = {
       return returnBoolean
     }
   },
-  firstPassTree(allIngsByOutput, targetOutputs, toCache) {
+  _firstPassTree (allIngsByOutput, targetOutputs, toCache) {
     let firstPassTree = {}
     for (let output of targetOutputs) {
       firstPassTree[output] = allIngsByOutput[output]
     }
     if (toCache) {
-      CacheHelperConst.cacheObject(this.cacheFileName(1), firstPassTree)
+      CacheHelperConst.cacheObject(this._cacheFileName(1), firstPassTree)
     }
     return firstPassTree
   },
-  nextPassTree(analyzeTree, baseIngs, recipeTree, toCache, level) {
+  _nextPassTree(analyzeTree, baseIngs, recipeTree, toCache, level) {
     let nextPassTree = {}
     for (let output in analyzeTree) {
       let ings = analyzeTree[output]
       nextPassTree[output] = this._nextPassIngsRecur(ings, baseIngs, recipeTree)
     }
     if (toCache) {
-      CacheHelperConst.cacheObject(this.cacheFileName(level), nextPassTree)
+      CacheHelperConst.cacheObject(this._cacheFileName(level), nextPassTree)
     }
     return nextPassTree
   },
@@ -77,5 +101,8 @@ const CookingIngCalcTreeAnalysis = {
       }
     }
     return null
+  },
+  _cacheFileName (level) {
+    return `tree_analysis_lv_${level}`
   }
 }
