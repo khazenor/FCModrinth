@@ -18,25 +18,26 @@ const recipeHandler = (event) => {
     let firstPassTree = CookingIngCalcTreeAnalysis.firstPassTree(
       allIngsByOutput, dishes, true
     )
-    let isTreeOnlyBaseIngs = CookingIngCalcTreeAnalysis.isTreeOnlyBaseIngs(
+    let numNoneBaseIngsOutputs = CookingIngCalcTreeAnalysis.numNoneBaseIngsOutputs(
       firstPassTree, crops
     )
-    console.log('isTreeOnlyBaseIngs')
-    console.log(isTreeOnlyBaseIngs)
+    console.log('numNoneBaseIngsOutputs')
+    console.log(numNoneBaseIngsOutputs)
     let level = 1
     let nextPassTree = firstPassTree
-    while (!isTreeOnlyBaseIngs && level < maxTries) {
+    while (numNoneBaseIngsOutputs > 0 && level < maxTries) {
       level ++
       nextPassTree = CookingIngCalcTreeAnalysis.nextPassTree(
         nextPassTree, crops, recipeTree, true, level
       )
-      isTreeOnlyBaseIngs = CookingIngCalcTreeAnalysis.isTreeOnlyBaseIngs(
+      numNoneBaseIngsOutputs = CookingIngCalcTreeAnalysis.numNoneBaseIngsOutputs(
         nextPassTree, crops
       )
       console.log(`nextPassTree: level ${level}`)
-      console.log('isTreeOnlyBaseIngs')
-      console.log(isTreeOnlyBaseIngs)
+      console.log('numNoneBaseIngsOutputs')
+      console.log(numNoneBaseIngsOutputs)
     }
+
     // let baseIngTree = CookingIngCalcTreeAnalysis.analyzeTree(
     //   recipeTree, dishes
     // )

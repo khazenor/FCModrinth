@@ -3,13 +3,14 @@ const CookingIngCalcTreeAnalysis = {
   cacheFileName (level) {
     return `tree_analysis_lv_${level}`
   },
-  isTreeOnlyBaseIngs (analyzeTree, baseIngs) {
+  numNoneBaseIngsOutputs (analyzeTree, baseIngs) {
+    let numNoneBaseIngsOutputs = 0
     for (let output in analyzeTree) {
       if (!this._ingsOnlyBaseIngsRecur(analyzeTree[output], baseIngs)) {
-        return false
+        numNoneBaseIngsOutputs ++
       }
     }
-    return true
+    return numNoneBaseIngsOutputs
   },
   _ingsOnlyBaseIngsRecur (ingObj, baseIngs) {
     if (StrHelper.isStrRobust(ingObj)) {
