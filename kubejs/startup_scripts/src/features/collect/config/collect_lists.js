@@ -446,7 +446,9 @@ const CollectLists = {
           'ubesdelight:lemongrass',
           'ubesdelight:ginger',
           'ubesdelight:garlic',
-          'ubesdelight:ube'
+          'ubesdelight:ube',
+          'minecraft:milk_bucket',
+          'minecraft:honey_bottle'
         ],
       },
       vanillaFlowers: {
