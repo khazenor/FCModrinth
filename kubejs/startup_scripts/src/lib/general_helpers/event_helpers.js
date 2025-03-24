@@ -14,6 +14,9 @@ const EventHelpers = {
   mainHandItem: (event) => {
     return event.player.mainHandItem
   },
+  mainHandItemId: (event) => {
+    return StrHelper.cleanStr(event.player.mainHandItem.id)
+  },
   numItemsInPlayer: (event, itemId) => {
     let count = 0
     for (let itemStack of event.player.inventory.allItems) {
@@ -73,5 +76,8 @@ const EventHelpers = {
   },
   targetType: (event) => {
     return StrHelper.cleanStr(event.target.type)
+  },
+  cancel: (event) => {
+    event.cancel()
   }
 }
