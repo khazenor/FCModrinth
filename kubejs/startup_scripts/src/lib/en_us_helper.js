@@ -4,6 +4,10 @@ const EnUsHelper = {
     en_us[key] = val
     this._saveLang(en_us)
   },
+  hasLangKey (key) {
+    let en_us = this._loadLang
+    return key in en_us
+  },
   get _loadLang () {
     return IoHelper.readObj(this._langFileDir)
   },
